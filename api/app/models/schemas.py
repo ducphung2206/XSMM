@@ -15,7 +15,7 @@ from pydantic import BaseModel, Field, ConfigDict
 
 class BaseSchema(BaseModel):
     """Base schema with common config"""
-    model_config = ConfigDict(from_attributes=True)
+    model_config = ConfigDict(from_attributes=True, populate_by_name=True)
 
 
 # ============================================
@@ -35,7 +35,6 @@ class WorkItemResponse(WorkItemBase):
     id: UUID
     work_type_id: UUID
     notes: Optional[str] = None
-    metadata_: Optional[dict] = Field(None, alias="metadata")
     sort_order: int = 0
 
 
@@ -351,3 +350,7 @@ class SearchResult(BaseSchema):
     name: str
     code: Optional[str] = None
     metadata: Optional[dict] = {}
+
+
+# Rebuild models to resolve forward references
+WorkItemWithPrices.model_rebuild()

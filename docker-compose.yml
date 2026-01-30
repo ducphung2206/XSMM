@@ -54,6 +54,7 @@ services:
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
       ENVIRONMENT: ${ENVIRONMENT:-development}
       DEBUG: ${DEBUG:-true}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000","http://127.0.0.1:3000","https://localhost:3001"]}
     ports:
       - "8000:8000"
     volumes:
@@ -131,6 +132,21 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
+    networks:
+      - xsmm-network
+
+  # Excel Add-in (Nginx with HTTPS)
+  excel-addin:
+    build:
+      context: ./excel-addin
+      dockerfile: Dockerfile
+    container_name: xsmm-excel-addin
+    restart: unless-stopped
+    ports:
+      - "3001:443"
+    depends_on:
+      api:
+        condition: service_healthy
     networks:
       - xsmm-network
 

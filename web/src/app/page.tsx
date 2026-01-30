@@ -18,8 +18,10 @@ import {
     Minus
 } from 'lucide-react';
 
-// API base URL
-const API_BASE = '/api/v1';
+// API base URL - direct to backend for Docker standalone mode
+const API_BASE = typeof window !== 'undefined' 
+    ? 'http://localhost:8000/api/v1'  // Browser
+    : 'http://api:8000/api/v1';        // Server-side
 
 // Stats component
 function StatCard({

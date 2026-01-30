@@ -150,9 +150,10 @@ Khi user hỏi về công việc xây dựng, hãy:
         # Initialize Gemini
         if settings.gemini_api_key:
             self.llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash",
+                model="gemini-2.0-flash",
                 google_api_key=settings.gemini_api_key,
                 temperature=0.3,
+                convert_system_message_to_human=True,
             )
         else:
             self.llm = None
@@ -226,7 +227,16 @@ Khi user hỏi về công việc xây dựng, hãy:
         
         # Add history
         if history:
-            for msg in history[-10:]:  # Last 10 messages
+            # Filter history to ensure we don't start with an AI message (validity check)
+            # Gemini requires strict Human/AI turn-taking
+            valid_history = []
+            
+            # If the first message is AI, skip it (likely a greeting)
+            start_index = 0
+            if history and history[0].get("role") == "assistant":
+                 start_index = 1
+            
+            for msg in history[start_index:][-10:]:  # Last 10 messages from the valid start
                 if msg["role"] == "user":
                     messages.append(HumanMessage(content=msg["content"]))
                 else:
