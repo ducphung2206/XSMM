@@ -52,12 +52,23 @@ app.add_middleware(
 # Health check
 @app.get("/health", tags=["Health"])
 async def health_check():
-    """Health check endpoint"""
+    """Health check endpoint with database connectivity test"""
+    from app.core.database import engine
+    
+    db_status = "disconnected"
+    try:
+        # Test database connection
+        async with engine.connect() as conn:
+            db_status = "connected"
+    except Exception as e:
+        db_status = f"error: {str(e)}"
+    
     return {
-        "status": "healthy",
+        "status": "healthy" if db_status == "connected" else "degraded",
         "app": settings.app_name,
         "version": settings.app_version,
         "environment": settings.environment,
+        "database": db_status,
     }
 
 

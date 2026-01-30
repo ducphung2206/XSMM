@@ -17,6 +17,8 @@ services:
     ports:
       - "5432:5432"
     volumes:
+      # Development: named volume
+      # Production (NAS): /volume1/docker/xsmm/postgres_data:/var/lib/postgresql/data
       - postgres_data:/var/lib/postgresql/data
       - ./init-scripts:/docker-entrypoint-initdb.d:ro
     healthcheck:
@@ -24,6 +26,14 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
     logging:
       driver: json-file
       options:
@@ -51,11 +61,17 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost:8000/health" ]
       interval: 30s
       timeout: 10s
       retries: 3
+      start_period: 40s
     logging:
       driver: json-file
       options:
@@ -76,6 +92,8 @@ services:
     ports:
       - "5050:80"
     volumes:
+      # Development: named volume
+      # Production (NAS): /volume1/docker/xsmm/pgadmin_data:/var/lib/pgadmin
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
       - postgres
@@ -100,8 +118,14 @@ services:
       NEXT_PUBLIC_API_URL: http://api:8000
     ports:
       - "3000:3000"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
     depends_on:
-      - api
+      api:
+        condition: service_healthy
     logging:
       driver: json-file
       options:

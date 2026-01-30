@@ -4,9 +4,9 @@
 
 **Goal:** Chuyển đổi tài liệu XSMM (PDF) thành cơ sở dữ liệu có cấu trúc, chuẩn hóa phương pháp bóc khối lượng cho Xhome SG.
 
-**Architecture:** PostgreSQL/Supabase làm database chính, JSON export cho AI RAG. Cấu trúc phân cấp 3 level với AI-assisted extraction từ PDF.
+**Architecture:** PostgreSQL on NAS (Synology Docker) làm database chính, JSON export cho AI RAG. Cấu trúc phân cấp 3 level với AI-assisted extraction từ PDF.
 
-**Tech Stack:** Python, Supabase (PostgreSQL), PDF parsing (PyMuPDF/pdfplumber), LangChain
+**Tech Stack:** Python, PostgreSQL (Docker), SQLAlchemy, PDF parsing (PyMuPDF/pdfplumber), LangChain
 
 ---
 
@@ -240,7 +240,8 @@ python -m pytest tests/test_pdf_parser.py -v
 - [x] Generate seed data SQL (`database/seed_data.sql`)
 - [x] Create Python import script (`database/import_data.py`)
 - [x] Create web viewer (`data/viewer.html`)
-- [ ] Import vào Supabase production (chờ user cung cấp credentials)
+- [x] Migrate to NAS PostgreSQL (Docker-based)
+- [ ] Deploy to NAS and import seed data
 
 ### Phase 3: RAG Export ✅ COMPLETED
 - [x] RAG documents export (351 docs)
@@ -266,6 +267,7 @@ python -m pytest tests/test_pdf_parser.py -v
 
 ## Next Steps
 
-1. **Import Supabase**: Chạy `schema.sql` + `seed_data.sql` trong SQL Editor
-2. **API Endpoints**: Tạo FastAPI/Supabase Edge Functions cho CRUD
-3. **AI Integration**: Sử dụng RAG files với LangChain/CrewAI
+1. **Deploy to NAS**: Follow `docs/deployment/nas-setup.md`
+2. **Import Data**: Run `init-scripts/*.sql` via Docker entrypoint
+3. **API Endpoints**: Tạo FastAPI CRUD endpoints với SQLAlchemy
+4. **AI Integration**: Sử dụng RAG files với LangChain/CrewAI
