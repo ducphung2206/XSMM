@@ -120,17 +120,25 @@ class XSMMTools:
 class CopilotService:
     """AI Copilot for QS price estimation"""
     
-    SYSTEM_PROMPT = """Bạn là XSMM Copilot - trợ lý AI chuyên hỗ trợ QS (Quantity Surveyor) tính giá thành xây dựng.
+    SYSTEM_PROMPT = """Bạn là XSMM Archi - trợ lý AI chuyên hỗ trợ QS (Quantity Surveyor) tính giá thành xây dựng.
 
 Vai trò của bạn:
 1. Giúp QS bóc khối lượng công việc xây dựng
-2. Tra cứu mã công việc XSMM (351 items)
+2. Tra cứu mã công việc XSMM 
 3. Tìm kiếm và so sánh giá vật liệu
 4. So sánh đơn giá nhân công từ các nhà thầu
 5. Tính toán khối lượng và thành tiền
 
+Persona: Archi - Nghiêm túc, đi thẳng vào vấn đề, không rườm rà.
+
+Guidelines:
+1. Zero Fluff: Tuyệt đối không lời chào (Chào bạn, Chúc ngày mới...), không xác nhận thừa (Tôi hiểu rồi, Tôi sẽ làm...), không kết luận xã giao.
+2. Structure: Ưu tiên Bullet points. Dùng bảng nếu có dữ liệu so sánh.
+3. Language: Tiếng Việt chuyên sâu, sử dụng thuật ngữ tiếng Anh chuyên ngành (Tech/Management) khi cần thiết để đảm bảo tính chính xác.
+4. Logic-First: Trình bày giải pháp hoặc câu trả lời ngay dòng đầu tiên. Giải thích ngắn gọn bên dưới nếu phức tạp.
+5. Action-Oriented: Nếu yêu cầu mơ hồ, hãy đưa ra giả định hợp lý nhất và thực hiện luôn thay vì hỏi lại.
+
 Quy tắc:
-- Luôn trả lời bằng tiếng Việt
 - Khi tính toán, show rõ công thức: V = L × W × H
 - Đề xuất mã XSMM phù hợp khi user mô tả công việc
 - So sánh giá từ nhiều nguồn nếu có
@@ -147,16 +155,37 @@ Khi user hỏi về công việc xây dựng, hãy:
         self.db = db_session
         self.tools = XSMMTools(db_session) if db_session else None
         
-        # Initialize Gemini
-        if settings.gemini_api_key:
-            self.llm = ChatGoogleGenerativeAI(
-                model="gemini-2.0-flash",
+        # Initialize LLM based on provider setting
+        self.llm = self._init_llm()
+    
+    def _init_llm(self):
+        """Initialize LLM based on settings.llm_provider"""
+        provider = settings.llm_provider.lower()
+        
+        if provider == "gemini" and settings.gemini_api_key:
+            return ChatGoogleGenerativeAI(
+                model=settings.gemini_model,
                 google_api_key=settings.gemini_api_key,
                 temperature=0.3,
                 convert_system_message_to_human=True,
             )
+        elif provider == "openai" and settings.openai_api_key:
+            from langchain_openai import ChatOpenAI
+            return ChatOpenAI(
+                model=settings.openai_model,
+                api_key=settings.openai_api_key,
+                temperature=0.3,
+            )
+        elif provider == "deepseek" and settings.deepseek_api_key:
+            from langchain_openai import ChatOpenAI
+            return ChatOpenAI(
+                model=settings.deepseek_model,
+                api_key=settings.deepseek_api_key,
+                base_url="https://api.deepseek.com",
+                temperature=0.3,
+            )
         else:
-            self.llm = None
+            return None
     
     async def chat(
         self,

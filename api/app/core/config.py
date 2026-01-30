@@ -17,8 +17,20 @@ class Settings(BaseSettings):
     # Database
     database_url: str = "postgresql://xsmm:password@localhost:5432/xsmm_copilot"
     
-    # AI
+    # AI - Provider Selection
+    llm_provider: str = "gemini"  # gemini | openai | deepseek
+    
+    # Gemini
     gemini_api_key: str = ""
+    gemini_model: str = "gemini-2.0-flash"
+    
+    # OpenAI
+    openai_api_key: str = ""
+    openai_model: str = "gpt-4o"
+    
+    # Deepseek
+    deepseek_api_key: str = ""
+    deepseek_model: str = "deepseek-chat"
     
     # CORS
     cors_origins: list[str] = ["http://localhost:3000", "http://127.0.0.1:3000"]
