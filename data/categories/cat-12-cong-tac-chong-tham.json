@@ -1,0 +1,119 @@
+{
+    "code": "12",
+    "name": "Công tác chống thấm",
+    "description": "Chống thấm sàn mái, WC, tầng hầm, bể nước",
+    "work_types": [
+        {
+            "code": "12.1",
+            "name": "Chống thấm sàn mái",
+            "work_items": [
+                {
+                    "code": "12.1.1",
+                    "name": "Chống thấm màng khò",
+                    "unit": "m2",
+                    "description": "Chống thấm sàn mái bằng màng khò bitum",
+                    "measurement_method": "Diện tích sàn mái + Diện tích chân tường bo lên 30cm",
+                    "formula": "S = S_sàn + P × 0.3"
+                },
+                {
+                    "code": "12.1.2",
+                    "name": "Chống thấm sika 2 thành phần",
+                    "unit": "m2",
+                    "description": "Chống thấm sàn mái bằng Sika 2 thành phần",
+                    "measurement_method": "Diện tích sàn mái + bo chân",
+                    "formula": "S = S_sàn + P × 0.3"
+                },
+                {
+                    "code": "12.1.3",
+                    "name": "Chống thấm polyurethane",
+                    "unit": "m2",
+                    "description": "Chống thấm sàn mái bằng polyurethane",
+                    "measurement_method": "Diện tích sàn mái + bo chân",
+                    "formula": "S = S_sàn + P × 0.3"
+                }
+            ]
+        },
+        {
+            "code": "12.2",
+            "name": "Chống thấm WC",
+            "work_items": [
+                {
+                    "code": "12.2.1",
+                    "name": "Chống thấm màng khò WC",
+                    "unit": "m2",
+                    "description": "Chống thấm sàn WC bằng màng khò",
+                    "measurement_method": "Diện tích sàn + chân tường 30cm",
+                    "formula": "S = S_sàn + P × 0.3"
+                },
+                {
+                    "code": "12.2.2",
+                    "name": "Chống thấm sika WC",
+                    "unit": "m2",
+                    "description": "Chống thấm sàn WC bằng Sika",
+                    "measurement_method": "Diện tích sàn + chân tường",
+                    "formula": "S = S_sàn + P × 0.3"
+                },
+                {
+                    "code": "12.2.3",
+                    "name": "Chống thấm kova WC",
+                    "unit": "m2",
+                    "description": "Chống thấm sàn WC bằng Kova CT11A",
+                    "measurement_method": "Diện tích sàn + chân tường",
+                    "formula": "S = S_sàn + P × 0.3"
+                }
+            ]
+        },
+        {
+            "code": "12.3",
+            "name": "Chống thấm tầng hầm",
+            "work_items": [
+                {
+                    "code": "12.3.1",
+                    "name": "Chống thấm màng HDPE",
+                    "unit": "m2",
+                    "description": "Chống thấm tầng hầm bằng màng HDPE",
+                    "measurement_method": "Diện tích đáy + diện tích thành hầm",
+                    "formula": "S = S_đáy + P × H"
+                },
+                {
+                    "code": "12.3.2",
+                    "name": "Chống thấm bentonite",
+                    "unit": "m2",
+                    "description": "Chống thấm tầng hầm bằng bentonite",
+                    "measurement_method": "Diện tích đáy + thành hầm",
+                    "formula": "S = S_đáy + P × H"
+                },
+                {
+                    "code": "12.3.3",
+                    "name": "Chống thấm crystalline",
+                    "unit": "m2",
+                    "description": "Chống thấm tầng hầm bằng crystalline (kết tinh)",
+                    "measurement_method": "Diện tích bề mặt bê tông cần xử lý",
+                    "formula": "S = S_tổng"
+                }
+            ]
+        },
+        {
+            "code": "12.4",
+            "name": "Chống thấm bể nước",
+            "work_items": [
+                {
+                    "code": "12.4.1",
+                    "name": "Chống thấm epoxy bể",
+                    "unit": "m2",
+                    "description": "Chống thấm bể nước bằng epoxy",
+                    "measurement_method": "Diện tích đáy + thành bể (bên trong)",
+                    "formula": "S = S_đáy + P × H"
+                },
+                {
+                    "code": "12.4.2",
+                    "name": "Chống thấm sika bể",
+                    "unit": "m2",
+                    "description": "Chống thấm bể nước bằng Sika",
+                    "measurement_method": "Diện tích đáy + thành bể",
+                    "formula": "S = S_đáy + P × H"
+                }
+            ]
+        }
+    ]
+}

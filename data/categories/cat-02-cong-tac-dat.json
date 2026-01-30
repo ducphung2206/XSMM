@@ -1,0 +1,182 @@
+{
+    "code": "2",
+    "name": "Công tác đất",
+    "description": "Đào, đắp, vận chuyển đất phục vụ thi công móng và nền",
+    "work_types": [
+        {
+            "code": "2.1",
+            "name": "Đào đất",
+            "work_items": [
+                {
+                    "code": "2.1.1",
+                    "name": "Đào đất hố móng bằng máy",
+                    "unit": "m3",
+                    "description": "Đào đất hố móng bằng máy đào, đất cấp I-II",
+                    "measurement_method": "Tính theo thể tích hình học hố móng (có tính taluy)",
+                    "formula": "V = (a+2m×h) × (b+2m×h) × h",
+                    "rules": {
+                        "inclusion": [
+                            "Đào đất",
+                            "Sửa hố móng sau đào máy"
+                        ],
+                        "exclusion": [
+                            "Đào gặp đá (tính riêng)",
+                            "Hút nước hố móng"
+                        ]
+                    }
+                },
+                {
+                    "code": "2.1.2",
+                    "name": "Đào đất hố móng bằng thủ công",
+                    "unit": "m3",
+                    "description": "Đào đất hố móng bằng thủ công, đất cấp I-II",
+                    "measurement_method": "Tính theo thể tích hình học hố móng",
+                    "formula": "V = L × W × H",
+                    "rules": {
+                        "inclusion": [
+                            "Đào đất",
+                            "Xúc đổ đống trong phạm vi 10m"
+                        ],
+                        "exclusion": [
+                            "Đất cấp III-IV (hệ số khác)"
+                        ]
+                    }
+                },
+                {
+                    "code": "2.1.3",
+                    "name": "Đào đất rãnh móng",
+                    "unit": "m3",
+                    "description": "Đào rãnh móng băng, chiều rộng ≤3m",
+                    "measurement_method": "Tính theo thể tích rãnh: Dài × Rộng × Sâu",
+                    "formula": "V = L × W × H",
+                    "rules": {
+                        "inclusion": [
+                            "Đào rãnh",
+                            "Sửa thành rãnh"
+                        ],
+                        "exclusion": [
+                            "Chống vách đất (nếu có)"
+                        ]
+                    }
+                },
+                {
+                    "code": "2.1.4",
+                    "name": "Đào đất hầm, tầng hầm",
+                    "unit": "m3",
+                    "description": "Đào đất tầng hầm, chiều sâu >2m",
+                    "measurement_method": "Tính theo khối hình học gồm cả taluy và đường dốc lên xuống",
+                    "formula": "V = S_đáy × H + V_taluy + V_dốc",
+                    "rules": {
+                        "inclusion": [
+                            "Đào đất",
+                            "Làm đường dốc tạm"
+                        ],
+                        "exclusion": [
+                            "Gia cố vách hầm",
+                            "Hút nước ngầm"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "code": "2.2",
+            "name": "Đắp đất",
+            "work_items": [
+                {
+                    "code": "2.2.1",
+                    "name": "Đắp đất nền công trình",
+                    "unit": "m3",
+                    "description": "Đắp đất tôn nền, đầm chặt từng lớp ≤20cm",
+                    "measurement_method": "Tính theo thể tích đất đầm chặt (không phải đất rời)",
+                    "formula": "V = S × H_đắp",
+                    "rules": {
+                        "inclusion": [
+                            "Đất đắp",
+                            "Đầm chặt",
+                            "San phẳng"
+                        ],
+                        "exclusion": [
+                            "Vận chuyển đất đến (tính riêng)"
+                        ]
+                    }
+                },
+                {
+                    "code": "2.2.2",
+                    "name": "Đắp cát nền",
+                    "unit": "m3",
+                    "description": "Đắp cát tôn nền, tưới nước đầm chặt",
+                    "measurement_method": "Tính theo thể tích cát sau đầm chặt",
+                    "formula": "V = S × H_đắp",
+                    "rules": {
+                        "inclusion": [
+                            "Cát san lấp",
+                            "Tưới nước",
+                            "Đầm chặt"
+                        ],
+                        "exclusion": [
+                            "Vận chuyển cát đến"
+                        ]
+                    }
+                },
+                {
+                    "code": "2.2.3",
+                    "name": "Đầm chặt đất nền",
+                    "unit": "m2",
+                    "description": "Đầm chặt nền đất bằng đầm cóc hoặc lu rung",
+                    "measurement_method": "Tính theo diện tích nền được đầm",
+                    "formula": "S = L × W",
+                    "rules": {
+                        "inclusion": [
+                            "Đầm chặt",
+                            "Kiểm tra độ chặt K≥0.9"
+                        ],
+                        "exclusion": [
+                            "Đất đắp (tính riêng)"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "code": "2.3",
+            "name": "Vận chuyển đất",
+            "work_items": [
+                {
+                    "code": "2.3.1",
+                    "name": "Vận chuyển đất thừa đi đổ",
+                    "unit": "m3",
+                    "description": "Vận chuyển đất dư từ đào móng đi đổ bãi",
+                    "measurement_method": "Tính theo thể tích đất rời (hệ số nở 1.2-1.3)",
+                    "formula": "V = V_đào × K_nở",
+                    "rules": {
+                        "inclusion": [
+                            "Bốc xếp",
+                            "Vận chuyển",
+                            "Chi phí bãi đổ"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "2.3.2",
+                    "name": "Vận chuyển đất/cát đến công trình",
+                    "unit": "m3",
+                    "description": "Mua và vận chuyển đất/cát đắp nền đến công trình",
+                    "measurement_method": "Tính theo thể tích đất/cát cần dùng (đã đầm)",
+                    "formula": "V = V_cần × K_hao hụt",
+                    "rules": {
+                        "inclusion": [
+                            "Giá vật liệu",
+                            "Vận chuyển",
+                            "Bốc dỡ"
+                        ],
+                        "exclusion": [
+                            "San đắp (tính riêng)"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

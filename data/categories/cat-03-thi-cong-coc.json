@@ -1,0 +1,311 @@
+{
+    "code": "3",
+    "name": "Thi công cọc",
+    "description": "Đóng, ép các loại cọc gia cố nền móng",
+    "work_types": [
+        {
+            "code": "3.1",
+            "name": "Cọc tre",
+            "work_items": [
+                {
+                    "code": "3.1.1",
+                    "name": "Cọc tre Ø6-8cm, L≤2.5m",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc tre đường kính 6-8cm, chiều dài ≤2.5m",
+                    "measurement_method": "Tổng chiều dài cọc tre đã đóng (theo md)",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tre",
+                            "Đóng cọc",
+                            "Cắt đầu cọc"
+                        ],
+                        "exclusion": [
+                            "Phần cọc gãy phải thay"
+                        ]
+                    }
+                },
+                {
+                    "code": "3.1.2",
+                    "name": "Cọc tre Ø6-8cm, L>2.5m",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc tre đường kính 6-8cm, chiều dài >2.5m",
+                    "measurement_method": "Tổng chiều dài cọc tre đã đóng",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tre",
+                            "Đóng cọc",
+                            "Cắt đầu cọc"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.1.3",
+                    "name": "Cọc tre Ø8-10cm, L≤2.5m",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc tre đường kính 8-10cm, chiều dài ≤2.5m",
+                    "measurement_method": "Tổng chiều dài cọc tre đã đóng",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tre",
+                            "Đóng cọc"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.1.4",
+                    "name": "Cọc tre Ø8-10cm, L>2.5m",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc tre đường kính 8-10cm, chiều dài >2.5m",
+                    "measurement_method": "Tổng chiều dài cọc tre đã đóng",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tre",
+                            "Đóng cọc"
+                        ],
+                        "exclusion": []
+                    }
+                }
+            ]
+        },
+        {
+            "code": "3.2",
+            "name": "Cọc cừ tràm",
+            "work_items": [
+                {
+                    "code": "3.2.1",
+                    "name": "Cọc cừ tràm Ø6-8cm",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc cừ tràm đường kính 6-8cm",
+                    "measurement_method": "Tổng chiều dài cọc cừ tràm đã đóng",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tràm",
+                            "Đóng cọc",
+                            "Cắt đầu"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.2.2",
+                    "name": "Cọc cừ tràm Ø8-10cm",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc cừ tràm đường kính 8-10cm",
+                    "measurement_method": "Tổng chiều dài cọc cừ tràm đã đóng",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tràm",
+                            "Đóng cọc"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.2.3",
+                    "name": "Cọc cừ tràm Ø10-12cm",
+                    "unit": "md",
+                    "description": "Thi công đóng cọc cừ tràm đường kính 10-12cm",
+                    "measurement_method": "Tổng chiều dài cọc cừ tràm đã đóng",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc tràm",
+                            "Đóng cọc"
+                        ],
+                        "exclusion": []
+                    }
+                }
+            ]
+        },
+        {
+            "code": "3.3",
+            "name": "Cọc bê tông cốt thép",
+            "work_items": [
+                {
+                    "code": "3.3.1",
+                    "name": "Cọc BTCT 200x200mm",
+                    "unit": "md",
+                    "description": "Thi công ép cọc BTCT tiết diện 200x200mm",
+                    "measurement_method": "Tổng chiều dài cọc BTCT đã ép (từ đầu đến mũi)",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Vận chuyển cọc",
+                            "Ép cọc",
+                            "Hàn nối (nếu có)"
+                        ],
+                        "exclusion": [
+                            "Đập đầu cọc (tính riêng)"
+                        ]
+                    }
+                },
+                {
+                    "code": "3.3.2",
+                    "name": "Cọc BTCT 250x250mm",
+                    "unit": "md",
+                    "description": "Thi công ép cọc BTCT tiết diện 250x250mm",
+                    "measurement_method": "Tổng chiều dài cọc BTCT đã ép",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Vận chuyển cọc",
+                            "Ép cọc",
+                            "Hàn nối"
+                        ],
+                        "exclusion": [
+                            "Đập đầu cọc"
+                        ]
+                    }
+                },
+                {
+                    "code": "3.3.3",
+                    "name": "Cọc BTCT 300x300mm",
+                    "unit": "md",
+                    "description": "Thi công ép cọc BTCT tiết diện 300x300mm",
+                    "measurement_method": "Tổng chiều dài cọc BTCT đã ép",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Vận chuyển cọc",
+                            "Ép cọc",
+                            "Hàn nối"
+                        ],
+                        "exclusion": [
+                            "Đập đầu cọc"
+                        ]
+                    }
+                },
+                {
+                    "code": "3.3.4",
+                    "name": "Cọc BTCT 350x350mm",
+                    "unit": "md",
+                    "description": "Thi công ép cọc BTCT tiết diện 350x350mm",
+                    "measurement_method": "Tổng chiều dài cọc BTCT đã ép",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Vận chuyển cọc",
+                            "Ép cọc",
+                            "Hàn nối"
+                        ],
+                        "exclusion": [
+                            "Đập đầu cọc"
+                        ]
+                    }
+                },
+                {
+                    "code": "3.3.5",
+                    "name": "Cọc ly tâm D300",
+                    "unit": "md",
+                    "description": "Thi công ép cọc ly tâm ƯST đường kính 300mm",
+                    "measurement_method": "Tổng chiều dài cọc đã ép",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc",
+                            "Ép",
+                            "Hàn nối"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.3.6",
+                    "name": "Cọc ly tâm D400",
+                    "unit": "md",
+                    "description": "Thi công ép cọc ly tâm ƯST đường kính 400mm",
+                    "measurement_method": "Tổng chiều dài cọc đã ép",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc",
+                            "Ép",
+                            "Hàn nối"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.3.7",
+                    "name": "Cọc ly tâm D500",
+                    "unit": "md",
+                    "description": "Thi công ép cọc ly tâm ƯST đường kính 500mm",
+                    "measurement_method": "Tổng chiều dài cọc đã ép",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Cọc",
+                            "Ép",
+                            "Hàn nối"
+                        ],
+                        "exclusion": []
+                    }
+                }
+            ]
+        },
+        {
+            "code": "3.4",
+            "name": "Cọc khoan nhồi",
+            "work_items": [
+                {
+                    "code": "3.4.1",
+                    "name": "Cọc khoan nhồi D600",
+                    "unit": "md",
+                    "description": "Thi công cọc khoan nhồi đường kính 600mm",
+                    "measurement_method": "Tổng chiều dài cọc đã thi công (từ đáy đến cos cắt)",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Khoan tạo lỗ",
+                            "Đổ bê tông",
+                            "Cốt thép lồng"
+                        ],
+                        "exclusion": [
+                            "Đập đầu cọc"
+                        ]
+                    }
+                },
+                {
+                    "code": "3.4.2",
+                    "name": "Cọc khoan nhồi D800",
+                    "unit": "md",
+                    "description": "Thi công cọc khoan nhồi đường kính 800mm",
+                    "measurement_method": "Tổng chiều dài cọc đã thi công",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Khoan",
+                            "Bê tông",
+                            "Thép lồng"
+                        ],
+                        "exclusion": []
+                    }
+                },
+                {
+                    "code": "3.4.3",
+                    "name": "Cọc khoan nhồi D1000",
+                    "unit": "md",
+                    "description": "Thi công cọc khoan nhồi đường kính 1000mm",
+                    "measurement_method": "Tổng chiều dài cọc đã thi công",
+                    "formula": "L = Số cọc × Chiều dài/cọc",
+                    "rules": {
+                        "inclusion": [
+                            "Khoan",
+                            "Bê tông",
+                            "Thép lồng"
+                        ],
+                        "exclusion": []
+                    }
+                }
+            ]
+        }
+    ]
+}

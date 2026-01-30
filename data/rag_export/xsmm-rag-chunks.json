@@ -1,0 +1,4777 @@
+{
+  "version": "1.0",
+  "exported_at": "2026-01-30T12:16:31.726658",
+  "total_chunks": 374,
+  "chunks": [
+    {
+      "id": "cat-1",
+      "type": "category_overview",
+      "text": "Danh mục 1: Công tác chuẩn bị. Bao gồm các loại công việc: Phá dỡ công trình cũ, Dọn dẹp mặt bằng, Công tác tạm",
+      "metadata": {
+        "category_code": "1",
+        "category_name": "Công tác chuẩn bị"
+      }
+    },
+    {
+      "id": "cat-2",
+      "type": "category_overview",
+      "text": "Danh mục 2: Công tác đất. Bao gồm các loại công việc: Đào đất, Đắp đất, Vận chuyển đất",
+      "metadata": {
+        "category_code": "2",
+        "category_name": "Công tác đất"
+      }
+    },
+    {
+      "id": "cat-3",
+      "type": "category_overview",
+      "text": "Danh mục 3: Thi công cọc. Bao gồm các loại công việc: Cọc tre, Cọc cừ tràm, Cọc bê tông cốt thép, Cọc khoan nhồi",
+      "metadata": {
+        "category_code": "3",
+        "category_name": "Thi công cọc"
+      }
+    },
+    {
+      "id": "cat-4",
+      "type": "category_overview",
+      "text": "Danh mục 4: Công tác bê tông. Bao gồm các loại công việc: Bê tông lót, Bê tông móng, Bê tông cột, Bê tông dầm, Bê tông sàn, Bê tông cầu thang, Bê tông tường, Bê tông bể",
+      "metadata": {
+        "category_code": "4",
+        "category_name": "Công tác bê tông"
+      }
+    },
+    {
+      "id": "cat-5",
+      "type": "category_overview",
+      "text": "Danh mục 5: Công tác cốt thép. Bao gồm các loại công việc: Thép móng, Thép cột, Thép dầm, sàn, Thép cầu thang, Lưới thép hàn",
+      "metadata": {
+        "category_code": "5",
+        "category_name": "Công tác cốt thép"
+      }
+    },
+    {
+      "id": "cat-6",
+      "type": "category_overview",
+      "text": "Danh mục 6: Công tác ván khuôn. Bao gồm các loại công việc: Ván khuôn móng, Ván khuôn cột, Ván khuôn dầm, sàn, Ván khuôn cầu thang, Ván khuôn tường",
+      "metadata": {
+        "category_code": "6",
+        "category_name": "Công tác ván khuôn"
+      }
+    },
+    {
+      "id": "cat-7",
+      "type": "category_overview",
+      "text": "Danh mục 7: Công tác xây. Bao gồm các loại công việc: Xây móng, Xây tường, Xây trụ, bồn hoa, Xây bậc thang",
+      "metadata": {
+        "category_code": "7",
+        "category_name": "Công tác xây"
+      }
+    },
+    {
+      "id": "cat-8",
+      "type": "category_overview",
+      "text": "Danh mục 8: Công tác trát. Bao gồm các loại công việc: Trát tường, Trát trần, Trát cột, dầm, Trát gờ, phào, Trát granitô",
+      "metadata": {
+        "category_code": "8",
+        "category_name": "Công tác trát"
+      }
+    },
+    {
+      "id": "cat-9",
+      "type": "category_overview",
+      "text": "Danh mục 9: Công tác lát nền. Bao gồm các loại công việc: Lát gạch ceramic, Lát gạch porcelain, Lát gạch granite, Lát sàn gỗ, Lát gạch terrazzo, Lát đá tự nhiên",
+      "metadata": {
+        "category_code": "9",
+        "category_name": "Công tác lát nền"
+      }
+    },
+    {
+      "id": "cat-10",
+      "type": "category_overview",
+      "text": "Danh mục 10: Công tác ốp tường. Bao gồm các loại công việc: Ốp gạch men, Ốp đá tự nhiên, Ốp gỗ, Ốp tấm nhựa",
+      "metadata": {
+        "category_code": "10",
+        "category_name": "Công tác ốp tường"
+      }
+    },
+    {
+      "id": "cat-11",
+      "type": "category_overview",
+      "text": "Danh mục 11: Công tác sơn. Bao gồm các loại công việc: Sơn tường trong, Sơn tường ngoài, Sơn dầu, sơn PU, Sơn chống thấm, Sơn epoxy",
+      "metadata": {
+        "category_code": "11",
+        "category_name": "Công tác sơn"
+      }
+    },
+    {
+      "id": "cat-12",
+      "type": "category_overview",
+      "text": "Danh mục 12: Công tác chống thấm. Bao gồm các loại công việc: Chống thấm sàn mái, Chống thấm WC, Chống thấm tầng hầm, Chống thấm bể nước",
+      "metadata": {
+        "category_code": "12",
+        "category_name": "Công tác chống thấm"
+      }
+    },
+    {
+      "id": "cat-13",
+      "type": "category_overview",
+      "text": "Danh mục 13: Công tác mái. Bao gồm các loại công việc: Mái tôn, Mái ngói, Mái kính, Xà gồ, khung mái",
+      "metadata": {
+        "category_code": "13",
+        "category_name": "Công tác mái"
+      }
+    },
+    {
+      "id": "cat-14",
+      "type": "category_overview",
+      "text": "Danh mục 14: Công tác cửa. Bao gồm các loại công việc: Cửa gỗ, Cửa nhôm, Cửa nhựa lõi thép, Cửa sắt, Cửa kính",
+      "metadata": {
+        "category_code": "14",
+        "category_name": "Công tác cửa"
+      }
+    },
+    {
+      "id": "cat-15",
+      "type": "category_overview",
+      "text": "Danh mục 15: Công tác lan can, cầu thang. Bao gồm các loại công việc: Lan can sắt, Lan can kính, Tay vịn cầu thang, Bậc cầu thang",
+      "metadata": {
+        "category_code": "15",
+        "category_name": "Công tác lan can, cầu thang"
+      }
+    },
+    {
+      "id": "cat-16",
+      "type": "category_overview",
+      "text": "Danh mục 16: Công tác trần. Bao gồm các loại công việc: Trần thạch cao, Trần nhựa, Trần gỗ, Trần thả",
+      "metadata": {
+        "category_code": "16",
+        "category_name": "Công tác trần"
+      }
+    },
+    {
+      "id": "cat-17",
+      "type": "category_overview",
+      "text": "Danh mục 17: Điện dân dụng. Bao gồm các loại công việc: Đường dây điện, Ống luồn dây, Đèn chiếu sáng, Ổ cắm, công tắc, Tủ điện",
+      "metadata": {
+        "category_code": "17",
+        "category_name": "Điện dân dụng"
+      }
+    },
+    {
+      "id": "cat-18",
+      "type": "category_overview",
+      "text": "Danh mục 18: Cấp thoát nước. Bao gồm các loại công việc: Ống cấp nước, Ống thoát nước, Phụ kiện đường ống, Bồn chứa nước",
+      "metadata": {
+        "category_code": "18",
+        "category_name": "Cấp thoát nước"
+      }
+    },
+    {
+      "id": "cat-19",
+      "type": "category_overview",
+      "text": "Danh mục 19: Thiết bị vệ sinh. Bao gồm các loại công việc: Bồn cầu, Lavabo, Sen, vòi, Phụ kiện WC, Bồn tắm, Tủ lavabo",
+      "metadata": {
+        "category_code": "19",
+        "category_name": "Thiết bị vệ sinh"
+      }
+    },
+    {
+      "id": "cat-20",
+      "type": "category_overview",
+      "text": "Danh mục 20: Nội thất gỗ. Bao gồm các loại công việc: Tủ bếp, Tủ quần áo, Giường ngủ, Bàn làm việc, Kệ tivi, Tủ giày",
+      "metadata": {
+        "category_code": "20",
+        "category_name": "Nội thất gỗ"
+      }
+    },
+    {
+      "id": "cat-21",
+      "type": "category_overview",
+      "text": "Danh mục 21: Điều hòa không khí. Bao gồm các loại công việc: Điều hòa treo tường, Điều hòa âm trần, Điều hòa tủ đứng, Hệ thống VRV/VRF",
+      "metadata": {
+        "category_code": "21",
+        "category_name": "Điều hòa không khí"
+      }
+    },
+    {
+      "id": "cat-22",
+      "type": "category_overview",
+      "text": "Danh mục 22: An ninh, thông minh. Bao gồm các loại công việc: Camera an ninh, Chuông cửa, Khóa thông minh, Hệ thống smarthome",
+      "metadata": {
+        "category_code": "22",
+        "category_name": "An ninh, thông minh"
+      }
+    },
+    {
+      "id": "cat-23",
+      "type": "category_overview",
+      "text": "Danh mục 23: Sân vườn, cảnh quan. Bao gồm các loại công việc: Lát sân vườn, Hàng rào, Cây xanh, Hồ cá, tiểu cảnh",
+      "metadata": {
+        "category_code": "23",
+        "category_name": "Sân vườn, cảnh quan"
+      }
+    },
+    {
+      "id": "wi-1.1.1",
+      "type": "work_item",
+      "text": "Phá dỡ tường gạch (mã 1.1.1, đơn vị: m3). Phá dỡ tường gạch các loại (đặc, ống, block), bao gồm thu dọn tại chỗ Cách đo: Tính theo thể tích thực tế: Dài x Rộng x Cao tường. Không trừ lỗ cửa ≤1m². Công thức: V = L × W × H",
+      "metadata": {
+        "code": "1.1.1",
+        "name": "Phá dỡ tường gạch",
+        "unit": "m3",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-1.1.2",
+      "type": "work_item",
+      "text": "Phá dỡ sàn bê tông (mã 1.1.2, đơn vị: m3). Đục phá sàn bê tông cốt thép, bao gồm cắt thép và thu dọn Cách đo: Tính theo thể tích thực tế: Diện tích sàn x Chiều dày. Công thức: V = S × t",
+      "metadata": {
+        "code": "1.1.2",
+        "name": "Phá dỡ sàn bê tông",
+        "unit": "m3",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "V = S × t"
+      }
+    },
+    {
+      "id": "wi-1.1.3",
+      "type": "work_item",
+      "text": "Phá dỡ mái tôn/ngói (mã 1.1.3, đơn vị: m2). Tháo dỡ mái tôn hoặc ngói, bao gồm xà gồ gỗ/thép Cách đo: Tính theo diện tích mái thực tế (theo độ dốc). Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "1.1.3",
+        "name": "Phá dỡ mái tôn/ngói",
+        "unit": "m2",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-1.1.4",
+      "type": "work_item",
+      "text": "Phá dỡ cửa đi, cửa sổ (mã 1.1.4, đơn vị: m2). Tháo dỡ cửa đi, cửa sổ các loại (gỗ, nhôm, sắt, kính) Cách đo: Tính theo diện tích khuôn cửa: Rộng x Cao. Công thức: S = W × H",
+      "metadata": {
+        "code": "1.1.4",
+        "name": "Phá dỡ cửa đi, cửa sổ",
+        "unit": "m2",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-1.1.5",
+      "type": "work_item",
+      "text": "Phá dỡ trần thạch cao (mã 1.1.5, đơn vị: m2). Tháo dỡ trần thạch cao bao gồm khung xương Cách đo: Tính theo diện tích trần thực tế. Công thức: S = L × W",
+      "metadata": {
+        "code": "1.1.5",
+        "name": "Phá dỡ trần thạch cao",
+        "unit": "m2",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-1.1.6",
+      "type": "work_item",
+      "text": "Phá dỡ hệ thống điện cũ (mã 1.1.6, đơn vị: md). Tháo dỡ dây điện, ống luồn, thiết bị điện cũ Cách đo: Tính theo chiều dài dây/ống thực tế. Công thức: L = Σ(chiều dài từng đoạn)",
+      "metadata": {
+        "code": "1.1.6",
+        "name": "Phá dỡ hệ thống điện cũ",
+        "unit": "md",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "L = Σ(chiều dài từng đoạn)"
+      }
+    },
+    {
+      "id": "wi-1.1.7",
+      "type": "work_item",
+      "text": "Phá dỡ hệ thống nước cũ (mã 1.1.7, đơn vị: md). Tháo dỡ đường ống cấp thoát nước cũ Cách đo: Tính theo chiều dài ống thực tế. Công thức: L = Σ(chiều dài từng đoạn)",
+      "metadata": {
+        "code": "1.1.7",
+        "name": "Phá dỡ hệ thống nước cũ",
+        "unit": "md",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Phá dỡ công trình cũ",
+        "formula": "L = Σ(chiều dài từng đoạn)"
+      }
+    },
+    {
+      "id": "wi-1.2.1",
+      "type": "work_item",
+      "text": "Thu dọn phế thải xây dựng (mã 1.2.1, đơn vị: m3). Gom, thu dọn phế thải từ phá dỡ tại công trình Cách đo: Tính theo thể tích phế thải rời (hệ số nở 1.3-1.5). Công thức: V = V_đặc × K_nở",
+      "metadata": {
+        "code": "1.2.1",
+        "name": "Thu dọn phế thải xây dựng",
+        "unit": "m3",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Dọn dẹp mặt bằng",
+        "formula": "V = V_đặc × K_nở"
+      }
+    },
+    {
+      "id": "wi-1.2.2",
+      "type": "work_item",
+      "text": "San lấp mặt bằng (mã 1.2.2, đơn vị: m2). San phẳng mặt bằng bằng thủ công hoặc máy Cách đo: Tính theo diện tích mặt bằng cần san. Công thức: S = L × W",
+      "metadata": {
+        "code": "1.2.2",
+        "name": "San lấp mặt bằng",
+        "unit": "m2",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Dọn dẹp mặt bằng",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-1.2.3",
+      "type": "work_item",
+      "text": "Vận chuyển phế thải ra bãi (mã 1.2.3, đơn vị: m3). Vận chuyển phế thải từ công trình đến bãi đổ Cách đo: Tính theo thể tích phế thải thực tế vận chuyển. Công thức: V = Số chuyến × Thể tích/chuyến",
+      "metadata": {
+        "code": "1.2.3",
+        "name": "Vận chuyển phế thải ra bãi",
+        "unit": "m3",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Dọn dẹp mặt bằng",
+        "formula": "V = Số chuyến × Thể tích/chuyến"
+      }
+    },
+    {
+      "id": "wi-1.3.1",
+      "type": "work_item",
+      "text": "Lắp dựng rào chắn công trình (mã 1.3.1, đơn vị: md). Lắp đặt hàng rào tạm bao quanh công trình Cách đo: Tính theo chiều dài hàng rào. Công thức: L = Chu vi công trình",
+      "metadata": {
+        "code": "1.3.1",
+        "name": "Lắp dựng rào chắn công trình",
+        "unit": "md",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Công tác tạm",
+        "formula": "L = Chu vi công trình"
+      }
+    },
+    {
+      "id": "wi-1.3.2",
+      "type": "work_item",
+      "text": "Lắp dựng giàn giáo (mã 1.3.2, đơn vị: m2). Lắp đặt giàn giáo phục vụ thi công trên cao Cách đo: Tính theo diện tích mặt đứng cần giàn giáo. Công thức: S = L × H",
+      "metadata": {
+        "code": "1.3.2",
+        "name": "Lắp dựng giàn giáo",
+        "unit": "m2",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Công tác tạm",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-1.3.3",
+      "type": "work_item",
+      "text": "Làm lán trại tạm (mã 1.3.3, đơn vị: m2). Xây dựng lán trại tạm cho công nhân, kho vật tư Cách đo: Tính theo diện tích sàn lán trại. Công thức: S = L × W",
+      "metadata": {
+        "code": "1.3.3",
+        "name": "Làm lán trại tạm",
+        "unit": "m2",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Công tác tạm",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-1.3.4",
+      "type": "work_item",
+      "text": "Lắp điện tạm thi công (mã 1.3.4, đơn vị: điểm). Đấu nối điện tạm phục vụ thi công Cách đo: Tính theo số điểm đấu nối. Công thức: N = Số điểm",
+      "metadata": {
+        "code": "1.3.4",
+        "name": "Lắp điện tạm thi công",
+        "unit": "điểm",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Công tác tạm",
+        "formula": "N = Số điểm"
+      }
+    },
+    {
+      "id": "wi-1.3.5",
+      "type": "work_item",
+      "text": "Lắp nước tạm thi công (mã 1.3.5, đơn vị: điểm). Đấu nối nước tạm phục vụ thi công Cách đo: Tính theo số điểm đấu nối. Công thức: N = Số điểm",
+      "metadata": {
+        "code": "1.3.5",
+        "name": "Lắp nước tạm thi công",
+        "unit": "điểm",
+        "category": "Công tác chuẩn bị",
+        "work_type": "Công tác tạm",
+        "formula": "N = Số điểm"
+      }
+    },
+    {
+      "id": "wi-2.1.1",
+      "type": "work_item",
+      "text": "Đào đất hố móng bằng máy (mã 2.1.1, đơn vị: m3). Đào đất hố móng bằng máy đào, đất cấp I-II Cách đo: Tính theo thể tích hình học hố móng (có tính taluy). Công thức: V = (a+2m×h) × (b+2m×h) × h",
+      "metadata": {
+        "code": "2.1.1",
+        "name": "Đào đất hố móng bằng máy",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Đào đất",
+        "formula": "V = (a+2m×h) × (b+2m×h) × h"
+      }
+    },
+    {
+      "id": "wi-2.1.2",
+      "type": "work_item",
+      "text": "Đào đất hố móng bằng thủ công (mã 2.1.2, đơn vị: m3). Đào đất hố móng bằng thủ công, đất cấp I-II Cách đo: Tính theo thể tích hình học hố móng. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "2.1.2",
+        "name": "Đào đất hố móng bằng thủ công",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Đào đất",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-2.1.3",
+      "type": "work_item",
+      "text": "Đào đất rãnh móng (mã 2.1.3, đơn vị: m3). Đào rãnh móng băng, chiều rộng ≤3m Cách đo: Tính theo thể tích rãnh: Dài × Rộng × Sâu. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "2.1.3",
+        "name": "Đào đất rãnh móng",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Đào đất",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-2.1.4",
+      "type": "work_item",
+      "text": "Đào đất hầm, tầng hầm (mã 2.1.4, đơn vị: m3). Đào đất tầng hầm, chiều sâu >2m Cách đo: Tính theo khối hình học gồm cả taluy và đường dốc lên xuống. Công thức: V = S_đáy × H + V_taluy + V_dốc",
+      "metadata": {
+        "code": "2.1.4",
+        "name": "Đào đất hầm, tầng hầm",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Đào đất",
+        "formula": "V = S_đáy × H + V_taluy + V_dốc"
+      }
+    },
+    {
+      "id": "wi-2.2.1",
+      "type": "work_item",
+      "text": "Đắp đất nền công trình (mã 2.2.1, đơn vị: m3). Đắp đất tôn nền, đầm chặt từng lớp ≤20cm Cách đo: Tính theo thể tích đất đầm chặt (không phải đất rời). Công thức: V = S × H_đắp",
+      "metadata": {
+        "code": "2.2.1",
+        "name": "Đắp đất nền công trình",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Đắp đất",
+        "formula": "V = S × H_đắp"
+      }
+    },
+    {
+      "id": "wi-2.2.2",
+      "type": "work_item",
+      "text": "Đắp cát nền (mã 2.2.2, đơn vị: m3). Đắp cát tôn nền, tưới nước đầm chặt Cách đo: Tính theo thể tích cát sau đầm chặt. Công thức: V = S × H_đắp",
+      "metadata": {
+        "code": "2.2.2",
+        "name": "Đắp cát nền",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Đắp đất",
+        "formula": "V = S × H_đắp"
+      }
+    },
+    {
+      "id": "wi-2.2.3",
+      "type": "work_item",
+      "text": "Đầm chặt đất nền (mã 2.2.3, đơn vị: m2). Đầm chặt nền đất bằng đầm cóc hoặc lu rung Cách đo: Tính theo diện tích nền được đầm. Công thức: S = L × W",
+      "metadata": {
+        "code": "2.2.3",
+        "name": "Đầm chặt đất nền",
+        "unit": "m2",
+        "category": "Công tác đất",
+        "work_type": "Đắp đất",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-2.3.1",
+      "type": "work_item",
+      "text": "Vận chuyển đất thừa đi đổ (mã 2.3.1, đơn vị: m3). Vận chuyển đất dư từ đào móng đi đổ bãi Cách đo: Tính theo thể tích đất rời (hệ số nở 1.2-1.3). Công thức: V = V_đào × K_nở",
+      "metadata": {
+        "code": "2.3.1",
+        "name": "Vận chuyển đất thừa đi đổ",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Vận chuyển đất",
+        "formula": "V = V_đào × K_nở"
+      }
+    },
+    {
+      "id": "wi-2.3.2",
+      "type": "work_item",
+      "text": "Vận chuyển đất/cát đến công trình (mã 2.3.2, đơn vị: m3). Mua và vận chuyển đất/cát đắp nền đến công trình Cách đo: Tính theo thể tích đất/cát cần dùng (đã đầm). Công thức: V = V_cần × K_hao hụt",
+      "metadata": {
+        "code": "2.3.2",
+        "name": "Vận chuyển đất/cát đến công trình",
+        "unit": "m3",
+        "category": "Công tác đất",
+        "work_type": "Vận chuyển đất",
+        "formula": "V = V_cần × K_hao hụt"
+      }
+    },
+    {
+      "id": "wi-3.1.1",
+      "type": "work_item",
+      "text": "Cọc tre Ø6-8cm, L≤2.5m (mã 3.1.1, đơn vị: md). Thi công đóng cọc tre đường kính 6-8cm, chiều dài ≤2.5m Cách đo: Tổng chiều dài cọc tre đã đóng (theo md). Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.1.1",
+        "name": "Cọc tre Ø6-8cm, L≤2.5m",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc tre",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.1.2",
+      "type": "work_item",
+      "text": "Cọc tre Ø6-8cm, L>2.5m (mã 3.1.2, đơn vị: md). Thi công đóng cọc tre đường kính 6-8cm, chiều dài >2.5m Cách đo: Tổng chiều dài cọc tre đã đóng. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.1.2",
+        "name": "Cọc tre Ø6-8cm, L>2.5m",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc tre",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.1.3",
+      "type": "work_item",
+      "text": "Cọc tre Ø8-10cm, L≤2.5m (mã 3.1.3, đơn vị: md). Thi công đóng cọc tre đường kính 8-10cm, chiều dài ≤2.5m Cách đo: Tổng chiều dài cọc tre đã đóng. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.1.3",
+        "name": "Cọc tre Ø8-10cm, L≤2.5m",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc tre",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.1.4",
+      "type": "work_item",
+      "text": "Cọc tre Ø8-10cm, L>2.5m (mã 3.1.4, đơn vị: md). Thi công đóng cọc tre đường kính 8-10cm, chiều dài >2.5m Cách đo: Tổng chiều dài cọc tre đã đóng. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.1.4",
+        "name": "Cọc tre Ø8-10cm, L>2.5m",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc tre",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.2.1",
+      "type": "work_item",
+      "text": "Cọc cừ tràm Ø6-8cm (mã 3.2.1, đơn vị: md). Thi công đóng cọc cừ tràm đường kính 6-8cm Cách đo: Tổng chiều dài cọc cừ tràm đã đóng. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.2.1",
+        "name": "Cọc cừ tràm Ø6-8cm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc cừ tràm",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.2.2",
+      "type": "work_item",
+      "text": "Cọc cừ tràm Ø8-10cm (mã 3.2.2, đơn vị: md). Thi công đóng cọc cừ tràm đường kính 8-10cm Cách đo: Tổng chiều dài cọc cừ tràm đã đóng. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.2.2",
+        "name": "Cọc cừ tràm Ø8-10cm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc cừ tràm",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.2.3",
+      "type": "work_item",
+      "text": "Cọc cừ tràm Ø10-12cm (mã 3.2.3, đơn vị: md). Thi công đóng cọc cừ tràm đường kính 10-12cm Cách đo: Tổng chiều dài cọc cừ tràm đã đóng. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.2.3",
+        "name": "Cọc cừ tràm Ø10-12cm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc cừ tràm",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.1",
+      "type": "work_item",
+      "text": "Cọc BTCT 200x200mm (mã 3.3.1, đơn vị: md). Thi công ép cọc BTCT tiết diện 200x200mm Cách đo: Tổng chiều dài cọc BTCT đã ép (từ đầu đến mũi). Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.1",
+        "name": "Cọc BTCT 200x200mm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.2",
+      "type": "work_item",
+      "text": "Cọc BTCT 250x250mm (mã 3.3.2, đơn vị: md). Thi công ép cọc BTCT tiết diện 250x250mm Cách đo: Tổng chiều dài cọc BTCT đã ép. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.2",
+        "name": "Cọc BTCT 250x250mm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.3",
+      "type": "work_item",
+      "text": "Cọc BTCT 300x300mm (mã 3.3.3, đơn vị: md). Thi công ép cọc BTCT tiết diện 300x300mm Cách đo: Tổng chiều dài cọc BTCT đã ép. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.3",
+        "name": "Cọc BTCT 300x300mm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.4",
+      "type": "work_item",
+      "text": "Cọc BTCT 350x350mm (mã 3.3.4, đơn vị: md). Thi công ép cọc BTCT tiết diện 350x350mm Cách đo: Tổng chiều dài cọc BTCT đã ép. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.4",
+        "name": "Cọc BTCT 350x350mm",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.5",
+      "type": "work_item",
+      "text": "Cọc ly tâm D300 (mã 3.3.5, đơn vị: md). Thi công ép cọc ly tâm ƯST đường kính 300mm Cách đo: Tổng chiều dài cọc đã ép. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.5",
+        "name": "Cọc ly tâm D300",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.6",
+      "type": "work_item",
+      "text": "Cọc ly tâm D400 (mã 3.3.6, đơn vị: md). Thi công ép cọc ly tâm ƯST đường kính 400mm Cách đo: Tổng chiều dài cọc đã ép. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.6",
+        "name": "Cọc ly tâm D400",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.3.7",
+      "type": "work_item",
+      "text": "Cọc ly tâm D500 (mã 3.3.7, đơn vị: md). Thi công ép cọc ly tâm ƯST đường kính 500mm Cách đo: Tổng chiều dài cọc đã ép. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.3.7",
+        "name": "Cọc ly tâm D500",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc bê tông cốt thép",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.4.1",
+      "type": "work_item",
+      "text": "Cọc khoan nhồi D600 (mã 3.4.1, đơn vị: md). Thi công cọc khoan nhồi đường kính 600mm Cách đo: Tổng chiều dài cọc đã thi công (từ đáy đến cos cắt). Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.4.1",
+        "name": "Cọc khoan nhồi D600",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc khoan nhồi",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.4.2",
+      "type": "work_item",
+      "text": "Cọc khoan nhồi D800 (mã 3.4.2, đơn vị: md). Thi công cọc khoan nhồi đường kính 800mm Cách đo: Tổng chiều dài cọc đã thi công. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.4.2",
+        "name": "Cọc khoan nhồi D800",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc khoan nhồi",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-3.4.3",
+      "type": "work_item",
+      "text": "Cọc khoan nhồi D1000 (mã 3.4.3, đơn vị: md). Thi công cọc khoan nhồi đường kính 1000mm Cách đo: Tổng chiều dài cọc đã thi công. Công thức: L = Số cọc × Chiều dài/cọc",
+      "metadata": {
+        "code": "3.4.3",
+        "name": "Cọc khoan nhồi D1000",
+        "unit": "md",
+        "category": "Thi công cọc",
+        "work_type": "Cọc khoan nhồi",
+        "formula": "L = Số cọc × Chiều dài/cọc"
+      }
+    },
+    {
+      "id": "wi-4.1.1",
+      "type": "work_item",
+      "text": "BT lót móng đá 4x6, M100 (mã 4.1.1, đơn vị: m3). Đổ bê tông lót móng đá 4x6, mác 100 Cách đo: Thể tích = Diện tích đáy móng × Chiều dày lớp lót (thường 10cm). Công thức: V = S × 0.1",
+      "metadata": {
+        "code": "4.1.1",
+        "name": "BT lót móng đá 4x6, M100",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông lót",
+        "formula": "V = S × 0.1"
+      }
+    },
+    {
+      "id": "wi-4.1.2",
+      "type": "work_item",
+      "text": "BT lót nền đá 4x6, M100 (mã 4.1.2, đơn vị: m3). Đổ bê tông lót nền đá 4x6, mác 100 Cách đo: Thể tích = Diện tích nền × Chiều dày (thường 5-10cm). Công thức: V = S × t",
+      "metadata": {
+        "code": "4.1.2",
+        "name": "BT lót nền đá 4x6, M100",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông lót",
+        "formula": "V = S × t"
+      }
+    },
+    {
+      "id": "wi-4.2.1",
+      "type": "work_item",
+      "text": "BT móng đơn M200 (mã 4.2.1, đơn vị: m3). Đổ bê tông móng đơn mác 200 Cách đo: Thể tích hình học móng đơn. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "4.2.1",
+        "name": "BT móng đơn M200",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông móng",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-4.2.2",
+      "type": "work_item",
+      "text": "BT móng đơn M250 (mã 4.2.2, đơn vị: m3). Đổ bê tông móng đơn mác 250 Cách đo: Thể tích hình học môdng đơn. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "4.2.2",
+        "name": "BT móng đơn M250",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông móng",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-4.2.3",
+      "type": "work_item",
+      "text": "BT móng băng M200 (mã 4.2.3, đơn vị: m3). Đổ bê tông móng băng mác 200 Cách đo: Thể tích = Chiều dài × Chiều rộng × Chiều cao móng băng. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "4.2.3",
+        "name": "BT móng băng M200",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông móng",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-4.2.4",
+      "type": "work_item",
+      "text": "BT móng băng M250 (mã 4.2.4, đơn vị: m3). Đổ bê tông móng băng mác 250 Cách đo: Thể tích hình học móng băng. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "4.2.4",
+        "name": "BT móng băng M250",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông móng",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-4.2.5",
+      "type": "work_item",
+      "text": "BT móng bè M250 (mã 4.2.5, đơn vị: m3). Đổ bê tông móng bè mác 250 Cách đo: Thể tích = Diện tích × Chiều dày bè. Công thức: V = S × t",
+      "metadata": {
+        "code": "4.2.5",
+        "name": "BT móng bè M250",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông móng",
+        "formula": "V = S × t"
+      }
+    },
+    {
+      "id": "wi-4.2.6",
+      "type": "work_item",
+      "text": "BT móng bè M300 (mã 4.2.6, đơn vị: m3). Đổ bê tông móng bè mác 300 Cách đo: Thể tích = Diện tích × Chiều dày. Công thức: V = S × t",
+      "metadata": {
+        "code": "4.2.6",
+        "name": "BT móng bè M300",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông móng",
+        "formula": "V = S × t"
+      }
+    },
+    {
+      "id": "wi-4.3.1",
+      "type": "work_item",
+      "text": "BT cột tiết diện ≤0.1m² (mã 4.3.1, đơn vị: m3). Đổ bê tông cột có tiết diện ≤0.1m² (cột nhỏ) Cách đo: Thể tích = Tiết diện × Chiều cao cột (từ đỉnh móng/sàn đến đáy dầm). Công thức: V = A × H",
+      "metadata": {
+        "code": "4.3.1",
+        "name": "BT cột tiết diện ≤0.1m²",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông cột",
+        "formula": "V = A × H"
+      }
+    },
+    {
+      "id": "wi-4.3.2",
+      "type": "work_item",
+      "text": "BT cột tiết diện >0.1m² (mã 4.3.2, đơn vị: m3). Đổ bê tông cột có tiết diện >0.1m² (cột lớn) Cách đo: Thể tích = Tiết diện × Chiều cao cột. Công thức: V = A × H",
+      "metadata": {
+        "code": "4.3.2",
+        "name": "BT cột tiết diện >0.1m²",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông cột",
+        "formula": "V = A × H"
+      }
+    },
+    {
+      "id": "wi-4.3.3",
+      "type": "work_item",
+      "text": "BT cột tròn (mã 4.3.3, đơn vị: m3). Đổ bê tông cột tròn Cách đo: Thể tích = π × R² × H. Công thức: V = π × R² × H",
+      "metadata": {
+        "code": "4.3.3",
+        "name": "BT cột tròn",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông cột",
+        "formula": "V = π × R² × H"
+      }
+    },
+    {
+      "id": "wi-4.4.1",
+      "type": "work_item",
+      "text": "BT dầm chính (mã 4.4.1, đơn vị: m3). Đổ bê tông dầm chính (dầm khung) Cách đo: Thể tích = Chiều rộng × (Chiều cao dầm - Dày sàn) × Chiều dài. Công thức: V = b × (h-t_sàn) × L",
+      "metadata": {
+        "code": "4.4.1",
+        "name": "BT dầm chính",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông dầm",
+        "formula": "V = b × (h-t_sàn) × L"
+      }
+    },
+    {
+      "id": "wi-4.4.2",
+      "type": "work_item",
+      "text": "BT dầm phụ (mã 4.4.2, đơn vị: m3). Đổ bê tông dầm phụ Cách đo: Thể tích = b × (h-t_sàn) × L. Công thức: V = b × h' × L",
+      "metadata": {
+        "code": "4.4.2",
+        "name": "BT dầm phụ",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông dầm",
+        "formula": "V = b × h' × L"
+      }
+    },
+    {
+      "id": "wi-4.4.3",
+      "type": "work_item",
+      "text": "BT lanh tô, ô văng (mã 4.4.3, đơn vị: m3). Đổ bê tông lanh tô cửa, ô văng Cách đo: Thể tích = Chiều rộng × Chiều cao × Chiều dài. Công thức: V = b × h × L",
+      "metadata": {
+        "code": "4.4.3",
+        "name": "BT lanh tô, ô văng",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông dầm",
+        "formula": "V = b × h × L"
+      }
+    },
+    {
+      "id": "wi-4.5.1",
+      "type": "work_item",
+      "text": "BT sàn dày 8cm (mã 4.5.1, đơn vị: m3). Đổ bê tông sàn dày 8cm Cách đo: Thể tích = Diện tích sàn × 0.08m. Công thức: V = S × 0.08",
+      "metadata": {
+        "code": "4.5.1",
+        "name": "BT sàn dày 8cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông sàn",
+        "formula": "V = S × 0.08"
+      }
+    },
+    {
+      "id": "wi-4.5.2",
+      "type": "work_item",
+      "text": "BT sàn dày 10cm (mã 4.5.2, đơn vị: m3). Đổ bê tông sàn dày 10cm Cách đo: Thể tích = Diện tích sàn × 0.10m. Công thức: V = S × 0.10",
+      "metadata": {
+        "code": "4.5.2",
+        "name": "BT sàn dày 10cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông sàn",
+        "formula": "V = S × 0.10"
+      }
+    },
+    {
+      "id": "wi-4.5.3",
+      "type": "work_item",
+      "text": "BT sàn dày 12cm (mã 4.5.3, đơn vị: m3). Đổ bê tông sàn dày 12cm Cách đo: Thể tích = Diện tích sàn × 0.12m. Công thức: V = S × 0.12",
+      "metadata": {
+        "code": "4.5.3",
+        "name": "BT sàn dày 12cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông sàn",
+        "formula": "V = S × 0.12"
+      }
+    },
+    {
+      "id": "wi-4.5.4",
+      "type": "work_item",
+      "text": "BT sàn dày 15cm (mã 4.5.4, đơn vị: m3). Đổ bê tông sàn dày 15cm Cách đo: Thể tích = Diện tích sàn × 0.15m. Công thức: V = S × 0.15",
+      "metadata": {
+        "code": "4.5.4",
+        "name": "BT sàn dày 15cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông sàn",
+        "formula": "V = S × 0.15"
+      }
+    },
+    {
+      "id": "wi-4.5.5",
+      "type": "work_item",
+      "text": "BT sàn mái (mã 4.5.5, đơn vị: m3). Đổ bê tông sàn mái (có tạo dốc) Cách đo: Thể tích = Diện tích × Chiều dày trung bình. Công thức: V = S × t_tb",
+      "metadata": {
+        "code": "4.5.5",
+        "name": "BT sàn mái",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông sàn",
+        "formula": "V = S × t_tb"
+      }
+    },
+    {
+      "id": "wi-4.6.1",
+      "type": "work_item",
+      "text": "BT cầu thang 2 vế (mã 4.6.1, đơn vị: m3). Đổ bê tông cầu thang 2 vế thông thường Cách đo: Thể tích = Diện tích nghiêng × Chiều dày bản thang + Thể tích bậc. Công thức: V = S_nghiêng × t + V_bậc",
+      "metadata": {
+        "code": "4.6.1",
+        "name": "BT cầu thang 2 vế",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông cầu thang",
+        "formula": "V = S_nghiêng × t + V_bậc"
+      }
+    },
+    {
+      "id": "wi-4.6.2",
+      "type": "work_item",
+      "text": "BT cầu thang xoắn (mã 4.6.2, đơn vị: m3). Đổ bê tông cầu thang xoắn ốc Cách đo: Thể tích theo công thức cầu thang xoắn. Công thức: V = π × (R² - r²) × t × n/360",
+      "metadata": {
+        "code": "4.6.2",
+        "name": "BT cầu thang xoắn",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông cầu thang",
+        "formula": "V = π × (R² - r²) × t × n/360"
+      }
+    },
+    {
+      "id": "wi-4.7.1",
+      "type": "work_item",
+      "text": "BT tường dày 10cm (mã 4.7.1, đơn vị: m3). Đổ bê tông tường dày 10cm Cách đo: Thể tích = Diện tích tường × 0.10m. Công thức: V = S × 0.10",
+      "metadata": {
+        "code": "4.7.1",
+        "name": "BT tường dày 10cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông tường",
+        "formula": "V = S × 0.10"
+      }
+    },
+    {
+      "id": "wi-4.7.2",
+      "type": "work_item",
+      "text": "BT tường dày 15cm (mã 4.7.2, đơn vị: m3). Đổ bê tông tường dày 15cm Cách đo: Thể tích = Diện tích tường × 0.15m. Công thức: V = S × 0.15",
+      "metadata": {
+        "code": "4.7.2",
+        "name": "BT tường dày 15cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông tường",
+        "formula": "V = S × 0.15"
+      }
+    },
+    {
+      "id": "wi-4.7.3",
+      "type": "work_item",
+      "text": "BT tường dày 20cm (mã 4.7.3, đơn vị: m3). Đổ bê tông tường dày 20cm Cách đo: Thể tích = Diện tích tường × 0.20m. Công thức: V = S × 0.20",
+      "metadata": {
+        "code": "4.7.3",
+        "name": "BT tường dày 20cm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông tường",
+        "formula": "V = S × 0.20"
+      }
+    },
+    {
+      "id": "wi-4.8.1",
+      "type": "work_item",
+      "text": "BT bể nước ngầm (mã 4.8.1, đơn vị: m3). Đổ bê tông bể nước ngầm (đáy + thành) Cách đo: Thể tích = V_đáy + V_thành. Công thức: V = S_đáy × t_đáy + Chu_vi × H × t_thành",
+      "metadata": {
+        "code": "4.8.1",
+        "name": "BT bể nước ngầm",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông bể",
+        "formula": "V = S_đáy × t_đáy + Chu_vi × H × t_thành"
+      }
+    },
+    {
+      "id": "wi-4.8.2",
+      "type": "work_item",
+      "text": "BT bể phốt (mã 4.8.2, đơn vị: m3). Đổ bê tông bể phốt 3 ngăn Cách đo: Thể tích = V_đáy + V_thành + V_vách ngăn. Công thức: V = ΣV_thành_phần",
+      "metadata": {
+        "code": "4.8.2",
+        "name": "BT bể phốt",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông bể",
+        "formula": "V = ΣV_thành_phần"
+      }
+    },
+    {
+      "id": "wi-4.8.3",
+      "type": "work_item",
+      "text": "BT hồ bơi (mã 4.8.3, đơn vị: m3). Đổ bê tông hồ bơi Cách đo: Thể tích = V_đáy + V_thành. Công thức: V = S × t_đáy + P × H × t_thành",
+      "metadata": {
+        "code": "4.8.3",
+        "name": "BT hồ bơi",
+        "unit": "m3",
+        "category": "Công tác bê tông",
+        "work_type": "Bê tông bể",
+        "formula": "V = S × t_đáy + P × H × t_thành"
+      }
+    },
+    {
+      "id": "wi-5.1.1",
+      "type": "work_item",
+      "text": "Thép móng Ø≤10mm (mã 5.1.1, đơn vị: kg). Gia công, lắp đặt thép móng đường kính ≤10mm Cách đo: Khối lượng = Chiều dài × Trọng lượng/md theo bảng tra. Công thức: M = L × γ (γ_Ø8=0.395, Ø10=0.617 kg/m)",
+      "metadata": {
+        "code": "5.1.1",
+        "name": "Thép móng Ø≤10mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép móng",
+        "formula": "M = L × γ (γ_Ø8=0.395, Ø10=0.617 kg/m)"
+      }
+    },
+    {
+      "id": "wi-5.1.2",
+      "type": "work_item",
+      "text": "Thép móng Ø12-16mm (mã 5.1.2, đơn vị: kg). Gia công, lắp đặt thép móng đường kính 12-16mm Cách đo: Khối lượng = Chiều dài × Trọng lượng/md. Công thức: M = L × γ (γ_Ø12=0.888, Ø14=1.21, Ø16=1.58 kg/m)",
+      "metadata": {
+        "code": "5.1.2",
+        "name": "Thép móng Ø12-16mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép móng",
+        "formula": "M = L × γ (γ_Ø12=0.888, Ø14=1.21, Ø16=1.58 kg/m)"
+      }
+    },
+    {
+      "id": "wi-5.1.3",
+      "type": "work_item",
+      "text": "Thép móng Ø18-22mm (mã 5.1.3, đơn vị: kg). Gia công, lắp đặt thép móng đường kính 18-22mm Cách đo: Khối lượng = Chiều dài × Trọng lượng/md. Công thức: M = L × γ (γ_Ø18=2.00, Ø20=2.47, Ø22=2.98 kg/m)",
+      "metadata": {
+        "code": "5.1.3",
+        "name": "Thép móng Ø18-22mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép móng",
+        "formula": "M = L × γ (γ_Ø18=2.00, Ø20=2.47, Ø22=2.98 kg/m)"
+      }
+    },
+    {
+      "id": "wi-5.1.4",
+      "type": "work_item",
+      "text": "Thép móng Ø≥25mm (mã 5.1.4, đơn vị: kg). Gia công, lắp đặt thép móng đường kính ≥25mm Cách đo: Khối lượng = Chiều dài × Trọng lượng/md. Công thức: M = L × γ (γ_Ø25=3.85, Ø28=4.83, Ø32=6.31 kg/m)",
+      "metadata": {
+        "code": "5.1.4",
+        "name": "Thép móng Ø≥25mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép móng",
+        "formula": "M = L × γ (γ_Ø25=3.85, Ø28=4.83, Ø32=6.31 kg/m)"
+      }
+    },
+    {
+      "id": "wi-5.2.1",
+      "type": "work_item",
+      "text": "Thép cột Ø≤10mm (mã 5.2.1, đơn vị: kg). Gia công, lắp đặt thép đai cột Ø≤10mm Cách đo: Khối lượng = Chu vi đai × Số đai × γ. Công thức: M = (2a+2b+20d) × n × γ",
+      "metadata": {
+        "code": "5.2.1",
+        "name": "Thép cột Ø≤10mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép cột",
+        "formula": "M = (2a+2b+20d) × n × γ"
+      }
+    },
+    {
+      "id": "wi-5.2.2",
+      "type": "work_item",
+      "text": "Thép cột Ø12-16mm (mã 5.2.2, đơn vị: kg). Gia công, lắp đặt thép dọc cột Ø12-16mm Cách đo: Khối lượng = Chiều dài thép × Số thanh × γ. Công thức: M = L × n × γ",
+      "metadata": {
+        "code": "5.2.2",
+        "name": "Thép cột Ø12-16mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép cột",
+        "formula": "M = L × n × γ"
+      }
+    },
+    {
+      "id": "wi-5.2.3",
+      "type": "work_item",
+      "text": "Thép cột Ø18-22mm (mã 5.2.3, đơn vị: kg). Gia công, lắp đặt thép dọc cột Ø18-22mm Cách đo: Khối lượng = Chiều dài thép × Số thanh × γ. Công thức: M = L × n × γ",
+      "metadata": {
+        "code": "5.2.3",
+        "name": "Thép cột Ø18-22mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép cột",
+        "formula": "M = L × n × γ"
+      }
+    },
+    {
+      "id": "wi-5.2.4",
+      "type": "work_item",
+      "text": "Thép cột Ø≥25mm (mã 5.2.4, đơn vị: kg). Gia công, lắp đặt thép dọc cột Ø≥25mm Cách đo: Khối lượng = Chiều dài thép × Số thanh × γ. Công thức: M = L × n × γ",
+      "metadata": {
+        "code": "5.2.4",
+        "name": "Thép cột Ø≥25mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép cột",
+        "formula": "M = L × n × γ"
+      }
+    },
+    {
+      "id": "wi-5.3.1",
+      "type": "work_item",
+      "text": "Thép dầm, sàn Ø≤10mm (mã 5.3.1, đơn vị: kg). Gia công, lắp đặt thép dầm, sàn Ø≤10mm Cách đo: Tính theo bản vẽ kết cấu, nhân hệ số hao hụt 1.02-1.05. Công thức: M = ΣL × γ × K_hao",
+      "metadata": {
+        "code": "5.3.1",
+        "name": "Thép dầm, sàn Ø≤10mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép dầm, sàn",
+        "formula": "M = ΣL × γ × K_hao"
+      }
+    },
+    {
+      "id": "wi-5.3.2",
+      "type": "work_item",
+      "text": "Thép dầm, sàn Ø12-16mm (mã 5.3.2, đơn vị: kg). Gia công, lắp đặt thép dầm, sàn Ø12-16mm Cách đo: Tính theo bản vẽ kết cấu. Công thức: M = ΣL × γ × K_hao",
+      "metadata": {
+        "code": "5.3.2",
+        "name": "Thép dầm, sàn Ø12-16mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép dầm, sàn",
+        "formula": "M = ΣL × γ × K_hao"
+      }
+    },
+    {
+      "id": "wi-5.3.3",
+      "type": "work_item",
+      "text": "Thép dầm, sàn Ø18-22mm (mã 5.3.3, đơn vị: kg). Gia công, lắp đặt thép dầm, sàn Ø18-22mm Cách đo: Tính theo bản vẽ kết cấu. Công thức: M = ΣL × γ × K_hao",
+      "metadata": {
+        "code": "5.3.3",
+        "name": "Thép dầm, sàn Ø18-22mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép dầm, sàn",
+        "formula": "M = ΣL × γ × K_hao"
+      }
+    },
+    {
+      "id": "wi-5.4.1",
+      "type": "work_item",
+      "text": "Thép cầu thang Ø≤10mm (mã 5.4.1, đơn vị: kg). Gia công, lắp đặt thép cầu thang Ø≤10mm Cách đo: Tính theo bản vẽ kết cấu. Công thức: M = ΣL × γ",
+      "metadata": {
+        "code": "5.4.1",
+        "name": "Thép cầu thang Ø≤10mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép cầu thang",
+        "formula": "M = ΣL × γ"
+      }
+    },
+    {
+      "id": "wi-5.4.2",
+      "type": "work_item",
+      "text": "Thép cầu thang Ø12-16mm (mã 5.4.2, đơn vị: kg). Gia công, lắp đặt thép cầu thang Ø12-16mm Cách đo: Tính theo bản vẽ kết cấu. Công thức: M = ΣL × γ",
+      "metadata": {
+        "code": "5.4.2",
+        "name": "Thép cầu thang Ø12-16mm",
+        "unit": "kg",
+        "category": "Công tác cốt thép",
+        "work_type": "Thép cầu thang",
+        "formula": "M = ΣL × γ"
+      }
+    },
+    {
+      "id": "wi-5.5.1",
+      "type": "work_item",
+      "text": "Lưới thép Ø4 a100 (mã 5.5.1, đơn vị: m2). Lắp đặt lưới thép hàn Ø4mm, ô 100×100mm Cách đo: Diện tích lưới = Diện tích sàn/tường cần đặt lưới. Công thức: S = L × W",
+      "metadata": {
+        "code": "5.5.1",
+        "name": "Lưới thép Ø4 a100",
+        "unit": "m2",
+        "category": "Công tác cốt thép",
+        "work_type": "Lưới thép hàn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-5.5.2",
+      "type": "work_item",
+      "text": "Lưới thép Ø6 a150 (mã 5.5.2, đơn vị: m2). Lắp đặt lưới thép hàn Ø6mm, ô 150×150mm Cách đo: Diện tích lưới = Diện tích cần lắp. Công thức: S = L × W",
+      "metadata": {
+        "code": "5.5.2",
+        "name": "Lưới thép Ø6 a150",
+        "unit": "m2",
+        "category": "Công tác cốt thép",
+        "work_type": "Lưới thép hàn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-5.5.3",
+      "type": "work_item",
+      "text": "Lưới thép Ø6 a200 (mã 5.5.3, đơn vị: m2). Lắp đặt lưới thép hàn Ø6mm, ô 200×200mm Cách đo: Diện tích lưới = Diện tích cần lắp. Công thức: S = L × W",
+      "metadata": {
+        "code": "5.5.3",
+        "name": "Lưới thép Ø6 a200",
+        "unit": "m2",
+        "category": "Công tác cốt thép",
+        "work_type": "Lưới thép hàn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-6.1.1",
+      "type": "work_item",
+      "text": "VK móng đơn (mã 6.1.1, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn móng đơn Cách đo: Diện tích = Chu vi móng × Chiều cao móng. Công thức: S = P × H",
+      "metadata": {
+        "code": "6.1.1",
+        "name": "VK móng đơn",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn móng",
+        "formula": "S = P × H"
+      }
+    },
+    {
+      "id": "wi-6.1.2",
+      "type": "work_item",
+      "text": "VK móng băng (mã 6.1.2, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn móng băng Cách đo: Diện tích = 2 × Chiều cao × Chiều dài móng băng. Công thức: S = 2 × H × L",
+      "metadata": {
+        "code": "6.1.2",
+        "name": "VK móng băng",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn móng",
+        "formula": "S = 2 × H × L"
+      }
+    },
+    {
+      "id": "wi-6.1.3",
+      "type": "work_item",
+      "text": "VK móng bè (mã 6.1.3, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn móng bè (thành ngoài) Cách đo: Diện tích = Chu vi bè × Chiều cao bè. Công thức: S = P × H",
+      "metadata": {
+        "code": "6.1.3",
+        "name": "VK móng bè",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn móng",
+        "formula": "S = P × H"
+      }
+    },
+    {
+      "id": "wi-6.2.1",
+      "type": "work_item",
+      "text": "VK cột vuông (mã 6.2.1, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn cột vuông/chữ nhật Cách đo: Diện tích = Chu vi cột × Chiều cao cột. Công thức: S = 2(a+b) × H",
+      "metadata": {
+        "code": "6.2.1",
+        "name": "VK cột vuông",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn cột",
+        "formula": "S = 2(a+b) × H"
+      }
+    },
+    {
+      "id": "wi-6.2.2",
+      "type": "work_item",
+      "text": "VK cột tròn (mã 6.2.2, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn cột tròn (ống thép) Cách đo: Diện tích = π × D × H. Công thức: S = π × D × H",
+      "metadata": {
+        "code": "6.2.2",
+        "name": "VK cột tròn",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn cột",
+        "formula": "S = π × D × H"
+      }
+    },
+    {
+      "id": "wi-6.3.1",
+      "type": "work_item",
+      "text": "VK dầm (mã 6.3.1, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn dầm (đáy + 2 thành) Cách đo: Diện tích = (Chiều rộng + 2×Chiều cao) × Chiều dài. Công thức: S = (b + 2h) × L",
+      "metadata": {
+        "code": "6.3.1",
+        "name": "VK dầm",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn dầm, sàn",
+        "formula": "S = (b + 2h) × L"
+      }
+    },
+    {
+      "id": "wi-6.3.2",
+      "type": "work_item",
+      "text": "VK sàn phẳng (mã 6.3.2, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn sàn phẳng Cách đo: Diện tích = Diện tích sàn (bằng diện tích BT sàn). Công thức: S = L × W",
+      "metadata": {
+        "code": "6.3.2",
+        "name": "VK sàn phẳng",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn dầm, sàn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-6.3.3",
+      "type": "work_item",
+      "text": "VK lanh tô, ô văng (mã 6.3.3, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn lanh tô, ô văng Cách đo: Diện tích = Chu vi tiết diện × Chiều dài. Công thức: S = P × L",
+      "metadata": {
+        "code": "6.3.3",
+        "name": "VK lanh tô, ô văng",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn dầm, sàn",
+        "formula": "S = P × L"
+      }
+    },
+    {
+      "id": "wi-6.4.1",
+      "type": "work_item",
+      "text": "VK cầu thang thường (mã 6.4.1, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn cầu thang 2 vế Cách đo: Diện tích = Diện tích đáy nghiêng + Diện tích thành bậc. Công thức: S = S_đáy + n × (h × L_bậc)",
+      "metadata": {
+        "code": "6.4.1",
+        "name": "VK cầu thang thường",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn cầu thang",
+        "formula": "S = S_đáy + n × (h × L_bậc)"
+      }
+    },
+    {
+      "id": "wi-6.4.2",
+      "type": "work_item",
+      "text": "VK cầu thang xoắn (mã 6.4.2, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn cầu thang xoắn Cách đo: Tính theo công thức cầu thang xoắn (phức tạp hơn). Công thức: S = S_bản + S_bậc",
+      "metadata": {
+        "code": "6.4.2",
+        "name": "VK cầu thang xoắn",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn cầu thang",
+        "formula": "S = S_bản + S_bậc"
+      }
+    },
+    {
+      "id": "wi-6.5.1",
+      "type": "work_item",
+      "text": "VK tường BTCT (mã 6.5.1, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn tường BTCT (2 mặt) Cách đo: Diện tích = 2 × Chiều dài × Chiều cao tường. Công thức: S = 2 × L × H",
+      "metadata": {
+        "code": "6.5.1",
+        "name": "VK tường BTCT",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn tường",
+        "formula": "S = 2 × L × H"
+      }
+    },
+    {
+      "id": "wi-6.5.2",
+      "type": "work_item",
+      "text": "VK bể nước, bể phốt (mã 6.5.2, đơn vị: m2). Lắp dựng, tháo dỡ ván khuôn bể (trong + ngoài) Cách đo: Diện tích = S_trong + S_ngoài. Công thức: S = 2 × (P_trong + P_ngoài) × H",
+      "metadata": {
+        "code": "6.5.2",
+        "name": "VK bể nước, bể phốt",
+        "unit": "m2",
+        "category": "Công tác ván khuôn",
+        "work_type": "Ván khuôn tường",
+        "formula": "S = 2 × (P_trong + P_ngoài) × H"
+      }
+    },
+    {
+      "id": "wi-7.1.1",
+      "type": "work_item",
+      "text": "Xây móng gạch đặc (mã 7.1.1, đơn vị: m3). Xây móng bằng gạch đặc, vữa XM M75 Cách đo: Thể tích = Chiều dài × Chiều rộng × Chiều cao móng gạch. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "7.1.1",
+        "name": "Xây móng gạch đặc",
+        "unit": "m3",
+        "category": "Công tác xây",
+        "work_type": "Xây móng",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-7.1.2",
+      "type": "work_item",
+      "text": "Xây móng đá hộc (mã 7.1.2, đơn vị: m3). Xây móng bằng đá hộc, vữa XM M75 Cách đo: Thể tích móng đá hộc. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "7.1.2",
+        "name": "Xây móng đá hộc",
+        "unit": "m3",
+        "category": "Công tác xây",
+        "work_type": "Xây móng",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-7.2.1",
+      "type": "work_item",
+      "text": "Xây tường gạch đặc 100mm (mã 7.2.1, đơn vị: m2). Xây tường gạch đặc dày 100mm (10cm) Cách đo: Diện tích tường = Dài × Cao, trừ lỗ cửa >1m². Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.1",
+        "name": "Xây tường gạch đặc 100mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.2",
+      "type": "work_item",
+      "text": "Xây tường gạch đặc 200mm (mã 7.2.2, đơn vị: m2). Xây tường gạch đặc dày 200mm (20cm) Cách đo: Diện tích tường = Dài × Cao, trừ lỗ cửa >1m². Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.2",
+        "name": "Xây tường gạch đặc 200mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.3",
+      "type": "work_item",
+      "text": "Xây tường gạch ống 100mm (mã 7.2.3, đơn vị: m2). Xây tường gạch ống 2 lỗ dày 100mm Cách đo: Diện tích tường, trừ lỗ cửa >1m². Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.3",
+        "name": "Xây tường gạch ống 100mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.4",
+      "type": "work_item",
+      "text": "Xây tường gạch ống 200mm (mã 7.2.4, đơn vị: m2). Xây tường gạch ống dày 200mm Cách đo: Diện tích tường, trừ lỗ cửa >1m². Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.4",
+        "name": "Xây tường gạch ống 200mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.5",
+      "type": "work_item",
+      "text": "Xây tường gạch block 100mm (mã 7.2.5, đơn vị: m2). Xây tường gạch block xi măng dày 100mm Cách đo: Diện tích tường, trừ lỗ cửa. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.5",
+        "name": "Xây tường gạch block 100mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.6",
+      "type": "work_item",
+      "text": "Xây tường gạch block 150mm (mã 7.2.6, đơn vị: m2). Xây tường gạch block xi măng dày 150mm Cách đo: Diện tích tường, trừ lỗ cửa. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.6",
+        "name": "Xây tường gạch block 150mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.7",
+      "type": "work_item",
+      "text": "Xây tường gạch block 200mm (mã 7.2.7, đơn vị: m2). Xây tường gạch block xi măng dày 200mm Cách đo: Diện tích tường, trừ lỗ cửa. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.7",
+        "name": "Xây tường gạch block 200mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.8",
+      "type": "work_item",
+      "text": "Xây tường gạch AAC 100mm (mã 7.2.8, đơn vị: m2). Xây tường gạch bê tông khí chưng áp (AAC) dày 100mm Cách đo: Diện tích tường, trừ lỗ cửa. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.8",
+        "name": "Xây tường gạch AAC 100mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.9",
+      "type": "work_item",
+      "text": "Xây tường gạch AAC 150mm (mã 7.2.9, đơn vị: m2). Xây tường gạch AAC dày 150mm Cách đo: Diện tích tường, trừ lỗ cửa. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.9",
+        "name": "Xây tường gạch AAC 150mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.2.10",
+      "type": "work_item",
+      "text": "Xây tường gạch AAC 200mm (mã 7.2.10, đơn vị: m2). Xây tường gạch AAC dày 200mm Cách đo: Diện tích tường, trừ lỗ cửa. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "7.2.10",
+        "name": "Xây tường gạch AAC 200mm",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-7.3.1",
+      "type": "work_item",
+      "text": "Xây trụ cổng (mã 7.3.1, đơn vị: m3). Xây trụ cổng bằng gạch đặc hoặc block Cách đo: Thể tích = Tiết diện trụ × Chiều cao. Công thức: V = A × H",
+      "metadata": {
+        "code": "7.3.1",
+        "name": "Xây trụ cổng",
+        "unit": "m3",
+        "category": "Công tác xây",
+        "work_type": "Xây trụ, bồn hoa",
+        "formula": "V = A × H"
+      }
+    },
+    {
+      "id": "wi-7.3.2",
+      "type": "work_item",
+      "text": "Xây bồn hoa, chậu cảnh (mã 7.3.2, đơn vị: m3). Xây bồn hoa, chậu cảnh bằng gạch Cách đo: Thể tích gạch xây = Chu vi × Chiều cao × Chiều dày. Công thức: V = P × H × t",
+      "metadata": {
+        "code": "7.3.2",
+        "name": "Xây bồn hoa, chậu cảnh",
+        "unit": "m3",
+        "category": "Công tác xây",
+        "work_type": "Xây trụ, bồn hoa",
+        "formula": "V = P × H × t"
+      }
+    },
+    {
+      "id": "wi-7.3.3",
+      "type": "work_item",
+      "text": "Xây tường rào (mã 7.3.3, đơn vị: m2). Xây tường rào bằng gạch Cách đo: Diện tích tường rào. Công thức: S = L × H",
+      "metadata": {
+        "code": "7.3.3",
+        "name": "Xây tường rào",
+        "unit": "m2",
+        "category": "Công tác xây",
+        "work_type": "Xây trụ, bồn hoa",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-7.4.1",
+      "type": "work_item",
+      "text": "Xây bậc thang gạch (mã 7.4.1, đơn vị: m3). Xây bậc thang bằng gạch đặc Cách đo: Thể tích = Số bậc × Thể tích 1 bậc. Công thức: V = n × (l × b × h)",
+      "metadata": {
+        "code": "7.4.1",
+        "name": "Xây bậc thang gạch",
+        "unit": "m3",
+        "category": "Công tác xây",
+        "work_type": "Xây bậc thang",
+        "formula": "V = n × (l × b × h)"
+      }
+    },
+    {
+      "id": "wi-8.1.1",
+      "type": "work_item",
+      "text": "Trát tường trong dày 15mm (mã 8.1.1, đơn vị: m2). Trát tường trong nhà dày 15mm, vữa XM M75 Cách đo: Diện tích trát = Diện tích tường - Diện tích cửa - Diện tích ốp gạch. Công thức: S = L × H - S_trừ",
+      "metadata": {
+        "code": "8.1.1",
+        "name": "Trát tường trong dày 15mm",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát tường",
+        "formula": "S = L × H - S_trừ"
+      }
+    },
+    {
+      "id": "wi-8.1.2",
+      "type": "work_item",
+      "text": "Trát tường ngoài dày 15mm (mã 8.1.2, đơn vị: m2). Trát tường ngoài nhà dày 15mm, vữa XM M75 Cách đo: Diện tích mặt ngoài tường. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "8.1.2",
+        "name": "Trát tường ngoài dày 15mm",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-8.1.3",
+      "type": "work_item",
+      "text": "Trát tường ngoài dày 20mm (mã 8.1.3, đơn vị: m2). Trát tường ngoài nhà dày 20mm, vữa XM M75 Cách đo: Diện tích mặt ngoài tường. Công thức: S = L × H - S_cửa",
+      "metadata": {
+        "code": "8.1.3",
+        "name": "Trát tường ngoài dày 20mm",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát tường",
+        "formula": "S = L × H - S_cửa"
+      }
+    },
+    {
+      "id": "wi-8.2.1",
+      "type": "work_item",
+      "text": "Trát trần phẳng (mã 8.2.1, đơn vị: m2). Trát trần bê tông phẳng Cách đo: Diện tích trần = Diện tích sàn tầng trên. Công thức: S = L × W",
+      "metadata": {
+        "code": "8.2.1",
+        "name": "Trát trần phẳng",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát trần",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-8.2.2",
+      "type": "work_item",
+      "text": "Trát trần có đường chỉ (mã 8.2.2, đơn vị: m2). Trát trần có kẻ đường chỉ trang trí Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "8.2.2",
+        "name": "Trát trần có đường chỉ",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát trần",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-8.3.1",
+      "type": "work_item",
+      "text": "Trát cột (mã 8.3.1, đơn vị: m2). Trát xung quanh cột bê tông Cách đo: Diện tích = Chu vi cột × Chiều cao cột. Công thức: S = P × H",
+      "metadata": {
+        "code": "8.3.1",
+        "name": "Trát cột",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát cột, dầm",
+        "formula": "S = P × H"
+      }
+    },
+    {
+      "id": "wi-8.3.2",
+      "type": "work_item",
+      "text": "Trát dầm (mã 8.3.2, đơn vị: m2). Trát dầm bê tông (đáy + 2 thành) Cách đo: Diện tích = (Chiều rộng + 2×Chiều cao lộ) × Chiều dài. Công thức: S = (b + 2h) × L",
+      "metadata": {
+        "code": "8.3.2",
+        "name": "Trát dầm",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát cột, dầm",
+        "formula": "S = (b + 2h) × L"
+      }
+    },
+    {
+      "id": "wi-8.4.1",
+      "type": "work_item",
+      "text": "Trát gờ chỉ tường (mã 8.4.1, đơn vị: md). Trát gờ chỉ trang trí trên tường Cách đo: Chiều dài đường gờ chỉ. Công thức: L = ΣL_gờ",
+      "metadata": {
+        "code": "8.4.1",
+        "name": "Trát gờ chỉ tường",
+        "unit": "md",
+        "category": "Công tác trát",
+        "work_type": "Trát gờ, phào",
+        "formula": "L = ΣL_gờ"
+      }
+    },
+    {
+      "id": "wi-8.4.2",
+      "type": "work_item",
+      "text": "Trát phào trần (mã 8.4.2, đơn vị: md). Trát phào chỉ góc trần-tường Cách đo: Chiều dài phào = Chu vi phòng. Công thức: L = 2(a + b)",
+      "metadata": {
+        "code": "8.4.2",
+        "name": "Trát phào trần",
+        "unit": "md",
+        "category": "Công tác trát",
+        "work_type": "Trát gờ, phào",
+        "formula": "L = 2(a + b)"
+      }
+    },
+    {
+      "id": "wi-8.4.3",
+      "type": "work_item",
+      "text": "Trát ô văng, mái hắt (mã 8.4.3, đơn vị: m2). Trát ô văng, mái hắt che mưa Cách đo: Diện tích = Chu vi tiết diện × Chiều dài. Công thức: S = P × L",
+      "metadata": {
+        "code": "8.4.3",
+        "name": "Trát ô văng, mái hắt",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát gờ, phào",
+        "formula": "S = P × L"
+      }
+    },
+    {
+      "id": "wi-8.5.1",
+      "type": "work_item",
+      "text": "Trát granitô chân tường (mã 8.5.1, đơn vị: m2). Trát granitô chân tường cao 100-150mm Cách đo: Diện tích = Chu vi phòng × Chiều cao chân tường. Công thức: S = P × h",
+      "metadata": {
+        "code": "8.5.1",
+        "name": "Trát granitô chân tường",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát granitô",
+        "formula": "S = P × h"
+      }
+    },
+    {
+      "id": "wi-8.5.2",
+      "type": "work_item",
+      "text": "Trát granitô bậc thang (mã 8.5.2, đơn vị: m2). Trát granitô mặt và cổ bậc thang Cách đo: Diện tích = Số bậc × (Diện tích mặt + Diện tích cổ). Công thức: S = n × (l×b + l×h)",
+      "metadata": {
+        "code": "8.5.2",
+        "name": "Trát granitô bậc thang",
+        "unit": "m2",
+        "category": "Công tác trát",
+        "work_type": "Trát granitô",
+        "formula": "S = n × (l×b + l×h)"
+      }
+    },
+    {
+      "id": "wi-9.1.1",
+      "type": "work_item",
+      "text": "Lát gạch 300x300mm (mã 9.1.1, đơn vị: m2). Lát gạch ceramic 300×300mm Cách đo: Diện tích sàn cần lát (đã trừ diện tích không lát). Công thức: S = L × W",
+      "metadata": {
+        "code": "9.1.1",
+        "name": "Lát gạch 300x300mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch ceramic",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.1.2",
+      "type": "work_item",
+      "text": "Lát gạch 400x400mm (mã 9.1.2, đơn vị: m2). Lát gạch ceramic 400×400mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.1.2",
+        "name": "Lát gạch 400x400mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch ceramic",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.1.3",
+      "type": "work_item",
+      "text": "Lát gạch 600x600mm (mã 9.1.3, đơn vị: m2). Lát gạch ceramic 600×600mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.1.3",
+        "name": "Lát gạch 600x600mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch ceramic",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.1.4",
+      "type": "work_item",
+      "text": "Lát gạch 800x800mm (mã 9.1.4, đơn vị: m2). Lát gạch ceramic 800×800mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.1.4",
+        "name": "Lát gạch 800x800mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch ceramic",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.2.1",
+      "type": "work_item",
+      "text": "Lát gạch 600x600mm bóng kính (mã 9.2.1, đơn vị: m2). Lát gạch porcelain bóng kính 600×600mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.2.1",
+        "name": "Lát gạch 600x600mm bóng kính",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch porcelain",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.2.2",
+      "type": "work_item",
+      "text": "Lát gạch 600x1200mm (mã 9.2.2, đơn vị: m2). Lát gạch porcelain 600×1200mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.2.2",
+        "name": "Lát gạch 600x1200mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch porcelain",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.2.3",
+      "type": "work_item",
+      "text": "Lát gạch 800x800mm bóng kính (mã 9.2.3, đơn vị: m2). Lát gạch porcelain bóng kính 800×800mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.2.3",
+        "name": "Lát gạch 800x800mm bóng kính",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch porcelain",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.3.1",
+      "type": "work_item",
+      "text": "Lát granite tự nhiên (mã 9.3.1, đơn vị: m2). Lát đá granite tự nhiên Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.3.1",
+        "name": "Lát granite tự nhiên",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch granite",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.3.2",
+      "type": "work_item",
+      "text": "Lát granite nhân tạo (mã 9.3.2, đơn vị: m2). Lát đá granite nhân tạo Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.3.2",
+        "name": "Lát granite nhân tạo",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch granite",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.4.1",
+      "type": "work_item",
+      "text": "Lát sàn gỗ công nghiệp 8mm (mã 9.4.1, đơn vị: m2). Lát sàn gỗ công nghiệp dày 8mm Cách đo: Diện tích sàn cần lát (+ hao hụt 5-8%). Công thức: S = L × W × 1.05",
+      "metadata": {
+        "code": "9.4.1",
+        "name": "Lát sàn gỗ công nghiệp 8mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát sàn gỗ",
+        "formula": "S = L × W × 1.05"
+      }
+    },
+    {
+      "id": "wi-9.4.2",
+      "type": "work_item",
+      "text": "Lát sàn gỗ công nghiệp 12mm (mã 9.4.2, đơn vị: m2). Lát sàn gỗ công nghiệp dày 12mm Cách đo: Diện tích sàn cần lát (+ hao hụt). Công thức: S = L × W × 1.05",
+      "metadata": {
+        "code": "9.4.2",
+        "name": "Lát sàn gỗ công nghiệp 12mm",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát sàn gỗ",
+        "formula": "S = L × W × 1.05"
+      }
+    },
+    {
+      "id": "wi-9.4.3",
+      "type": "work_item",
+      "text": "Lát sàn gỗ tự nhiên (mã 9.4.3, đơn vị: m2). Lát sàn gỗ tự nhiên Cách đo: Diện tích sàn cần lát (+ hao hụt 8-10%). Công thức: S = L × W × 1.08",
+      "metadata": {
+        "code": "9.4.3",
+        "name": "Lát sàn gỗ tự nhiên",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát sàn gỗ",
+        "formula": "S = L × W × 1.08"
+      }
+    },
+    {
+      "id": "wi-9.5.1",
+      "type": "work_item",
+      "text": "Lát gạch terrazzo 300x300 (mã 9.5.1, đơn vị: m2). Lát gạch terrazzo 300×300mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.5.1",
+        "name": "Lát gạch terrazzo 300x300",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch terrazzo",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.5.2",
+      "type": "work_item",
+      "text": "Lát gạch terrazzo 400x400 (mã 9.5.2, đơn vị: m2). Lát gạch terrazzo 400×400mm Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.5.2",
+        "name": "Lát gạch terrazzo 400x400",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát gạch terrazzo",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.6.1",
+      "type": "work_item",
+      "text": "Lát đá hoa cương (mã 9.6.1, đơn vị: m2). Lát đá hoa cương tự nhiên Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.6.1",
+        "name": "Lát đá hoa cương",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát đá tự nhiên",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.6.2",
+      "type": "work_item",
+      "text": "Lát đá cẩm thạch (mã 9.6.2, đơn vị: m2). Lát đá cẩm thạch Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.6.2",
+        "name": "Lát đá cẩm thạch",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát đá tự nhiên",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-9.6.3",
+      "type": "work_item",
+      "text": "Lát đá marble (mã 9.6.3, đơn vị: m2). Lát đá marble nhập khẩu Cách đo: Diện tích sàn cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "9.6.3",
+        "name": "Lát đá marble",
+        "unit": "m2",
+        "category": "Công tác lát nền",
+        "work_type": "Lát đá tự nhiên",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-10.1.1",
+      "type": "work_item",
+      "text": "Ốp gạch 200x250mm (mã 10.1.1, đơn vị: m2). Ốp gạch men tường 200×250mm Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.1.1",
+        "name": "Ốp gạch 200x250mm",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gạch men",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.1.2",
+      "type": "work_item",
+      "text": "Ốp gạch 250x400mm (mã 10.1.2, đơn vị: m2). Ốp gạch men tường 250×400mm Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.1.2",
+        "name": "Ốp gạch 250x400mm",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gạch men",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.1.3",
+      "type": "work_item",
+      "text": "Ốp gạch 300x600mm (mã 10.1.3, đơn vị: m2). Ốp gạch men tường 300×600mm Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.1.3",
+        "name": "Ốp gạch 300x600mm",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gạch men",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.1.4",
+      "type": "work_item",
+      "text": "Ốp gạch 400x800mm (mã 10.1.4, đơn vị: m2). Ốp gạch men tường 400×800mm Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.1.4",
+        "name": "Ốp gạch 400x800mm",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gạch men",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.2.1",
+      "type": "work_item",
+      "text": "Ốp đá granite (mã 10.2.1, đơn vị: m2). Ốp đá granite tự nhiên Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.2.1",
+        "name": "Ốp đá granite",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp đá tự nhiên",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.2.2",
+      "type": "work_item",
+      "text": "Ốp đá marble (mã 10.2.2, đơn vị: m2). Ốp đá marble tự nhiên Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.2.2",
+        "name": "Ốp đá marble",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp đá tự nhiên",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.2.3",
+      "type": "work_item",
+      "text": "Ốp đá ong (mã 10.2.3, đơn vị: m2). Ốp đá ong trang trí Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.2.3",
+        "name": "Ốp đá ong",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp đá tự nhiên",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.3.1",
+      "type": "work_item",
+      "text": "Ốp gỗ tự nhiên (mã 10.3.1, đơn vị: m2). Ốp gỗ tự nhiên trang trí tường Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.3.1",
+        "name": "Ốp gỗ tự nhiên",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gỗ",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.3.2",
+      "type": "work_item",
+      "text": "Ốp gỗ công nghiệp MDF (mã 10.3.2, đơn vị: m2). Ốp gỗ MDF phủ melamine/veneer Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.3.2",
+        "name": "Ốp gỗ công nghiệp MDF",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gỗ",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.3.3",
+      "type": "work_item",
+      "text": "Ốp gỗ nhựa composite (mã 10.3.3, đơn vị: m2). Ốp gỗ nhựa composite (WPC) Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.3.3",
+        "name": "Ốp gỗ nhựa composite",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp gỗ",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.4.1",
+      "type": "work_item",
+      "text": "Ốp tấm PVC (mã 10.4.1, đơn vị: m2). Ốp tấm nhựa PVC tường Cách đo: Diện tích tường cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.4.1",
+        "name": "Ốp tấm PVC",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp tấm nhựa",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-10.4.2",
+      "type": "work_item",
+      "text": "Ốp tấm alu (mã 10.4.2, đơn vị: m2). Ốp tấm aluminium composite Cách đo: Diện tích tường/mặt tiền cần ốp. Công thức: S = L × H",
+      "metadata": {
+        "code": "10.4.2",
+        "name": "Ốp tấm alu",
+        "unit": "m2",
+        "category": "Công tác ốp tường",
+        "work_type": "Ốp tấm nhựa",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-11.1.1",
+      "type": "work_item",
+      "text": "Sơn lót chống kiềm (mã 11.1.1, đơn vị: m2). Sơn lót chống kiềm tường trong nhà Cách đo: Diện tích tường + trần cần sơn lót. Công thức: S = S_tường + S_trần",
+      "metadata": {
+        "code": "11.1.1",
+        "name": "Sơn lót chống kiềm",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn tường trong",
+        "formula": "S = S_tường + S_trần"
+      }
+    },
+    {
+      "id": "wi-11.1.2",
+      "type": "work_item",
+      "text": "Sơn phủ nội thất 2 lớp (mã 11.1.2, đơn vị: m2). Sơn phủ nội thất 2 lớp Cách đo: Diện tích tường + trần cần sơn phủ. Công thức: S = S_tường + S_trần",
+      "metadata": {
+        "code": "11.1.2",
+        "name": "Sơn phủ nội thất 2 lớp",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn tường trong",
+        "formula": "S = S_tường + S_trần"
+      }
+    },
+    {
+      "id": "wi-11.1.3",
+      "type": "work_item",
+      "text": "Sơn phủ nội thất 3 lớp (mã 11.1.3, đơn vị: m2). Sơn phủ nội thất 3 lớp (cao cấp) Cách đo: Diện tích tường + trần cần sơn. Công thức: S = S_tường + S_trần",
+      "metadata": {
+        "code": "11.1.3",
+        "name": "Sơn phủ nội thất 3 lớp",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn tường trong",
+        "formula": "S = S_tường + S_trần"
+      }
+    },
+    {
+      "id": "wi-11.2.1",
+      "type": "work_item",
+      "text": "Sơn lót ngoại thất (mã 11.2.1, đơn vị: m2). Sơn lót ngoại thất chống kiềm, chống nấm mốc Cách đo: Diện tích mặt ngoài cần sơn. Công thức: S = ΣS_mặt_ngoài",
+      "metadata": {
+        "code": "11.2.1",
+        "name": "Sơn lót ngoại thất",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn tường ngoài",
+        "formula": "S = ΣS_mặt_ngoài"
+      }
+    },
+    {
+      "id": "wi-11.2.2",
+      "type": "work_item",
+      "text": "Sơn phủ ngoại thất 2 lớp (mã 11.2.2, đơn vị: m2). Sơn phủ ngoại thất 2 lớp Cách đo: Diện tích mặt ngoài cần sơn. Công thức: S = ΣS_mặt_ngoài",
+      "metadata": {
+        "code": "11.2.2",
+        "name": "Sơn phủ ngoại thất 2 lớp",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn tường ngoài",
+        "formula": "S = ΣS_mặt_ngoài"
+      }
+    },
+    {
+      "id": "wi-11.2.3",
+      "type": "work_item",
+      "text": "Sơn phủ ngoại thất 3 lớp (mã 11.2.3, đơn vị: m2). Sơn phủ ngoại thất 3 lớp (bền màu) Cách đo: Diện tích mặt ngoài cần sơn. Công thức: S = ΣS_mặt_ngoài",
+      "metadata": {
+        "code": "11.2.3",
+        "name": "Sơn phủ ngoại thất 3 lớp",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn tường ngoài",
+        "formula": "S = ΣS_mặt_ngoài"
+      }
+    },
+    {
+      "id": "wi-11.3.1",
+      "type": "work_item",
+      "text": "Sơn dầu cửa gỗ (mã 11.3.1, đơn vị: m2). Sơn dầu cửa gỗ (2 mặt) Cách đo: Diện tích = 2 × Diện tích cửa. Công thức: S = 2 × S_cửa",
+      "metadata": {
+        "code": "11.3.1",
+        "name": "Sơn dầu cửa gỗ",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn dầu, sơn PU",
+        "formula": "S = 2 × S_cửa"
+      }
+    },
+    {
+      "id": "wi-11.3.2",
+      "type": "work_item",
+      "text": "Sơn PU cửa gỗ (mã 11.3.2, đơn vị: m2). Sơn PU cửa gỗ cao cấp (2 mặt) Cách đo: Diện tích = 2 × Diện tích cửa. Công thức: S = 2 × S_cửa",
+      "metadata": {
+        "code": "11.3.2",
+        "name": "Sơn PU cửa gỗ",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn dầu, sơn PU",
+        "formula": "S = 2 × S_cửa"
+      }
+    },
+    {
+      "id": "wi-11.3.3",
+      "type": "work_item",
+      "text": "Sơn dầu lan can sắt (mã 11.3.3, đơn vị: m2). Sơn dầu lan can, cửa sắt Cách đo: Diện tích bề mặt sắt (quy đổi). Công thức: S = S_quy_đổi",
+      "metadata": {
+        "code": "11.3.3",
+        "name": "Sơn dầu lan can sắt",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn dầu, sơn PU",
+        "formula": "S = S_quy_đổi"
+      }
+    },
+    {
+      "id": "wi-11.4.1",
+      "type": "work_item",
+      "text": "Sơn chống thấm sàn mái (mã 11.4.1, đơn vị: m2). Sơn chống thấm sàn mái (2-3 lớp) Cách đo: Diện tích sàn mái cần chống thấm. Công thức: S = L × W",
+      "metadata": {
+        "code": "11.4.1",
+        "name": "Sơn chống thấm sàn mái",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn chống thấm",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-11.4.2",
+      "type": "work_item",
+      "text": "Sơn chống thấm WC (mã 11.4.2, đơn vị: m2). Sơn chống thấm sàn WC Cách đo: Diện tích sàn + Diện tích chân tường (30cm). Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "11.4.2",
+        "name": "Sơn chống thấm WC",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn chống thấm",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-11.4.3",
+      "type": "work_item",
+      "text": "Sơn chống thấm tường ngoài (mã 11.4.3, đơn vị: m2). Sơn chống thấm tường ngoài Cách đo: Diện tích tường ngoài cần chống thấm. Công thức: S = L × H",
+      "metadata": {
+        "code": "11.4.3",
+        "name": "Sơn chống thấm tường ngoài",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn chống thấm",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-11.5.1",
+      "type": "work_item",
+      "text": "Sơn epoxy sàn (mã 11.5.1, đơn vị: m2). Sơn epoxy sàn nhà xưởng, garage Cách đo: Diện tích sàn cần sơn. Công thức: S = L × W",
+      "metadata": {
+        "code": "11.5.1",
+        "name": "Sơn epoxy sàn",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn epoxy",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-11.5.2",
+      "type": "work_item",
+      "text": "Sơn epoxy bể nước (mã 11.5.2, đơn vị: m2). Sơn epoxy chống thấm bể nước ăn Cách đo: Diện tích đáy + thành bể. Công thức: S = S_đáy + P × H",
+      "metadata": {
+        "code": "11.5.2",
+        "name": "Sơn epoxy bể nước",
+        "unit": "m2",
+        "category": "Công tác sơn",
+        "work_type": "Sơn epoxy",
+        "formula": "S = S_đáy + P × H"
+      }
+    },
+    {
+      "id": "wi-12.1.1",
+      "type": "work_item",
+      "text": "Chống thấm màng khò (mã 12.1.1, đơn vị: m2). Chống thấm sàn mái bằng màng khò bitum Cách đo: Diện tích sàn mái + Diện tích chân tường bo lên 30cm. Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "12.1.1",
+        "name": "Chống thấm màng khò",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm sàn mái",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-12.1.2",
+      "type": "work_item",
+      "text": "Chống thấm sika 2 thành phần (mã 12.1.2, đơn vị: m2). Chống thấm sàn mái bằng Sika 2 thành phần Cách đo: Diện tích sàn mái + bo chân. Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "12.1.2",
+        "name": "Chống thấm sika 2 thành phần",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm sàn mái",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-12.1.3",
+      "type": "work_item",
+      "text": "Chống thấm polyurethane (mã 12.1.3, đơn vị: m2). Chống thấm sàn mái bằng polyurethane Cách đo: Diện tích sàn mái + bo chân. Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "12.1.3",
+        "name": "Chống thấm polyurethane",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm sàn mái",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-12.2.1",
+      "type": "work_item",
+      "text": "Chống thấm màng khò WC (mã 12.2.1, đơn vị: m2). Chống thấm sàn WC bằng màng khò Cách đo: Diện tích sàn + chân tường 30cm. Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "12.2.1",
+        "name": "Chống thấm màng khò WC",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm WC",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-12.2.2",
+      "type": "work_item",
+      "text": "Chống thấm sika WC (mã 12.2.2, đơn vị: m2). Chống thấm sàn WC bằng Sika Cách đo: Diện tích sàn + chân tường. Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "12.2.2",
+        "name": "Chống thấm sika WC",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm WC",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-12.2.3",
+      "type": "work_item",
+      "text": "Chống thấm kova WC (mã 12.2.3, đơn vị: m2). Chống thấm sàn WC bằng Kova CT11A Cách đo: Diện tích sàn + chân tường. Công thức: S = S_sàn + P × 0.3",
+      "metadata": {
+        "code": "12.2.3",
+        "name": "Chống thấm kova WC",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm WC",
+        "formula": "S = S_sàn + P × 0.3"
+      }
+    },
+    {
+      "id": "wi-12.3.1",
+      "type": "work_item",
+      "text": "Chống thấm màng HDPE (mã 12.3.1, đơn vị: m2). Chống thấm tầng hầm bằng màng HDPE Cách đo: Diện tích đáy + diện tích thành hầm. Công thức: S = S_đáy + P × H",
+      "metadata": {
+        "code": "12.3.1",
+        "name": "Chống thấm màng HDPE",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm tầng hầm",
+        "formula": "S = S_đáy + P × H"
+      }
+    },
+    {
+      "id": "wi-12.3.2",
+      "type": "work_item",
+      "text": "Chống thấm bentonite (mã 12.3.2, đơn vị: m2). Chống thấm tầng hầm bằng bentonite Cách đo: Diện tích đáy + thành hầm. Công thức: S = S_đáy + P × H",
+      "metadata": {
+        "code": "12.3.2",
+        "name": "Chống thấm bentonite",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm tầng hầm",
+        "formula": "S = S_đáy + P × H"
+      }
+    },
+    {
+      "id": "wi-12.3.3",
+      "type": "work_item",
+      "text": "Chống thấm crystalline (mã 12.3.3, đơn vị: m2). Chống thấm tầng hầm bằng crystalline (kết tinh) Cách đo: Diện tích bề mặt bê tông cần xử lý. Công thức: S = S_tổng",
+      "metadata": {
+        "code": "12.3.3",
+        "name": "Chống thấm crystalline",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm tầng hầm",
+        "formula": "S = S_tổng"
+      }
+    },
+    {
+      "id": "wi-12.4.1",
+      "type": "work_item",
+      "text": "Chống thấm epoxy bể (mã 12.4.1, đơn vị: m2). Chống thấm bể nước bằng epoxy Cách đo: Diện tích đáy + thành bể (bên trong). Công thức: S = S_đáy + P × H",
+      "metadata": {
+        "code": "12.4.1",
+        "name": "Chống thấm epoxy bể",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm bể nước",
+        "formula": "S = S_đáy + P × H"
+      }
+    },
+    {
+      "id": "wi-12.4.2",
+      "type": "work_item",
+      "text": "Chống thấm sika bể (mã 12.4.2, đơn vị: m2). Chống thấm bể nước bằng Sika Cách đo: Diện tích đáy + thành bể. Công thức: S = S_đáy + P × H",
+      "metadata": {
+        "code": "12.4.2",
+        "name": "Chống thấm sika bể",
+        "unit": "m2",
+        "category": "Công tác chống thấm",
+        "work_type": "Chống thấm bể nước",
+        "formula": "S = S_đáy + P × H"
+      }
+    },
+    {
+      "id": "wi-13.1.1",
+      "type": "work_item",
+      "text": "Lợp tôn sóng vuông (mã 13.1.1, đơn vị: m2). Lợp mái tôn sóng vuông Cách đo: Diện tích mái theo độ dốc (+ hao hùt chồng mí 10%). Công thức: S = L × W / cos(α) × 1.1",
+      "metadata": {
+        "code": "13.1.1",
+        "name": "Lợp tôn sóng vuông",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái tôn",
+        "formula": "S = L × W / cos(α) × 1.1"
+      }
+    },
+    {
+      "id": "wi-13.1.2",
+      "type": "work_item",
+      "text": "Lợp tôn sóng tròn (mã 13.1.2, đơn vị: m2). Lợp mái tôn sóng tròn Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α) × 1.1",
+      "metadata": {
+        "code": "13.1.2",
+        "name": "Lợp tôn sóng tròn",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái tôn",
+        "formula": "S = L × W / cos(α) × 1.1"
+      }
+    },
+    {
+      "id": "wi-13.1.3",
+      "type": "work_item",
+      "text": "Lợp tôn cách nhiệt (mã 13.1.3, đơn vị: m2). Lợp mái tôn cách nhiệt (tôn + xốp + tôn) Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.1.3",
+        "name": "Lợp tôn cách nhiệt",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái tôn",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.1.4",
+      "type": "work_item",
+      "text": "Lợp tôn giả ngói (mã 13.1.4, đơn vị: m2). Lợp mái tôn giả ngói Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.1.4",
+        "name": "Lợp tôn giả ngói",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái tôn",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.2.1",
+      "type": "work_item",
+      "text": "Lợp ngói 22v/m² (mã 13.2.1, đơn vị: m2). Lợp ngói đất nung 22 viên/m² Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.2.1",
+        "name": "Lợp ngói 22v/m²",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái ngói",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.2.2",
+      "type": "work_item",
+      "text": "Lợp ngói 13v/m² (mã 13.2.2, đơn vị: m2). Lợp ngói sóng lớn 13 viên/m² Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.2.2",
+        "name": "Lợp ngói 13v/m²",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái ngói",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.2.3",
+      "type": "work_item",
+      "text": "Lợp ngói phẳng (mã 13.2.3, đơn vị: m2). Lợp ngói phẳng (ngói âm dương) Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.2.3",
+        "name": "Lợp ngói phẳng",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái ngói",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.2.4",
+      "type": "work_item",
+      "text": "Lợp ngói bê tông (mã 13.2.4, đơn vị: m2). Lợp ngói bê tông màu Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.2.4",
+        "name": "Lợp ngói bê tông",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái ngói",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.3.1",
+      "type": "work_item",
+      "text": "Mái kính cường lực (mã 13.3.1, đơn vị: m2). Lợp mái kính cường lực dày 12mm Cách đo: Diện tích mái theo độ dốc. Công thức: S = L × W / cos(α)",
+      "metadata": {
+        "code": "13.3.1",
+        "name": "Mái kính cường lực",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái kính",
+        "formula": "S = L × W / cos(α)"
+      }
+    },
+    {
+      "id": "wi-13.3.2",
+      "type": "work_item",
+      "text": "Mái kính dán an toàn (mã 13.3.2, đơn vị: m2). Lợp mái kính dán an toàn (laminated) Cách đo: Diện tích mái. Công thức: S = L × W",
+      "metadata": {
+        "code": "13.3.2",
+        "name": "Mái kính dán an toàn",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái kính",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-13.3.3",
+      "type": "work_item",
+      "text": "Mái poly đặc ruột (mã 13.3.3, đơn vị: m2). Lợp mái poly đặc ruột trong suốt Cách đo: Diện tích mái. Công thức: S = L × W",
+      "metadata": {
+        "code": "13.3.3",
+        "name": "Mái poly đặc ruột",
+        "unit": "m2",
+        "category": "Công tác mái",
+        "work_type": "Mái kính",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-13.4.1",
+      "type": "work_item",
+      "text": "Xà gồ thép hộp (mã 13.4.1, đơn vị: kg). Lắp đặt xà gồ thép hộp Cách đo: Khối lượng = Chiều dài × Trọng lượng/md. Công thức: M = L × γ",
+      "metadata": {
+        "code": "13.4.1",
+        "name": "Xà gồ thép hộp",
+        "unit": "kg",
+        "category": "Công tác mái",
+        "work_type": "Xà gồ, khung mái",
+        "formula": "M = L × γ"
+      }
+    },
+    {
+      "id": "wi-13.4.2",
+      "type": "work_item",
+      "text": "Xà gồ thép C (mã 13.4.2, đơn vị: kg). Lắp đặt xà gồ thép hình C Cách đo: Khối lượng = Chiều dài × Trọng lượng/md. Công thức: M = L × γ",
+      "metadata": {
+        "code": "13.4.2",
+        "name": "Xà gồ thép C",
+        "unit": "kg",
+        "category": "Công tác mái",
+        "work_type": "Xà gồ, khung mái",
+        "formula": "M = L × γ"
+      }
+    },
+    {
+      "id": "wi-13.4.3",
+      "type": "work_item",
+      "text": "Xà gồ gỗ (mã 13.4.3, đơn vị: m3). Lắp đặt xà gồ gỗ tự nhiên Cách đo: Thể tích = Tiết diện × Chiều dài. Công thức: V = A × L",
+      "metadata": {
+        "code": "13.4.3",
+        "name": "Xà gồ gỗ",
+        "unit": "m3",
+        "category": "Công tác mái",
+        "work_type": "Xà gồ, khung mái",
+        "formula": "V = A × L"
+      }
+    },
+    {
+      "id": "wi-14.1.1",
+      "type": "work_item",
+      "text": "Cửa gỗ công nghiệp HDF (mã 14.1.1, đơn vị: m2). Lắp đặt cửa gỗ công nghiệp HDF Cách đo: Diện tích cửa = Chiều rộng × Chiều cao khuôn. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.1.1",
+        "name": "Cửa gỗ công nghiệp HDF",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa gỗ",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.1.2",
+      "type": "work_item",
+      "text": "Cửa gỗ công nghiệp MDF (mã 14.1.2, đơn vị: m2). Lắp đặt cửa gỗ công nghiệp MDF Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.1.2",
+        "name": "Cửa gỗ công nghiệp MDF",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa gỗ",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.1.3",
+      "type": "work_item",
+      "text": "Cửa gỗ tự nhiên (mã 14.1.3, đơn vị: m2). Lắp đặt cửa gỗ tự nhiên Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.1.3",
+        "name": "Cửa gỗ tự nhiên",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa gỗ",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.1.4",
+      "type": "work_item",
+      "text": "Cửa gỗ Composite (mã 14.1.4, đơn vị: m2). Lắp đặt cửa gỗ nhựa Composite Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.1.4",
+        "name": "Cửa gỗ Composite",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa gỗ",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.2.1",
+      "type": "work_item",
+      "text": "Cửa nhôm Xingfa (mã 14.2.1, đơn vị: m2). Lắp đặt cửa nhôm Xingfa nhập khẩu Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.2.1",
+        "name": "Cửa nhôm Xingfa",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa nhôm",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.2.2",
+      "type": "work_item",
+      "text": "Cửa nhôm Việt Pháp (mã 14.2.2, đơn vị: m2). Lắp đặt cửa nhôm Việt Pháp Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.2.2",
+        "name": "Cửa nhôm Việt Pháp",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa nhôm",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.2.3",
+      "type": "work_item",
+      "text": "Cửa nhôm hệ 55 (mã 14.2.3, đơn vị: m2). Lắp đặt cửa nhôm hệ 55mm Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.2.3",
+        "name": "Cửa nhôm hệ 55",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa nhôm",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.2.4",
+      "type": "work_item",
+      "text": "Cửa nhôm hệ 93 (mã 14.2.4, đơn vị: m2). Lắp đặt cửa nhôm hệ 93mm (cách âm, cách nhiệt) Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.2.4",
+        "name": "Cửa nhôm hệ 93",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa nhôm",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.3.1",
+      "type": "work_item",
+      "text": "Cửa nhựa lõi thép 3 ray (mã 14.3.1, đơn vị: m2). Lắp đặt cửa nhựa lõi thép 3 ray Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.3.1",
+        "name": "Cửa nhựa lõi thép 3 ray",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa nhựa lõi thép",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.3.2",
+      "type": "work_item",
+      "text": "Cửa nhựa lõi thép 5 ray (mã 14.3.2, đơn vị: m2). Lắp đặt cửa nhựa lõi thép 5 ray Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.3.2",
+        "name": "Cửa nhựa lõi thép 5 ray",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa nhựa lõi thép",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.4.1",
+      "type": "work_item",
+      "text": "Cửa sắt hộp (mã 14.4.1, đơn vị: m2). Lắp đặt cửa sắt hộp sơn tĩnh điện Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.4.1",
+        "name": "Cửa sắt hộp",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa sắt",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.4.2",
+      "type": "work_item",
+      "text": "Cổng sắt mỹ thuật (mã 14.4.2, đơn vị: m2). Lắp đặt cổng sắt mỹ thuật Cách đo: Diện tích cổng = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.4.2",
+        "name": "Cổng sắt mỹ thuật",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa sắt",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.4.3",
+      "type": "work_item",
+      "text": "Cửa sắt cuốn (mã 14.4.3, đơn vị: m2). Lắp đặt cửa cuốn tay/điện Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.4.3",
+        "name": "Cửa sắt cuốn",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa sắt",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.5.1",
+      "type": "work_item",
+      "text": "Cửa kính cường lực 10mm (mã 14.5.1, đơn vị: m2). Lắp đặt cửa kính cường lực 10mm Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.5.1",
+        "name": "Cửa kính cường lực 10mm",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa kính",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.5.2",
+      "type": "work_item",
+      "text": "Cửa kính cường lực 12mm (mã 14.5.2, đơn vị: m2). Lắp đặt cửa kính cường lực 12mm Cách đo: Diện tích cửa = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.5.2",
+        "name": "Cửa kính cường lực 12mm",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa kính",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-14.5.3",
+      "type": "work_item",
+      "text": "Vách kính cường lực (mã 14.5.3, đơn vị: m2). Lắp đặt vách kính cường lực cố định Cách đo: Diện tích vách = W × H. Công thức: S = W × H",
+      "metadata": {
+        "code": "14.5.3",
+        "name": "Vách kính cường lực",
+        "unit": "m2",
+        "category": "Công tác cửa",
+        "work_type": "Cửa kính",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-15.1.1",
+      "type": "work_item",
+      "text": "Lan can sắt hộp (mã 15.1.1, đơn vị: md). Lắp đặt lan can sắt hộp sơn tĩnh điện Cách đo: Chiều dài lan can. Công thức: L = ΣL_lan_can",
+      "metadata": {
+        "code": "15.1.1",
+        "name": "Lan can sắt hộp",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Lan can sắt",
+        "formula": "L = ΣL_lan_can"
+      }
+    },
+    {
+      "id": "wi-15.1.2",
+      "type": "work_item",
+      "text": "Lan can sắt mỹ thuật (mã 15.1.2, đơn vị: md). Lắp đặt lan can sắt mỹ thuật uốn hoa văn Cách đo: Chiều dài lan can. Công thức: L = ΣL_lan_can",
+      "metadata": {
+        "code": "15.1.2",
+        "name": "Lan can sắt mỹ thuật",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Lan can sắt",
+        "formula": "L = ΣL_lan_can"
+      }
+    },
+    {
+      "id": "wi-15.1.3",
+      "type": "work_item",
+      "text": "Lan can inox (mã 15.1.3, đơn vị: md). Lắp đặt lan can inox 304 Cách đo: Chiều dài lan can. Công thức: L = ΣL_lan_can",
+      "metadata": {
+        "code": "15.1.3",
+        "name": "Lan can inox",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Lan can sắt",
+        "formula": "L = ΣL_lan_can"
+      }
+    },
+    {
+      "id": "wi-15.2.1",
+      "type": "work_item",
+      "text": "Lan can kính cường lực (mã 15.2.1, đơn vị: md). Lắp đặt lan can kính cường lực 12mm Cách đo: Chiều dài lan can. Công thức: L = ΣL_lan_can",
+      "metadata": {
+        "code": "15.2.1",
+        "name": "Lan can kính cường lực",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Lan can kính",
+        "formula": "L = ΣL_lan_can"
+      }
+    },
+    {
+      "id": "wi-15.2.2",
+      "type": "work_item",
+      "text": "Lan can kính + inox (mã 15.2.2, đơn vị: md). Lắp đặt lan can kết hợp kính + inox Cách đo: Chiều dài lan can. Công thức: L = ΣL_lan_can",
+      "metadata": {
+        "code": "15.2.2",
+        "name": "Lan can kính + inox",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Lan can kính",
+        "formula": "L = ΣL_lan_can"
+      }
+    },
+    {
+      "id": "wi-15.3.1",
+      "type": "work_item",
+      "text": "Tay vịn gỗ (mã 15.3.1, đơn vị: md). Lắp đặt tay vịn cầu thang bằng gỗ tự nhiên Cách đo: Chiều dài tay vịn theo độ dốc thang. Công thức: L = L_nghiêng + L_chiếu_nghỉ",
+      "metadata": {
+        "code": "15.3.1",
+        "name": "Tay vịn gỗ",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Tay vịn cầu thang",
+        "formula": "L = L_nghiêng + L_chiếu_nghỉ"
+      }
+    },
+    {
+      "id": "wi-15.3.2",
+      "type": "work_item",
+      "text": "Tay vịn inox (mã 15.3.2, đơn vị: md). Lắp đặt tay vịn cầu thang inox Cách đo: Chiều dài tay vịn. Công thức: L = L_nghiêng + L_chiếu_nghỉ",
+      "metadata": {
+        "code": "15.3.2",
+        "name": "Tay vịn inox",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Tay vịn cầu thang",
+        "formula": "L = L_nghiêng + L_chiếu_nghỉ"
+      }
+    },
+    {
+      "id": "wi-15.3.3",
+      "type": "work_item",
+      "text": "Tay vịn nhôm đúc (mã 15.3.3, đơn vị: md). Lắp đặt tay vịn nhôm đúc Cách đo: Chiều dài tay vịn. Công thức: L = L_nghiêng",
+      "metadata": {
+        "code": "15.3.3",
+        "name": "Tay vịn nhôm đúc",
+        "unit": "md",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Tay vịn cầu thang",
+        "formula": "L = L_nghiêng"
+      }
+    },
+    {
+      "id": "wi-15.4.1",
+      "type": "work_item",
+      "text": "Ốp bậc đá granite (mã 15.4.1, đơn vị: m2). Ốp bậc thang bằng đá granite Cách đo: Diện tích = Số bậc × (S_mặt + S_cổ). Công thức: S = n × (l×b + l×h)",
+      "metadata": {
+        "code": "15.4.1",
+        "name": "Ốp bậc đá granite",
+        "unit": "m2",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Bậc cầu thang",
+        "formula": "S = n × (l×b + l×h)"
+      }
+    },
+    {
+      "id": "wi-15.4.2",
+      "type": "work_item",
+      "text": "Ốp bậc gỗ (mã 15.4.2, đơn vị: m2). Ốp bậc thang bằng gỗ tự nhiên/công nghiệp Cách đo: Diện tích = Số bậc × (S_mặt + S_cổ). Công thức: S = n × (l×b + l×h)",
+      "metadata": {
+        "code": "15.4.2",
+        "name": "Ốp bậc gỗ",
+        "unit": "m2",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Bậc cầu thang",
+        "formula": "S = n × (l×b + l×h)"
+      }
+    },
+    {
+      "id": "wi-15.4.3",
+      "type": "work_item",
+      "text": "Ốp bậc gạch (mã 15.4.3, đơn vị: m2). Ốp bậc thang bằng gạch ceramic Cách đo: Diện tích = Số bậc × (S_mặt + S_cổ). Công thức: S = n × (l×b + l×h)",
+      "metadata": {
+        "code": "15.4.3",
+        "name": "Ốp bậc gạch",
+        "unit": "m2",
+        "category": "Công tác lan can, cầu thang",
+        "work_type": "Bậc cầu thang",
+        "formula": "S = n × (l×b + l×h)"
+      }
+    },
+    {
+      "id": "wi-16.1.1",
+      "type": "work_item",
+      "text": "Trần thạch cao phẳng (mã 16.1.1, đơn vị: m2). Lắp đặt trần thạch cao phẳng 1 lớp Cách đo: Diện tích trần = Diện tích phòng. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.1.1",
+        "name": "Trần thạch cao phẳng",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần thạch cao",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.1.2",
+      "type": "work_item",
+      "text": "Trần thạch cao giật cấp 1 (mã 16.1.2, đơn vị: md). Lắp đặt trần thạch cao giật cấp 1 tầng Cách đo: Chiều dài viền giật cấp. Công thức: L = P_phòng",
+      "metadata": {
+        "code": "16.1.2",
+        "name": "Trần thạch cao giật cấp 1",
+        "unit": "md",
+        "category": "Công tác trần",
+        "work_type": "Trần thạch cao",
+        "formula": "L = P_phòng"
+      }
+    },
+    {
+      "id": "wi-16.1.3",
+      "type": "work_item",
+      "text": "Trần thạch cao giật cấp 2 (mã 16.1.3, đơn vị: md). Lắp đặt trần thạch cao giật cấp 2 tầng Cách đo: Chiều dài viền giật cấp. Công thức: L = P_phòng",
+      "metadata": {
+        "code": "16.1.3",
+        "name": "Trần thạch cao giật cấp 2",
+        "unit": "md",
+        "category": "Công tác trần",
+        "work_type": "Trần thạch cao",
+        "formula": "L = P_phòng"
+      }
+    },
+    {
+      "id": "wi-16.1.4",
+      "type": "work_item",
+      "text": "Trần thạch cao chịu nước (mã 16.1.4, đơn vị: m2). Lắp đặt trần thạch cao chịu nước (WC, bếp) Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.1.4",
+        "name": "Trần thạch cao chịu nước",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần thạch cao",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.2.1",
+      "type": "work_item",
+      "text": "Trần nhựa PVC (mã 16.2.1, đơn vị: m2). Lắp đặt trần nhựa PVC Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.2.1",
+        "name": "Trần nhựa PVC",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần nhựa",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.2.2",
+      "type": "work_item",
+      "text": "Trần nhựa giả gỗ (mã 16.2.2, đơn vị: m2). Lắp đặt trần nhựa giả gỗ Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.2.2",
+        "name": "Trần nhựa giả gỗ",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần nhựa",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.3.1",
+      "type": "work_item",
+      "text": "Trần gỗ tự nhiên (mã 16.3.1, đơn vị: m2). Lắp đặt trần gỗ tự nhiên Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.3.1",
+        "name": "Trần gỗ tự nhiên",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần gỗ",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.3.2",
+      "type": "work_item",
+      "text": "Trần gỗ công nghiệp (mã 16.3.2, đơn vị: m2). Lắp đặt trần gỗ công nghiệp MDF/HDF Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.3.2",
+        "name": "Trần gỗ công nghiệp",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần gỗ",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.3.3",
+      "type": "work_item",
+      "text": "Trần nan gỗ nhựa (mã 16.3.3, đơn vị: m2). Lắp đặt trần nan gỗ nhựa composite Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.3.3",
+        "name": "Trần nan gỗ nhựa",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần gỗ",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.4.1",
+      "type": "work_item",
+      "text": "Trần thả mineral 600x600 (mã 16.4.1, đơn vị: m2). Lắp đặt trần thả tấm khoáng 600×600mm Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.4.1",
+        "name": "Trần thả mineral 600x600",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần thả",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-16.4.2",
+      "type": "work_item",
+      "text": "Trần thả kim loại (mã 16.4.2, đơn vị: m2). Lắp đặt trần thả kim loại Cách đo: Diện tích trần. Công thức: S = L × W",
+      "metadata": {
+        "code": "16.4.2",
+        "name": "Trần thả kim loại",
+        "unit": "m2",
+        "category": "Công tác trần",
+        "work_type": "Trần thả",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-17.1.1",
+      "type": "work_item",
+      "text": "Dây điện 1.5mm² (mã 17.1.1, đơn vị: md). Lắp đặt dây điện đơn 1×1.5mm² Cách đo: Chiều dài dây thực tế + hao hụt 5%. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "17.1.1",
+        "name": "Dây điện 1.5mm²",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Đường dây điện",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-17.1.2",
+      "type": "work_item",
+      "text": "Dây điện 2.5mm² (mã 17.1.2, đơn vị: md). Lắp đặt dây điện đơn 1×2.5mm² Cách đo: Chiều dài dây thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "17.1.2",
+        "name": "Dây điện 2.5mm²",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Đường dây điện",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-17.1.3",
+      "type": "work_item",
+      "text": "Dây điện 4.0mm² (mã 17.1.3, đơn vị: md). Lắp đặt dây điện đơn 1×4.0mm² Cách đo: Chiều dài dây thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "17.1.3",
+        "name": "Dây điện 4.0mm²",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Đường dây điện",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-17.1.4",
+      "type": "work_item",
+      "text": "Dây điện 6.0mm² (mã 17.1.4, đơn vị: md). Lắp đặt dây điện đơn 1×6.0mm² Cách đo: Chiều dài dây thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "17.1.4",
+        "name": "Dây điện 6.0mm²",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Đường dây điện",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-17.1.5",
+      "type": "work_item",
+      "text": "Cáp điện 3x2.5mm² (mã 17.1.5, đơn vị: md). Lắp đặt cáp điện 3 lõi 3×2.5mm² Cách đo: Chiều dài cáp thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "17.1.5",
+        "name": "Cáp điện 3x2.5mm²",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Đường dây điện",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-17.2.1",
+      "type": "work_item",
+      "text": "Ống PVC Ø16 (mã 17.2.1, đơn vị: md). Lắp đặt ống luồn dây PVC Ø16mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực",
+      "metadata": {
+        "code": "17.2.1",
+        "name": "Ống PVC Ø16",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Ống luồn dây",
+        "formula": "L = L_thực"
+      }
+    },
+    {
+      "id": "wi-17.2.2",
+      "type": "work_item",
+      "text": "Ống PVC Ø20 (mã 17.2.2, đơn vị: md). Lắp đặt ống luồn dây PVC Ø20mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực",
+      "metadata": {
+        "code": "17.2.2",
+        "name": "Ống PVC Ø20",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Ống luồn dây",
+        "formula": "L = L_thực"
+      }
+    },
+    {
+      "id": "wi-17.2.3",
+      "type": "work_item",
+      "text": "Ống PVC Ø25 (mã 17.2.3, đơn vị: md). Lắp đặt ống luồn dây PVC Ø25mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực",
+      "metadata": {
+        "code": "17.2.3",
+        "name": "Ống PVC Ø25",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Ống luồn dây",
+        "formula": "L = L_thực"
+      }
+    },
+    {
+      "id": "wi-17.2.4",
+      "type": "work_item",
+      "text": "Ống ruột gà D16 (mã 17.2.4, đơn vị: md). Lắp đặt ống ruột gà D16mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực",
+      "metadata": {
+        "code": "17.2.4",
+        "name": "Ống ruột gà D16",
+        "unit": "md",
+        "category": "Điện dân dụng",
+        "work_type": "Ống luồn dây",
+        "formula": "L = L_thực"
+      }
+    },
+    {
+      "id": "wi-17.3.1",
+      "type": "work_item",
+      "text": "Đèn LED âm trần (mã 17.3.1, đơn vị: bộ). Lắp đặt đèn LED âm trần Cách đo: Số lượng đèn. Công thức: N = Số bộ đèn",
+      "metadata": {
+        "code": "17.3.1",
+        "name": "Đèn LED âm trần",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Đèn chiếu sáng",
+        "formula": "N = Số bộ đèn"
+      }
+    },
+    {
+      "id": "wi-17.3.2",
+      "type": "work_item",
+      "text": "Đèn LED panel (mã 17.3.2, đơn vị: bộ). Lắp đặt đèn LED panel 600×600 Cách đo: Số lượng đèn. Công thức: N = Số bộ đèn",
+      "metadata": {
+        "code": "17.3.2",
+        "name": "Đèn LED panel",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Đèn chiếu sáng",
+        "formula": "N = Số bộ đèn"
+      }
+    },
+    {
+      "id": "wi-17.3.3",
+      "type": "work_item",
+      "text": "Đèn tuýp LED (mã 17.3.3, đơn vị: bộ). Lắp đặt đèn tuýp LED 1.2m Cách đo: Số lượng đèn. Công thức: N = Số bộ đèn",
+      "metadata": {
+        "code": "17.3.3",
+        "name": "Đèn tuýp LED",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Đèn chiếu sáng",
+        "formula": "N = Số bộ đèn"
+      }
+    },
+    {
+      "id": "wi-17.3.4",
+      "type": "work_item",
+      "text": "Đèn thả trang trí (mã 17.3.4, đơn vị: bộ). Lắp đặt đèn thả trang trí Cách đo: Số lượng đèn. Công thức: N = Số bộ đèn",
+      "metadata": {
+        "code": "17.3.4",
+        "name": "Đèn thả trang trí",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Đèn chiếu sáng",
+        "formula": "N = Số bộ đèn"
+      }
+    },
+    {
+      "id": "wi-17.3.5",
+      "type": "work_item",
+      "text": "Đèn gắn tường (mã 17.3.5, đơn vị: bộ). Lắp đặt đèn gắn tường Cách đo: Số lượng đèn. Công thức: N = Số bộ đèn",
+      "metadata": {
+        "code": "17.3.5",
+        "name": "Đèn gắn tường",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Đèn chiếu sáng",
+        "formula": "N = Số bộ đèn"
+      }
+    },
+    {
+      "id": "wi-17.4.1",
+      "type": "work_item",
+      "text": "Ổ cắm đơn (mã 17.4.1, đơn vị: cái). Lắp đặt ổ cắm điện đơn Cách đo: Số lượng ổ cắm. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.4.1",
+        "name": "Ổ cắm đơn",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Ổ cắm, công tắc",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-17.4.2",
+      "type": "work_item",
+      "text": "Ổ cắm đôi (mã 17.4.2, đơn vị: cái). Lắp đặt ổ cắm điện đôi Cách đo: Số lượng ổ cắm. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.4.2",
+        "name": "Ổ cắm đôi",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Ổ cắm, công tắc",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-17.4.3",
+      "type": "work_item",
+      "text": "Ổ cắm 3 chấu (mã 17.4.3, đơn vị: cái). Lắp đặt ổ cắm 3 chấu có tiếp địa Cách đo: Số lượng ổ cắm. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.4.3",
+        "name": "Ổ cắm 3 chấu",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Ổ cắm, công tắc",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-17.4.4",
+      "type": "work_item",
+      "text": "Công tắc đơn (mã 17.4.4, đơn vị: cái). Lắp đặt công tắc đơn Cách đo: Số lượng công tắc. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.4.4",
+        "name": "Công tắc đơn",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Ổ cắm, công tắc",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-17.4.5",
+      "type": "work_item",
+      "text": "Công tắc đôi (mã 17.4.5, đơn vị: cái). Lắp đặt công tắc đôi Cách đo: Số lượng công tắc. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.4.5",
+        "name": "Công tắc đôi",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Ổ cắm, công tắc",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-17.4.6",
+      "type": "work_item",
+      "text": "Công tắc ba (mã 17.4.6, đơn vị: cái). Lắp đặt công tắc ba Cách đo: Số lượng công tắc. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.4.6",
+        "name": "Công tắc ba",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Ổ cắm, công tắc",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-17.5.1",
+      "type": "work_item",
+      "text": "Tủ điện tổng (mã 17.5.1, đơn vị: bộ). Lắp đặt tủ điện tổng Cách đo: Số lượng tủ. Công thức: N = 1",
+      "metadata": {
+        "code": "17.5.1",
+        "name": "Tủ điện tổng",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Tủ điện",
+        "formula": "N = 1"
+      }
+    },
+    {
+      "id": "wi-17.5.2",
+      "type": "work_item",
+      "text": "Tủ điện tầng (mã 17.5.2, đơn vị: bộ). Lắp đặt tủ điện tầng/phòng Cách đo: Số lượng tủ. Công thức: N = Số tầng",
+      "metadata": {
+        "code": "17.5.2",
+        "name": "Tủ điện tầng",
+        "unit": "bộ",
+        "category": "Điện dân dụng",
+        "work_type": "Tủ điện",
+        "formula": "N = Số tầng"
+      }
+    },
+    {
+      "id": "wi-17.5.3",
+      "type": "work_item",
+      "text": "CB các loại (mã 17.5.3, đơn vị: cái). Lắp đặt CB (cầu dao tự động) Cách đo: Số lượng CB. Công thức: N = Số cái",
+      "metadata": {
+        "code": "17.5.3",
+        "name": "CB các loại",
+        "unit": "cái",
+        "category": "Điện dân dụng",
+        "work_type": "Tủ điện",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-18.1.1",
+      "type": "work_item",
+      "text": "Ống PPR Ø20 (mã 18.1.1, đơn vị: md). Lắp đặt ống cấp nước PPR Ø20mm Cách đo: Chiều dài ống thực tế + hao hụt. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.1.1",
+        "name": "Ống PPR Ø20",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống cấp nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.1.2",
+      "type": "work_item",
+      "text": "Ống PPR Ø25 (mã 18.1.2, đơn vị: md). Lắp đặt ống cấp nước PPR Ø25mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.1.2",
+        "name": "Ống PPR Ø25",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống cấp nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.1.3",
+      "type": "work_item",
+      "text": "Ống PPR Ø32 (mã 18.1.3, đơn vị: md). Lắp đặt ống cấp nước PPR Ø32mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.1.3",
+        "name": "Ống PPR Ø32",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống cấp nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.1.4",
+      "type": "work_item",
+      "text": "Ống inox cấp nước (mã 18.1.4, đơn vị: md). Lắp đặt ống inox cấp nước Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực",
+      "metadata": {
+        "code": "18.1.4",
+        "name": "Ống inox cấp nước",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống cấp nước",
+        "formula": "L = L_thực"
+      }
+    },
+    {
+      "id": "wi-18.2.1",
+      "type": "work_item",
+      "text": "Ống PVC Ø60 (mã 18.2.1, đơn vị: md). Lắp đặt ống thoát nước PVC Ø60mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.2.1",
+        "name": "Ống PVC Ø60",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống thoát nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.2.2",
+      "type": "work_item",
+      "text": "Ống PVC Ø90 (mã 18.2.2, đơn vị: md). Lắp đặt ống thoát nước PVC Ø90mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.2.2",
+        "name": "Ống PVC Ø90",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống thoát nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.2.3",
+      "type": "work_item",
+      "text": "Ống PVC Ø114 (mã 18.2.3, đơn vị: md). Lắp đặt ống thoát nước PVC Ø114mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.2.3",
+        "name": "Ống PVC Ø114",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống thoát nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.2.4",
+      "type": "work_item",
+      "text": "Ống PVC Ø160 (mã 18.2.4, đơn vị: md). Lắp đặt ống thoát nước PVC Ø160mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.2.4",
+        "name": "Ống PVC Ø160",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống thoát nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.2.5",
+      "type": "work_item",
+      "text": "Ống PVC Ø200 (mã 18.2.5, đơn vị: md). Lắp đặt ống thoát nước PVC Ø200mm Cách đo: Chiều dài ống thực tế. Công thức: L = L_thực × 1.05",
+      "metadata": {
+        "code": "18.2.5",
+        "name": "Ống PVC Ø200",
+        "unit": "md",
+        "category": "Cấp thoát nước",
+        "work_type": "Ống thoát nước",
+        "formula": "L = L_thực × 1.05"
+      }
+    },
+    {
+      "id": "wi-18.3.1",
+      "type": "work_item",
+      "text": "Co, tê các loại (mã 18.3.1, đơn vị: cái). Lắp đặt phụ kiện co, tê, nối Cách đo: Số lượng phụ kiện. Công thức: N = Số cái",
+      "metadata": {
+        "code": "18.3.1",
+        "name": "Co, tê các loại",
+        "unit": "cái",
+        "category": "Cấp thoát nước",
+        "work_type": "Phụ kiện đường ống",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-18.3.2",
+      "type": "work_item",
+      "text": "Van nước (mã 18.3.2, đơn vị: cái). Lắp đặt van khóa nước Cách đo: Số lượng van. Công thức: N = Số cái",
+      "metadata": {
+        "code": "18.3.2",
+        "name": "Van nước",
+        "unit": "cái",
+        "category": "Cấp thoát nước",
+        "work_type": "Phụ kiện đường ống",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-18.3.3",
+      "type": "work_item",
+      "text": "Phễu thu sàn (mã 18.3.3, đơn vị: cái). Lắp đặt phễu thu sàn WC Cách đo: Số lượng phễu. Công thức: N = Số cái",
+      "metadata": {
+        "code": "18.3.3",
+        "name": "Phễu thu sàn",
+        "unit": "cái",
+        "category": "Cấp thoát nước",
+        "work_type": "Phụ kiện đường ống",
+        "formula": "N = Số cái"
+      }
+    },
+    {
+      "id": "wi-18.4.1",
+      "type": "work_item",
+      "text": "Bồn inox 500L (mã 18.4.1, đơn vị: bộ). Lắp đặt bồn nước inox 500 lít Cách đo: Số lượng bồn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "18.4.1",
+        "name": "Bồn inox 500L",
+        "unit": "bộ",
+        "category": "Cấp thoát nước",
+        "work_type": "Bồn chứa nước",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-18.4.2",
+      "type": "work_item",
+      "text": "Bồn inox 1000L (mã 18.4.2, đơn vị: bộ). Lắp đặt bồn nước inox 1000 lít Cách đo: Số lượng bồn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "18.4.2",
+        "name": "Bồn inox 1000L",
+        "unit": "bộ",
+        "category": "Cấp thoát nước",
+        "work_type": "Bồn chứa nước",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-18.4.3",
+      "type": "work_item",
+      "text": "Bồn inox 1500L (mã 18.4.3, đơn vị: bộ). Lắp đặt bồn nước inox 1500 lít Cách đo: Số lượng bồn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "18.4.3",
+        "name": "Bồn inox 1500L",
+        "unit": "bộ",
+        "category": "Cấp thoát nước",
+        "work_type": "Bồn chứa nước",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-18.4.4",
+      "type": "work_item",
+      "text": "Bồn nhựa PE 500L (mã 18.4.4, đơn vị: bộ). Lắp đặt bồn nước nhựa PE 500 lít Cách đo: Số lượng bồn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "18.4.4",
+        "name": "Bồn nhựa PE 500L",
+        "unit": "bộ",
+        "category": "Cấp thoát nước",
+        "work_type": "Bồn chứa nước",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.1.1",
+      "type": "work_item",
+      "text": "Bồn cầu 1 khối (mã 19.1.1, đơn vị: bộ). Lắp đặt bồn cầu 1 khối Cách đo: Số lượng bồn cầu. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.1.1",
+        "name": "Bồn cầu 1 khối",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn cầu",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.1.2",
+      "type": "work_item",
+      "text": "Bồn cầu 2 khối (mã 19.1.2, đơn vị: bộ). Lắp đặt bồn cầu 2 khối Cách đo: Số lượng bồn cầu. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.1.2",
+        "name": "Bồn cầu 2 khối",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn cầu",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.1.3",
+      "type": "work_item",
+      "text": "Bồn cầu treo tường (mã 19.1.3, đơn vị: bộ). Lắp đặt bồn cầu treo tường + két âm Cách đo: Số lượng bồn cầu. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.1.3",
+        "name": "Bồn cầu treo tường",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn cầu",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.1.4",
+      "type": "work_item",
+      "text": "Bồn cầu thông minh (mã 19.1.4, đơn vị: bộ). Lắp đặt bồn cầu thông minh (rửa tự động) Cách đo: Số lượng bồn cầu. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.1.4",
+        "name": "Bồn cầu thông minh",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn cầu",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.2.1",
+      "type": "work_item",
+      "text": "Lavabo đặt bàn (mã 19.2.1, đơn vị: bộ). Lắp đặt lavabo đặt trên bàn Cách đo: Số lượng lavabo. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.2.1",
+        "name": "Lavabo đặt bàn",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Lavabo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.2.2",
+      "type": "work_item",
+      "text": "Lavabo âm bàn (mã 19.2.2, đơn vị: bộ). Lắp đặt lavabo âm dưới bàn đá Cách đo: Số lượng lavabo. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.2.2",
+        "name": "Lavabo âm bàn",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Lavabo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.2.3",
+      "type": "work_item",
+      "text": "Lavabo treo tường (mã 19.2.3, đơn vị: bộ). Lắp đặt lavabo treo tường Cách đo: Số lượng lavabo. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.2.3",
+        "name": "Lavabo treo tường",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Lavabo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.2.4",
+      "type": "work_item",
+      "text": "Lavabo chân đứng (mã 19.2.4, đơn vị: bộ). Lắp đặt lavabo chân đứng Cách đo: Số lượng lavabo. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.2.4",
+        "name": "Lavabo chân đứng",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Lavabo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.3.1",
+      "type": "work_item",
+      "text": "Sen tắm đứng (mã 19.3.1, đơn vị: bộ). Lắp đặt sen tắm đứng nóng lạnh Cách đo: Số lượng bộ sen. Công thức: N = Số WC có sen",
+      "metadata": {
+        "code": "19.3.1",
+        "name": "Sen tắm đứng",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Sen, vòi",
+        "formula": "N = Số WC có sen"
+      }
+    },
+    {
+      "id": "wi-19.3.2",
+      "type": "work_item",
+      "text": "Sen tắm cây (mã 19.3.2, đơn vị: bộ). Lắp đặt sen cây (có thanh trượt/cố định) Cách đo: Số lượng bộ sen. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.3.2",
+        "name": "Sen tắm cây",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Sen, vòi",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.3.3",
+      "type": "work_item",
+      "text": "Vòi lavabo nóng lạnh (mã 19.3.3, đơn vị: cái). Lắp đặt vòi lavabo nóng lạnh Cách đo: Số lượng vòi. Công thức: N = Số lavabo",
+      "metadata": {
+        "code": "19.3.3",
+        "name": "Vòi lavabo nóng lạnh",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Sen, vòi",
+        "formula": "N = Số lavabo"
+      }
+    },
+    {
+      "id": "wi-19.3.4",
+      "type": "work_item",
+      "text": "Vòi lavabo lạnh (mã 19.3.4, đơn vị: cái). Lắp đặt vòi lavabo lạnh Cách đo: Số lượng vòi. Công thức: N = Số lavabo",
+      "metadata": {
+        "code": "19.3.4",
+        "name": "Vòi lavabo lạnh",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Sen, vòi",
+        "formula": "N = Số lavabo"
+      }
+    },
+    {
+      "id": "wi-19.3.5",
+      "type": "work_item",
+      "text": "Vòi bếp nóng lạnh (mã 19.3.5, đơn vị: cái). Lắp đặt vòi rửa bếp nóng lạnh Cách đo: Số lượng vòi. Công thức: N = Số chậu rửa",
+      "metadata": {
+        "code": "19.3.5",
+        "name": "Vòi bếp nóng lạnh",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Sen, vòi",
+        "formula": "N = Số chậu rửa"
+      }
+    },
+    {
+      "id": "wi-19.4.1",
+      "type": "work_item",
+      "text": "Gương soi (mã 19.4.1, đơn vị: cái). Lắp đặt gương soi WC Cách đo: Số lượng gương. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.4.1",
+        "name": "Gương soi",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Phụ kiện WC",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.4.2",
+      "type": "work_item",
+      "text": "Kệ kính (mã 19.4.2, đơn vị: cái). Lắp đặt kệ kính WC Cách đo: Số lượng kệ. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.4.2",
+        "name": "Kệ kính",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Phụ kiện WC",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.4.3",
+      "type": "work_item",
+      "text": "Hộp giấy vệ sinh (mã 19.4.3, đơn vị: cái). Lắp đặt hộp đựng giấy vệ sinh Cách đo: Số lượng hộp. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.4.3",
+        "name": "Hộp giấy vệ sinh",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Phụ kiện WC",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.4.4",
+      "type": "work_item",
+      "text": "Vòi xịt vệ sinh (mã 19.4.4, đơn vị: cái). Lắp đặt vòi xịt vệ sinh Cách đo: Số lượng vòi xịt. Công thức: N = Số WC",
+      "metadata": {
+        "code": "19.4.4",
+        "name": "Vòi xịt vệ sinh",
+        "unit": "cái",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Phụ kiện WC",
+        "formula": "N = Số WC"
+      }
+    },
+    {
+      "id": "wi-19.5.1",
+      "type": "work_item",
+      "text": "Bồn tắm nằm (mã 19.5.1, đơn vị: bộ). Lắp đặt bồn tắm nằm Cách đo: Số lượng bồn tắm. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.5.1",
+        "name": "Bồn tắm nằm",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn tắm",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.5.2",
+      "type": "work_item",
+      "text": "Bồn tắm đứng (mã 19.5.2, đơn vị: bộ). Lắp đặt phòng tắm đứng kính Cách đo: Số lượng phòng tắm đứng. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.5.2",
+        "name": "Bồn tắm đứng",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn tắm",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.5.3",
+      "type": "work_item",
+      "text": "Bồn tắm massage (mã 19.5.3, đơn vị: bộ). Lắp đặt bồn tắm massage/jacuzzi Cách đo: Số lượng bồn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.5.3",
+        "name": "Bồn tắm massage",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Bồn tắm",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.6.1",
+      "type": "work_item",
+      "text": "Tủ lavabo gỗ công nghiệp (mã 19.6.1, đơn vị: bộ). Lắp đặt tủ lavabo gỗ công nghiệp Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.6.1",
+        "name": "Tủ lavabo gỗ công nghiệp",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Tủ lavabo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-19.6.2",
+      "type": "work_item",
+      "text": "Tủ lavabo nhựa PVC (mã 19.6.2, đơn vị: bộ). Lắp đặt tủ lavabo nhựa PVC chịu nước Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "19.6.2",
+        "name": "Tủ lavabo nhựa PVC",
+        "unit": "bộ",
+        "category": "Thiết bị vệ sinh",
+        "work_type": "Tủ lavabo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.1.1",
+      "type": "work_item",
+      "text": "Tủ bếp trên (mã 20.1.1, đơn vị: md). Sản xuất, lắp đặt tủ bếp trên Cách đo: Chiều dài tủ bếp trên (theo md). Công thức: L = ΣL_tủ_trên",
+      "metadata": {
+        "code": "20.1.1",
+        "name": "Tủ bếp trên",
+        "unit": "md",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ bếp",
+        "formula": "L = ΣL_tủ_trên"
+      }
+    },
+    {
+      "id": "wi-20.1.2",
+      "type": "work_item",
+      "text": "Tủ bếp dưới (mã 20.1.2, đơn vị: md). Sản xuất, lắp đặt tủ bếp dưới Cách đo: Chiều dài tủ bếp dưới. Công thức: L = ΣL_tủ_dưới",
+      "metadata": {
+        "code": "20.1.2",
+        "name": "Tủ bếp dưới",
+        "unit": "md",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ bếp",
+        "formula": "L = ΣL_tủ_dưới"
+      }
+    },
+    {
+      "id": "wi-20.1.3",
+      "type": "work_item",
+      "text": "Tủ bếp đảo (mã 20.1.3, đơn vị: md). Sản xuất, lắp đặt tủ bếp đảo Cách đo: Chiều dài tủ đảo. Công thức: L = P_đảo",
+      "metadata": {
+        "code": "20.1.3",
+        "name": "Tủ bếp đảo",
+        "unit": "md",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ bếp",
+        "formula": "L = P_đảo"
+      }
+    },
+    {
+      "id": "wi-20.1.4",
+      "type": "work_item",
+      "text": "Mặt bàn bếp đá (mã 20.1.4, đơn vị: md). Lắp đặt mặt bàn bếp đá granite/thạch anh Cách đo: Chiều dài mặt bàn. Công thức: L = L_tổng",
+      "metadata": {
+        "code": "20.1.4",
+        "name": "Mặt bàn bếp đá",
+        "unit": "md",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ bếp",
+        "formula": "L = L_tổng"
+      }
+    },
+    {
+      "id": "wi-20.1.5",
+      "type": "work_item",
+      "text": "Mặt bàn bếp gỗ (mã 20.1.5, đơn vị: md). Lắp đặt mặt bàn bếp gỗ Cách đo: Chiều dài mặt bàn. Công thức: L = L_tổng",
+      "metadata": {
+        "code": "20.1.5",
+        "name": "Mặt bàn bếp gỗ",
+        "unit": "md",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ bếp",
+        "formula": "L = L_tổng"
+      }
+    },
+    {
+      "id": "wi-20.2.1",
+      "type": "work_item",
+      "text": "Tủ quần áo 2 cánh (mã 20.2.1, đơn vị: bộ). Sản xuất, lắp đặt tủ quần áo 2 cánh Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.2.1",
+        "name": "Tủ quần áo 2 cánh",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ quần áo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.2.2",
+      "type": "work_item",
+      "text": "Tủ quần áo 3 cánh (mã 20.2.2, đơn vị: bộ). Sản xuất, lắp đặt tủ quần áo 3 cánh Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.2.2",
+        "name": "Tủ quần áo 3 cánh",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ quần áo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.2.3",
+      "type": "work_item",
+      "text": "Tủ quần áo 4 cánh (mã 20.2.3, đơn vị: bộ). Sản xuất, lắp đặt tủ quần áo 4 cánh Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.2.3",
+        "name": "Tủ quần áo 4 cánh",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ quần áo",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.2.4",
+      "type": "work_item",
+      "text": "Tủ quần áo âm tường (mã 20.2.4, đơn vị: m2). Sản xuất, lắp đặt tủ âm tường Cách đo: Diện tích mặt tủ = Rộng × Cao. Công thức: S = W × H",
+      "metadata": {
+        "code": "20.2.4",
+        "name": "Tủ quần áo âm tường",
+        "unit": "m2",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ quần áo",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-20.3.1",
+      "type": "work_item",
+      "text": "Giường 1m2 (mã 20.3.1, đơn vị: bộ). Sản xuất, lắp đặt giường ngủ 1m2 Cách đo: Số lượng giường. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.3.1",
+        "name": "Giường 1m2",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Giường ngủ",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.3.2",
+      "type": "work_item",
+      "text": "Giường 1m4 (mã 20.3.2, đơn vị: bộ). Sản xuất, lắp đặt giường ngủ 1m4 Cách đo: Số lượng giường. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.3.2",
+        "name": "Giường 1m4",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Giường ngủ",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.3.3",
+      "type": "work_item",
+      "text": "Giường 1m6 (mã 20.3.3, đơn vị: bộ). Sản xuất, lắp đặt giường ngủ 1m6 Cách đo: Số lượng giường. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.3.3",
+        "name": "Giường 1m6",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Giường ngủ",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.3.4",
+      "type": "work_item",
+      "text": "Giường 1m8 (mã 20.3.4, đơn vị: bộ). Sản xuất, lắp đặt giường ngủ 1m8 Cách đo: Số lượng giường. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.3.4",
+        "name": "Giường 1m8",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Giường ngủ",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.4.1",
+      "type": "work_item",
+      "text": "Bàn làm việc đơn giản (mã 20.4.1, đơn vị: bộ). Sản xuất, lắp đặt bàn làm việc đơn giản Cách đo: Số lượng bàn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.4.1",
+        "name": "Bàn làm việc đơn giản",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Bàn làm việc",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.4.2",
+      "type": "work_item",
+      "text": "Bàn làm việc có hộc tủ (mã 20.4.2, đơn vị: bộ). Sản xuất, lắp đặt bàn làm việc có hộc tủ Cách đo: Số lượng bàn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.4.2",
+        "name": "Bàn làm việc có hộc tủ",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Bàn làm việc",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.4.3",
+      "type": "work_item",
+      "text": "Bàn học sinh (mã 20.4.3, đơn vị: bộ). Sản xuất, lắp đặt bàn học sinh Cách đo: Số lượng bàn. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.4.3",
+        "name": "Bàn học sinh",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Bàn làm việc",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.5.1",
+      "type": "work_item",
+      "text": "Kệ tivi treo tường (mã 20.5.1, đơn vị: bộ). Sản xuất, lắp đặt kệ tivi treo tường Cách đo: Số lượng kệ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.5.1",
+        "name": "Kệ tivi treo tường",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Kệ tivi",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.5.2",
+      "type": "work_item",
+      "text": "Kệ tivi đứng (mã 20.5.2, đơn vị: bộ). Sản xuất, lắp đặt kệ tivi đặt sàn Cách đo: Số lượng kệ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.5.2",
+        "name": "Kệ tivi đứng",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Kệ tivi",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.5.3",
+      "type": "work_item",
+      "text": "Vách tivi trang trí (mã 20.5.3, đơn vị: m2). Lắp đặt vách tivi trang trí Cách đo: Diện tích vách = Rộng × Cao. Công thức: S = W × H",
+      "metadata": {
+        "code": "20.5.3",
+        "name": "Vách tivi trang trí",
+        "unit": "m2",
+        "category": "Nội thất gỗ",
+        "work_type": "Kệ tivi",
+        "formula": "S = W × H"
+      }
+    },
+    {
+      "id": "wi-20.6.1",
+      "type": "work_item",
+      "text": "Tủ giày đứng (mã 20.6.1, đơn vị: bộ). Sản xuất, lắp đặt tủ giày đứng Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.6.1",
+        "name": "Tủ giày đứng",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ giày",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-20.6.2",
+      "type": "work_item",
+      "text": "Tủ giày treo tường (mã 20.6.2, đơn vị: bộ). Lắp đặt tủ giày treo tường Cách đo: Số lượng tủ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "20.6.2",
+        "name": "Tủ giày treo tường",
+        "unit": "bộ",
+        "category": "Nội thất gỗ",
+        "work_type": "Tủ giày",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-21.1.1",
+      "type": "work_item",
+      "text": "Điều hòa 9000BTU (mã 21.1.1, đơn vị: bộ). Lắp đặt điều hòa treo tường 9000BTU Cách đo: Số lượng bộ điều hòa. Công thức: N = Số phòng cần lắp",
+      "metadata": {
+        "code": "21.1.1",
+        "name": "Điều hòa 9000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa treo tường",
+        "formula": "N = Số phòng cần lắp"
+      }
+    },
+    {
+      "id": "wi-21.1.2",
+      "type": "work_item",
+      "text": "Điều hòa 12000BTU (mã 21.1.2, đơn vị: bộ). Lắp đặt điều hòa treo tường 12000BTU Cách đo: Số lượng bộ điều hòa. Công thức: N = Số phòng",
+      "metadata": {
+        "code": "21.1.2",
+        "name": "Điều hòa 12000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa treo tường",
+        "formula": "N = Số phòng"
+      }
+    },
+    {
+      "id": "wi-21.1.3",
+      "type": "work_item",
+      "text": "Điều hòa 18000BTU (mã 21.1.3, đơn vị: bộ). Lắp đặt điều hòa treo tường 18000BTU Cách đo: Số lượng bộ điều hòa. Công thức: N = Số phòng",
+      "metadata": {
+        "code": "21.1.3",
+        "name": "Điều hòa 18000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa treo tường",
+        "formula": "N = Số phòng"
+      }
+    },
+    {
+      "id": "wi-21.1.4",
+      "type": "work_item",
+      "text": "Điều hòa 24000BTU (mã 21.1.4, đơn vị: bộ). Lắp đặt điều hòa treo tường 24000BTU Cách đo: Số lượng bộ điều hòa. Công thức: N = Số phòng",
+      "metadata": {
+        "code": "21.1.4",
+        "name": "Điều hòa 24000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa treo tường",
+        "formula": "N = Số phòng"
+      }
+    },
+    {
+      "id": "wi-21.2.1",
+      "type": "work_item",
+      "text": "Điều hòa cassette 24000BTU (mã 21.2.1, đơn vị: bộ). Lắp đặt điều hòa cassette âm trần 24000BTU Cách đo: Số lượng bộ điều hòa. Công thức: N = Số vị trí lắp",
+      "metadata": {
+        "code": "21.2.1",
+        "name": "Điều hòa cassette 24000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa âm trần",
+        "formula": "N = Số vị trí lắp"
+      }
+    },
+    {
+      "id": "wi-21.2.2",
+      "type": "work_item",
+      "text": "Điều hòa cassette 36000BTU (mã 21.2.2, đơn vị: bộ). Lắp đặt điều hòa cassette âm trần 36000BTU Cách đo: Số lượng bộ điều hòa. Công thức: N = Số vị trí",
+      "metadata": {
+        "code": "21.2.2",
+        "name": "Điều hòa cassette 36000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa âm trần",
+        "formula": "N = Số vị trí"
+      }
+    },
+    {
+      "id": "wi-21.2.3",
+      "type": "work_item",
+      "text": "Điều hòa âm trần nối ống gió (mã 21.2.3, đơn vị: bộ). Lắp đặt điều hòa âm trần nối ống gió Cách đo: Số lượng bộ điều hòa. Công thức: N = Số vị trí",
+      "metadata": {
+        "code": "21.2.3",
+        "name": "Điều hòa âm trần nối ống gió",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa âm trần",
+        "formula": "N = Số vị trí"
+      }
+    },
+    {
+      "id": "wi-21.3.1",
+      "type": "work_item",
+      "text": "Điều hòa tủ đứng 36000BTU (mã 21.3.1, đơn vị: bộ). Lắp đặt điều hòa tủ đứng 36000BTU Cách đo: Số lượng bộ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "21.3.1",
+        "name": "Điều hòa tủ đứng 36000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa tủ đứng",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-21.3.2",
+      "type": "work_item",
+      "text": "Điều hòa tủ đứng 48000BTU (mã 21.3.2, đơn vị: bộ). Lắp đặt điều hòa tủ đứng 48000BTU Cách đo: Số lượng bộ. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "21.3.2",
+        "name": "Điều hòa tủ đứng 48000BTU",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Điều hòa tủ đứng",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-21.4.1",
+      "type": "work_item",
+      "text": "Dàn nóng VRV (mã 21.4.1, đơn vị: bộ). Lắp đặt dàn nóng VRV trung tâm Cách đo: Số lượng dàn nóng. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "21.4.1",
+        "name": "Dàn nóng VRV",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Hệ thống VRV/VRF",
+        "formula": "N = Số bộ"
+      }
+    },
+    {
+      "id": "wi-21.4.2",
+      "type": "work_item",
+      "text": "Dàn lạnh VRV (mã 21.4.2, đơn vị: bộ). Lắp đặt dàn lạnh VRV (các loại) Cách đo: Số lượng dàn lạnh. Công thức: N = Số phòng",
+      "metadata": {
+        "code": "21.4.2",
+        "name": "Dàn lạnh VRV",
+        "unit": "bộ",
+        "category": "Điều hòa không khí",
+        "work_type": "Hệ thống VRV/VRF",
+        "formula": "N = Số phòng"
+      }
+    },
+    {
+      "id": "wi-21.4.3",
+      "type": "work_item",
+      "text": "Hệ thống ống đồng (mã 21.4.3, đơn vị: md). Lắp đặt ống đồng kết nối dàn nóng-lạnh Cách đo: Chiều dài ống đồng. Công thức: L = ΣL_ống",
+      "metadata": {
+        "code": "21.4.3",
+        "name": "Hệ thống ống đồng",
+        "unit": "md",
+        "category": "Điều hòa không khí",
+        "work_type": "Hệ thống VRV/VRF",
+        "formula": "L = ΣL_ống"
+      }
+    },
+    {
+      "id": "wi-22.1.1",
+      "type": "work_item",
+      "text": "Camera ngoài trời (mã 22.1.1, đơn vị: cái). Lắp đặt camera quan sát ngoài trời IP66 Cách đo: Số lượng camera. Công thức: N = Số vị trí cần giám sát",
+      "metadata": {
+        "code": "22.1.1",
+        "name": "Camera ngoài trời",
+        "unit": "cái",
+        "category": "An ninh, thông minh",
+        "work_type": "Camera an ninh",
+        "formula": "N = Số vị trí cần giám sát"
+      }
+    },
+    {
+      "id": "wi-22.1.2",
+      "type": "work_item",
+      "text": "Camera trong nhà (mã 22.1.2, đơn vị: cái). Lắp đặt camera quan sát trong nhà Cách đo: Số lượng camera. Công thức: N = Số vị trí",
+      "metadata": {
+        "code": "22.1.2",
+        "name": "Camera trong nhà",
+        "unit": "cái",
+        "category": "An ninh, thông minh",
+        "work_type": "Camera an ninh",
+        "formula": "N = Số vị trí"
+      }
+    },
+    {
+      "id": "wi-22.1.3",
+      "type": "work_item",
+      "text": "Đầu ghi hình NVR (mã 22.1.3, đơn vị: bộ). Lắp đặt đầu ghi hình NVR/DVR Cách đo: Số lượng đầu ghi. Công thức: N = 1",
+      "metadata": {
+        "code": "22.1.3",
+        "name": "Đầu ghi hình NVR",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Camera an ninh",
+        "formula": "N = 1"
+      }
+    },
+    {
+      "id": "wi-22.1.4",
+      "type": "work_item",
+      "text": "Ổ cứng lưu trữ (mã 22.1.4, đơn vị: cái). Lắp đặt ổ cứng lưu trữ camera Cách đo: Số lượng ổ cứng. Công thức: N = Số ổ cần thiết",
+      "metadata": {
+        "code": "22.1.4",
+        "name": "Ổ cứng lưu trữ",
+        "unit": "cái",
+        "category": "An ninh, thông minh",
+        "work_type": "Camera an ninh",
+        "formula": "N = Số ổ cần thiết"
+      }
+    },
+    {
+      "id": "wi-22.2.1",
+      "type": "work_item",
+      "text": "Chuông cửa có hình (mã 22.2.1, đơn vị: bộ). Lắp đặt chuông cửa màn hình video Cách đo: Số lượng bộ. Công thức: N = Số cổng/cửa chính",
+      "metadata": {
+        "code": "22.2.1",
+        "name": "Chuông cửa có hình",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Chuông cửa",
+        "formula": "N = Số cổng/cửa chính"
+      }
+    },
+    {
+      "id": "wi-22.2.2",
+      "type": "work_item",
+      "text": "Chuông cửa thông thường (mã 22.2.2, đơn vị: bộ). Lắp đặt chuông cửa thông thường Cách đo: Số lượng bộ. Công thức: N = Số cửa",
+      "metadata": {
+        "code": "22.2.2",
+        "name": "Chuông cửa thông thường",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Chuông cửa",
+        "formula": "N = Số cửa"
+      }
+    },
+    {
+      "id": "wi-22.3.1",
+      "type": "work_item",
+      "text": "Khóa vân tay (mã 22.3.1, đơn vị: bộ). Lắp đặt khóa vân tay thông minh Cách đo: Số lượng khóa. Công thức: N = Số cửa cần lắp",
+      "metadata": {
+        "code": "22.3.1",
+        "name": "Khóa vân tay",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Khóa thông minh",
+        "formula": "N = Số cửa cần lắp"
+      }
+    },
+    {
+      "id": "wi-22.3.2",
+      "type": "work_item",
+      "text": "Khóa thẻ từ (mã 22.3.2, đơn vị: bộ). Lắp đặt khóa thẻ từ Cách đo: Số lượng khóa. Công thức: N = Số cửa",
+      "metadata": {
+        "code": "22.3.2",
+        "name": "Khóa thẻ từ",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Khóa thông minh",
+        "formula": "N = Số cửa"
+      }
+    },
+    {
+      "id": "wi-22.3.3",
+      "type": "work_item",
+      "text": "Khóa điện tử (mã 22.3.3, đơn vị: bộ). Lắp đặt khóa điện tử mã số Cách đo: Số lượng khóa. Công thức: N = Số cửa",
+      "metadata": {
+        "code": "22.3.3",
+        "name": "Khóa điện tử",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Khóa thông minh",
+        "formula": "N = Số cửa"
+      }
+    },
+    {
+      "id": "wi-22.4.1",
+      "type": "work_item",
+      "text": "Công tắc thông minh (mã 22.4.1, đơn vị: cái). Lắp đặt công tắc thông minh wifi/zigbee Cách đo: Số lượng công tắc. Công thức: N = Số điểm cần điều khiển",
+      "metadata": {
+        "code": "22.4.1",
+        "name": "Công tắc thông minh",
+        "unit": "cái",
+        "category": "An ninh, thông minh",
+        "work_type": "Hệ thống smarthome",
+        "formula": "N = Số điểm cần điều khiển"
+      }
+    },
+    {
+      "id": "wi-22.4.2",
+      "type": "work_item",
+      "text": "Ổ cắm thông minh (mã 22.4.2, đơn vị: cái). Lắp đặt ổ cắm thông minh wifi Cách đo: Số lượng ổ cắm. Công thức: N = Số điểm",
+      "metadata": {
+        "code": "22.4.2",
+        "name": "Ổ cắm thông minh",
+        "unit": "cái",
+        "category": "An ninh, thông minh",
+        "work_type": "Hệ thống smarthome",
+        "formula": "N = Số điểm"
+      }
+    },
+    {
+      "id": "wi-22.4.3",
+      "type": "work_item",
+      "text": "Bộ điều khiển trung tâm (mã 22.4.3, đơn vị: bộ). Lắp đặt hub điều khiển smarthome Cách đo: Số lượng hub. Công thức: N = 1",
+      "metadata": {
+        "code": "22.4.3",
+        "name": "Bộ điều khiển trung tâm",
+        "unit": "bộ",
+        "category": "An ninh, thông minh",
+        "work_type": "Hệ thống smarthome",
+        "formula": "N = 1"
+      }
+    },
+    {
+      "id": "wi-22.4.4",
+      "type": "work_item",
+      "text": "Cảm biến chuyển động (mã 22.4.4, đơn vị: cái). Lắp đặt cảm biến chuyển động PIR Cách đo: Số lượng cảm biến. Công thức: N = Số vị trí cần gắn",
+      "metadata": {
+        "code": "22.4.4",
+        "name": "Cảm biến chuyển động",
+        "unit": "cái",
+        "category": "An ninh, thông minh",
+        "work_type": "Hệ thống smarthome",
+        "formula": "N = Số vị trí cần gắn"
+      }
+    },
+    {
+      "id": "wi-23.1.1",
+      "type": "work_item",
+      "text": "Lát gạch terrazzo sân (mã 23.1.1, đơn vị: m2). Lát gạch terrazzo sân vườn Cách đo: Diện tích sân cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "23.1.1",
+        "name": "Lát gạch terrazzo sân",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Lát sân vườn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-23.1.2",
+      "type": "work_item",
+      "text": "Lát gạch con sâu (mã 23.1.2, đơn vị: m2). Lát gạch con sâu lối đi Cách đo: Diện tích lối đi. Công thức: S = L × W",
+      "metadata": {
+        "code": "23.1.2",
+        "name": "Lát gạch con sâu",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Lát sân vườn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-23.1.3",
+      "type": "work_item",
+      "text": "Lát đá tự nhiên sân (mã 23.1.3, đơn vị: m2). Lát đá tự nhiên sân vườn Cách đo: Diện tích sân cần lát. Công thức: S = L × W",
+      "metadata": {
+        "code": "23.1.3",
+        "name": "Lát đá tự nhiên sân",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Lát sân vườn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-23.1.4",
+      "type": "work_item",
+      "text": "Bê tông mặt sân (mã 23.1.4, đơn vị: m2). Đổ bê tông mặt sân vườn Cách đo: Diện tích sân. Công thức: S = L × W",
+      "metadata": {
+        "code": "23.1.4",
+        "name": "Bê tông mặt sân",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Lát sân vườn",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-23.2.1",
+      "type": "work_item",
+      "text": "Hàng rào sắt (mã 23.2.1, đơn vị: md). Lắp đặt hàng rào sắt hộp Cách đo: Chiều dài hàng rào. Công thức: L = Chu vi khu vực",
+      "metadata": {
+        "code": "23.2.1",
+        "name": "Hàng rào sắt",
+        "unit": "md",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Hàng rào",
+        "formula": "L = Chu vi khu vực"
+      }
+    },
+    {
+      "id": "wi-23.2.2",
+      "type": "work_item",
+      "text": "Hàng rào gỗ (mã 23.2.2, đơn vị: md). Lắp đặt hàng rào gỗ trang trí Cách đo: Chiều dài hàng rào. Công thức: L = ΣL",
+      "metadata": {
+        "code": "23.2.2",
+        "name": "Hàng rào gỗ",
+        "unit": "md",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Hàng rào",
+        "formula": "L = ΣL"
+      }
+    },
+    {
+      "id": "wi-23.2.3",
+      "type": "work_item",
+      "text": "Hàng rào xây gạch (mã 23.2.3, đơn vị: m2). Xây hàng rào gạch + trát Cách đo: Diện tích hàng rào. Công thức: S = L × H",
+      "metadata": {
+        "code": "23.2.3",
+        "name": "Hàng rào xây gạch",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Hàng rào",
+        "formula": "S = L × H"
+      }
+    },
+    {
+      "id": "wi-23.3.1",
+      "type": "work_item",
+      "text": "Trồng cây bóng mát (mã 23.3.1, đơn vị: cây). Trồng cây bóng mát (sấu, phượng, bàng...) Cách đo: Số lượng cây. Công thức: N = Số cây",
+      "metadata": {
+        "code": "23.3.1",
+        "name": "Trồng cây bóng mát",
+        "unit": "cây",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Cây xanh",
+        "formula": "N = Số cây"
+      }
+    },
+    {
+      "id": "wi-23.3.2",
+      "type": "work_item",
+      "text": "Trồng cây bụi (mã 23.3.2, đơn vị: cây). Trồng cây bụi trang trí Cách đo: Số lượng cây. Công thức: N = Số cây",
+      "metadata": {
+        "code": "23.3.2",
+        "name": "Trồng cây bụi",
+        "unit": "cây",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Cây xanh",
+        "formula": "N = Số cây"
+      }
+    },
+    {
+      "id": "wi-23.3.3",
+      "type": "work_item",
+      "text": "Trồng thảm cỏ (mã 23.3.3, đơn vị: m2). Trồng thảm cỏ nhung/Nhật Cách đo: Diện tích thảm cỏ. Công thức: S = L × W",
+      "metadata": {
+        "code": "23.3.3",
+        "name": "Trồng thảm cỏ",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Cây xanh",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-23.3.4",
+      "type": "work_item",
+      "text": "Hệ thống tưới tự động (mã 23.3.4, đơn vị: m2). Lắp đặt hệ thống tưới tự động Cách đo: Diện tích vườn được phủ tưới. Công thức: S = S_vườn",
+      "metadata": {
+        "code": "23.3.4",
+        "name": "Hệ thống tưới tự động",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Cây xanh",
+        "formula": "S = S_vườn"
+      }
+    },
+    {
+      "id": "wi-23.4.1",
+      "type": "work_item",
+      "text": "Thi công hồ cá koi (mã 23.4.1, đơn vị: m3). Thi công hồ cá koi (đào, lót, bơm, lọc) Cách đo: Thể tích hồ = Dài × Rộng × Sâu. Công thức: V = L × W × H",
+      "metadata": {
+        "code": "23.4.1",
+        "name": "Thi công hồ cá koi",
+        "unit": "m3",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Hồ cá, tiểu cảnh",
+        "formula": "V = L × W × H"
+      }
+    },
+    {
+      "id": "wi-23.4.2",
+      "type": "work_item",
+      "text": "Tiểu cảnh sân vườn (mã 23.4.2, đơn vị: m2). Thi công tiểu cảnh trang trí Cách đo: Diện tích tiểu cảnh. Công thức: S = L × W",
+      "metadata": {
+        "code": "23.4.2",
+        "name": "Tiểu cảnh sân vườn",
+        "unit": "m2",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Hồ cá, tiểu cảnh",
+        "formula": "S = L × W"
+      }
+    },
+    {
+      "id": "wi-23.4.3",
+      "type": "work_item",
+      "text": "Thác nước mini (mã 23.4.3, đơn vị: bộ). Thi công thác nước mini trang trí Cách đo: Số lượng bộ thác. Công thức: N = Số bộ",
+      "metadata": {
+        "code": "23.4.3",
+        "name": "Thác nước mini",
+        "unit": "bộ",
+        "category": "Sân vườn, cảnh quan",
+        "work_type": "Hồ cá, tiểu cảnh",
+        "formula": "N = Số bộ"
+      }
+    }
+  ]
+}

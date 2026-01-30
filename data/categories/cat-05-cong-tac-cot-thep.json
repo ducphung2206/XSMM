@@ -1,0 +1,165 @@
+{
+    "code": "5",
+    "name": "Công tác cốt thép",
+    "description": "Gia công, lắp đặt cốt thép cho các kết cấu bê tông",
+    "work_types": [
+        {
+            "code": "5.1",
+            "name": "Thép móng",
+            "work_items": [
+                {
+                    "code": "5.1.1",
+                    "name": "Thép móng Ø≤10mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép móng đường kính ≤10mm",
+                    "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md theo bảng tra",
+                    "formula": "M = L × γ (γ_Ø8=0.395, Ø10=0.617 kg/m)"
+                },
+                {
+                    "code": "5.1.2",
+                    "name": "Thép móng Ø12-16mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép móng đường kính 12-16mm",
+                    "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+                    "formula": "M = L × γ (γ_Ø12=0.888, Ø14=1.21, Ø16=1.58 kg/m)"
+                },
+                {
+                    "code": "5.1.3",
+                    "name": "Thép móng Ø18-22mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép móng đường kính 18-22mm",
+                    "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+                    "formula": "M = L × γ (γ_Ø18=2.00, Ø20=2.47, Ø22=2.98 kg/m)"
+                },
+                {
+                    "code": "5.1.4",
+                    "name": "Thép móng Ø≥25mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép móng đường kính ≥25mm",
+                    "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+                    "formula": "M = L × γ (γ_Ø25=3.85, Ø28=4.83, Ø32=6.31 kg/m)"
+                }
+            ]
+        },
+        {
+            "code": "5.2",
+            "name": "Thép cột",
+            "work_items": [
+                {
+                    "code": "5.2.1",
+                    "name": "Thép cột Ø≤10mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép đai cột Ø≤10mm",
+                    "measurement_method": "Khối lượng = Chu vi đai × Số đai × γ",
+                    "formula": "M = (2a+2b+20d) × n × γ"
+                },
+                {
+                    "code": "5.2.2",
+                    "name": "Thép cột Ø12-16mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép dọc cột Ø12-16mm",
+                    "measurement_method": "Khối lượng = Chiều dài thép × Số thanh × γ",
+                    "formula": "M = L × n × γ"
+                },
+                {
+                    "code": "5.2.3",
+                    "name": "Thép cột Ø18-22mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép dọc cột Ø18-22mm",
+                    "measurement_method": "Khối lượng = Chiều dài thép × Số thanh × γ",
+                    "formula": "M = L × n × γ"
+                },
+                {
+                    "code": "5.2.4",
+                    "name": "Thép cột Ø≥25mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép dọc cột Ø≥25mm",
+                    "measurement_method": "Khối lượng = Chiều dài thép × Số thanh × γ",
+                    "formula": "M = L × n × γ"
+                }
+            ]
+        },
+        {
+            "code": "5.3",
+            "name": "Thép dầm, sàn",
+            "work_items": [
+                {
+                    "code": "5.3.1",
+                    "name": "Thép dầm, sàn Ø≤10mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép dầm, sàn Ø≤10mm",
+                    "measurement_method": "Tính theo bản vẽ kết cấu, nhân hệ số hao hụt 1.02-1.05",
+                    "formula": "M = ΣL × γ × K_hao"
+                },
+                {
+                    "code": "5.3.2",
+                    "name": "Thép dầm, sàn Ø12-16mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép dầm, sàn Ø12-16mm",
+                    "measurement_method": "Tính theo bản vẽ kết cấu",
+                    "formula": "M = ΣL × γ × K_hao"
+                },
+                {
+                    "code": "5.3.3",
+                    "name": "Thép dầm, sàn Ø18-22mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép dầm, sàn Ø18-22mm",
+                    "measurement_method": "Tính theo bản vẽ kết cấu",
+                    "formula": "M = ΣL × γ × K_hao"
+                }
+            ]
+        },
+        {
+            "code": "5.4",
+            "name": "Thép cầu thang",
+            "work_items": [
+                {
+                    "code": "5.4.1",
+                    "name": "Thép cầu thang Ø≤10mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép cầu thang Ø≤10mm",
+                    "measurement_method": "Tính theo bản vẽ kết cấu",
+                    "formula": "M = ΣL × γ"
+                },
+                {
+                    "code": "5.4.2",
+                    "name": "Thép cầu thang Ø12-16mm",
+                    "unit": "kg",
+                    "description": "Gia công, lắp đặt thép cầu thang Ø12-16mm",
+                    "measurement_method": "Tính theo bản vẽ kết cấu",
+                    "formula": "M = ΣL × γ"
+                }
+            ]
+        },
+        {
+            "code": "5.5",
+            "name": "Lưới thép hàn",
+            "work_items": [
+                {
+                    "code": "5.5.1",
+                    "name": "Lưới thép Ø4 a100",
+                    "unit": "m2",
+                    "description": "Lắp đặt lưới thép hàn Ø4mm, ô 100×100mm",
+                    "measurement_method": "Diện tích lưới = Diện tích sàn/tường cần đặt lưới",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "5.5.2",
+                    "name": "Lưới thép Ø6 a150",
+                    "unit": "m2",
+                    "description": "Lắp đặt lưới thép hàn Ø6mm, ô 150×150mm",
+                    "measurement_method": "Diện tích lưới = Diện tích cần lắp",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "5.5.3",
+                    "name": "Lưới thép Ø6 a200",
+                    "unit": "m2",
+                    "description": "Lắp đặt lưới thép hàn Ø6mm, ô 200×200mm",
+                    "measurement_method": "Diện tích lưới = Diện tích cần lắp",
+                    "formula": "S = L × W"
+                }
+            ]
+        }
+    ]
+}

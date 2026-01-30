@@ -1,0 +1,133 @@
+{
+    "code": "8",
+    "name": "Công tác trát",
+    "description": "Trát tường, trần, cột, dầm bằng vữa xi măng",
+    "work_types": [
+        {
+            "code": "8.1",
+            "name": "Trát tường",
+            "work_items": [
+                {
+                    "code": "8.1.1",
+                    "name": "Trát tường trong dày 15mm",
+                    "unit": "m2",
+                    "description": "Trát tường trong nhà dày 15mm, vữa XM M75",
+                    "measurement_method": "Diện tích trát = Diện tích tường - Diện tích cửa - Diện tích ốp gạch",
+                    "formula": "S = L × H - S_trừ"
+                },
+                {
+                    "code": "8.1.2",
+                    "name": "Trát tường ngoài dày 15mm",
+                    "unit": "m2",
+                    "description": "Trát tường ngoài nhà dày 15mm, vữa XM M75",
+                    "measurement_method": "Diện tích mặt ngoài tường",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "8.1.3",
+                    "name": "Trát tường ngoài dày 20mm",
+                    "unit": "m2",
+                    "description": "Trát tường ngoài nhà dày 20mm, vữa XM M75",
+                    "measurement_method": "Diện tích mặt ngoài tường",
+                    "formula": "S = L × H - S_cửa"
+                }
+            ]
+        },
+        {
+            "code": "8.2",
+            "name": "Trát trần",
+            "work_items": [
+                {
+                    "code": "8.2.1",
+                    "name": "Trát trần phẳng",
+                    "unit": "m2",
+                    "description": "Trát trần bê tông phẳng",
+                    "measurement_method": "Diện tích trần = Diện tích sàn tầng trên",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "8.2.2",
+                    "name": "Trát trần có đường chỉ",
+                    "unit": "m2",
+                    "description": "Trát trần có kẻ đường chỉ trang trí",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "8.3",
+            "name": "Trát cột, dầm",
+            "work_items": [
+                {
+                    "code": "8.3.1",
+                    "name": "Trát cột",
+                    "unit": "m2",
+                    "description": "Trát xung quanh cột bê tông",
+                    "measurement_method": "Diện tích = Chu vi cột × Chiều cao cột",
+                    "formula": "S = P × H"
+                },
+                {
+                    "code": "8.3.2",
+                    "name": "Trát dầm",
+                    "unit": "m2",
+                    "description": "Trát dầm bê tông (đáy + 2 thành)",
+                    "measurement_method": "Diện tích = (Chiều rộng + 2×Chiều cao lộ) × Chiều dài",
+                    "formula": "S = (b + 2h) × L"
+                }
+            ]
+        },
+        {
+            "code": "8.4",
+            "name": "Trát gờ, phào",
+            "work_items": [
+                {
+                    "code": "8.4.1",
+                    "name": "Trát gờ chỉ tường",
+                    "unit": "md",
+                    "description": "Trát gờ chỉ trang trí trên tường",
+                    "measurement_method": "Chiều dài đường gờ chỉ",
+                    "formula": "L = ΣL_gờ"
+                },
+                {
+                    "code": "8.4.2",
+                    "name": "Trát phào trần",
+                    "unit": "md",
+                    "description": "Trát phào chỉ góc trần-tường",
+                    "measurement_method": "Chiều dài phào = Chu vi phòng",
+                    "formula": "L = 2(a + b)"
+                },
+                {
+                    "code": "8.4.3",
+                    "name": "Trát ô văng, mái hắt",
+                    "unit": "m2",
+                    "description": "Trát ô văng, mái hắt che mưa",
+                    "measurement_method": "Diện tích = Chu vi tiết diện × Chiều dài",
+                    "formula": "S = P × L"
+                }
+            ]
+        },
+        {
+            "code": "8.5",
+            "name": "Trát granitô",
+            "work_items": [
+                {
+                    "code": "8.5.1",
+                    "name": "Trát granitô chân tường",
+                    "unit": "m2",
+                    "description": "Trát granitô chân tường cao 100-150mm",
+                    "measurement_method": "Diện tích = Chu vi phòng × Chiều cao chân tường",
+                    "formula": "S = P × h"
+                },
+                {
+                    "code": "8.5.2",
+                    "name": "Trát granitô bậc thang",
+                    "unit": "m2",
+                    "description": "Trát granitô mặt và cổ bậc thang",
+                    "measurement_method": "Diện tích = Số bậc × (Diện tích mặt + Diện tích cổ)",
+                    "formula": "S = n × (l×b + l×h)"
+                }
+            ]
+        }
+    ]
+}

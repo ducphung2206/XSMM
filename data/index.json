@@ -1,0 +1,173 @@
+{
+    "version": "1.0",
+    "created_at": "2026-01-30",
+    "author": "Alex (AI Assistant)",
+    "description": "XSMM - Chuẩn hóa phương pháp bóc khối lượng Xhome SG",
+    "total_categories": 23,
+    "total_work_types": 95,
+    "total_work_items": 352,
+    "file_structure": {
+        "main_data": "data/xsmm-data.json (Category 1 mẫu)",
+        "categories": "data/categories/cat-XX-*.json (23 files)"
+    },
+    "categories_summary": [
+        {
+            "code": "1",
+            "name": "Công tác chuẩn bị",
+            "work_items_count": 15,
+            "file": "cat-01 trong xsmm-data.json"
+        },
+        {
+            "code": "2",
+            "name": "Công tác đất",
+            "work_items_count": 9,
+            "file": "cat-02-cong-tac-dat.json"
+        },
+        {
+            "code": "3",
+            "name": "Thi công cọc",
+            "work_items_count": 17,
+            "file": "cat-03-thi-cong-coc.json"
+        },
+        {
+            "code": "4",
+            "name": "Công tác bê tông",
+            "work_items_count": 26,
+            "file": "cat-04-cong-tac-be-tong.json"
+        },
+        {
+            "code": "5",
+            "name": "Công tác cốt thép",
+            "work_items_count": 17,
+            "file": "cat-05-cong-tac-cot-thep.json"
+        },
+        {
+            "code": "6",
+            "name": "Công tác ván khuôn",
+            "work_items_count": 12,
+            "file": "cat-06-cong-tac-van-khuon.json"
+        },
+        {
+            "code": "7",
+            "name": "Công tác xây",
+            "work_items_count": 16,
+            "file": "cat-07-cong-tac-xay.json"
+        },
+        {
+            "code": "8",
+            "name": "Công tác trát",
+            "work_items_count": 13,
+            "file": "cat-08-cong-tac-trat.json"
+        },
+        {
+            "code": "9",
+            "name": "Công tác lát nền",
+            "work_items_count": 18,
+            "file": "cat-09-cong-tac-lat-nen.json"
+        },
+        {
+            "code": "10",
+            "name": "Công tác ốp tường",
+            "work_items_count": 13,
+            "file": "cat-10-cong-tac-op-tuong.json"
+        },
+        {
+            "code": "11",
+            "name": "Công tác sơn",
+            "work_items_count": 15,
+            "file": "cat-11-cong-tac-son.json"
+        },
+        {
+            "code": "12",
+            "name": "Công tác chống thấm",
+            "work_items_count": 11,
+            "file": "cat-12-cong-tac-chong-tham.json"
+        },
+        {
+            "code": "13",
+            "name": "Công tác mái",
+            "work_items_count": 14,
+            "file": "cat-13-cong-tac-mai.json"
+        },
+        {
+            "code": "14",
+            "name": "Công tác cửa",
+            "work_items_count": 17,
+            "file": "cat-14-cong-tac-cua.json"
+        },
+        {
+            "code": "15",
+            "name": "Công tác lan can, cầu thang",
+            "work_items_count": 11,
+            "file": "cat-15-cong-tac-lan-can.json"
+        },
+        {
+            "code": "16",
+            "name": "Công tác trần",
+            "work_items_count": 11,
+            "file": "cat-16-cong-tac-tran.json"
+        },
+        {
+            "code": "17",
+            "name": "Điện dân dụng",
+            "work_items_count": 23,
+            "file": "cat-17-dien-dan-dung.json"
+        },
+        {
+            "code": "18",
+            "name": "Cấp thoát nước",
+            "work_items_count": 16,
+            "file": "cat-18-cap-thoat-nuoc.json"
+        },
+        {
+            "code": "19",
+            "name": "Thiết bị vệ sinh",
+            "work_items_count": 23,
+            "file": "cat-19-thiet-bi-ve-sinh.json"
+        },
+        {
+            "code": "20",
+            "name": "Nội thất gỗ",
+            "work_items_count": 22,
+            "file": "cat-20-noi-that-go.json"
+        },
+        {
+            "code": "21",
+            "name": "Điều hòa không khí",
+            "work_items_count": 12,
+            "file": "cat-21-dieu-hoa-khong-khi.json"
+        },
+        {
+            "code": "22",
+            "name": "An ninh, thông minh",
+            "work_items_count": 13,
+            "file": "cat-22-an-ninh-thong-minh.json"
+        },
+        {
+            "code": "23",
+            "name": "Sân vườn, cảnh quan",
+            "work_items_count": 14,
+            "file": "cat-23-san-vuon-canh-quan.json"
+        }
+    ],
+    "schema": {
+        "work_item": {
+            "code": "string - Mã công việc (vd: 3.1.1)",
+            "name": "string - Tên công việc",
+            "unit": "string - Đơn vị tính (m2, m3, md, kg, cái, bộ...)",
+            "description": "string - Mô tả chi tiết công việc",
+            "measurement_method": "string - Cách thức đo lường",
+            "formula": "string - Công thức tính khối lượng",
+            "rules": {
+                "inclusion": "array - Những gì được bao gồm",
+                "exclusion": "array - Những gì loại trừ"
+            }
+        }
+    },
+    "next_steps": [
+        "1. Merge tất cả JSON files thành 1 file database-ready",
+        "2. Import vào Supabase (PostgreSQL)",
+        "3. Tạo API endpoints",
+        "4. Export RAG-ready JSON cho AI integration"
+    ]
+}

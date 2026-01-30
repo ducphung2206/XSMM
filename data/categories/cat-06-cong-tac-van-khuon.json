@@ -1,0 +1,133 @@
+{
+    "code": "6",
+    "name": "Công tác ván khuôn",
+    "description": "Lắp dựng, tháo dỡ ván khuôn để đổ bê tông",
+    "work_types": [
+        {
+            "code": "6.1",
+            "name": "Ván khuôn móng",
+            "work_items": [
+                {
+                    "code": "6.1.1",
+                    "name": "VK móng đơn",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn móng đơn",
+                    "measurement_method": "Diện tích = Chu vi móng × Chiều cao móng",
+                    "formula": "S = P × H"
+                },
+                {
+                    "code": "6.1.2",
+                    "name": "VK móng băng",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn móng băng",
+                    "measurement_method": "Diện tích = 2 × Chiều cao × Chiều dài móng băng",
+                    "formula": "S = 2 × H × L"
+                },
+                {
+                    "code": "6.1.3",
+                    "name": "VK móng bè",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn móng bè (thành ngoài)",
+                    "measurement_method": "Diện tích = Chu vi bè × Chiều cao bè",
+                    "formula": "S = P × H"
+                }
+            ]
+        },
+        {
+            "code": "6.2",
+            "name": "Ván khuôn cột",
+            "work_items": [
+                {
+                    "code": "6.2.1",
+                    "name": "VK cột vuông",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn cột vuông/chữ nhật",
+                    "measurement_method": "Diện tích = Chu vi cột × Chiều cao cột",
+                    "formula": "S = 2(a+b) × H"
+                },
+                {
+                    "code": "6.2.2",
+                    "name": "VK cột tròn",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn cột tròn (ống thép)",
+                    "measurement_method": "Diện tích = π × D × H",
+                    "formula": "S = π × D × H"
+                }
+            ]
+        },
+        {
+            "code": "6.3",
+            "name": "Ván khuôn dầm, sàn",
+            "work_items": [
+                {
+                    "code": "6.3.1",
+                    "name": "VK dầm",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn dầm (đáy + 2 thành)",
+                    "measurement_method": "Diện tích = (Chiều rộng + 2×Chiều cao) × Chiều dài",
+                    "formula": "S = (b + 2h) × L"
+                },
+                {
+                    "code": "6.3.2",
+                    "name": "VK sàn phẳng",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn sàn phẳng",
+                    "measurement_method": "Diện tích = Diện tích sàn (bằng diện tích BT sàn)",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "6.3.3",
+                    "name": "VK lanh tô, ô văng",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn lanh tô, ô văng",
+                    "measurement_method": "Diện tích = Chu vi tiết diện × Chiều dài",
+                    "formula": "S = P × L"
+                }
+            ]
+        },
+        {
+            "code": "6.4",
+            "name": "Ván khuôn cầu thang",
+            "work_items": [
+                {
+                    "code": "6.4.1",
+                    "name": "VK cầu thang thường",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn cầu thang 2 vế",
+                    "measurement_method": "Diện tích = Diện tích đáy nghiêng + Diện tích thành bậc",
+                    "formula": "S = S_đáy + n × (h × L_bậc)"
+                },
+                {
+                    "code": "6.4.2",
+                    "name": "VK cầu thang xoắn",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn cầu thang xoắn",
+                    "measurement_method": "Tính theo công thức cầu thang xoắn (phức tạp hơn)",
+                    "formula": "S = S_bản + S_bậc"
+                }
+            ]
+        },
+        {
+            "code": "6.5",
+            "name": "Ván khuôn tường",
+            "work_items": [
+                {
+                    "code": "6.5.1",
+                    "name": "VK tường BTCT",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn tường BTCT (2 mặt)",
+                    "measurement_method": "Diện tích = 2 × Chiều dài × Chiều cao tường",
+                    "formula": "S = 2 × L × H"
+                },
+                {
+                    "code": "6.5.2",
+                    "name": "VK bể nước, bể phốt",
+                    "unit": "m2",
+                    "description": "Lắp dựng, tháo dỡ ván khuôn bể (trong + ngoài)",
+                    "measurement_method": "Diện tích = S_trong + S_ngoài",
+                    "formula": "S = 2 × (P_trong + P_ngoài) × H"
+                }
+            ]
+        }
+    ]
+}

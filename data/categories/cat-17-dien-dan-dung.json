@@ -1,0 +1,221 @@
+{
+    "code": "17",
+    "name": "Điện dân dụng",
+    "description": "Lắp đặt hệ thống điện cho nhà ở",
+    "work_types": [
+        {
+            "code": "17.1",
+            "name": "Đường dây điện",
+            "work_items": [
+                {
+                    "code": "17.1.1",
+                    "name": "Dây điện 1.5mm²",
+                    "unit": "md",
+                    "description": "Lắp đặt dây điện đơn 1×1.5mm²",
+                    "measurement_method": "Chiều dài dây thực tế + hao hụt 5%",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "17.1.2",
+                    "name": "Dây điện 2.5mm²",
+                    "unit": "md",
+                    "description": "Lắp đặt dây điện đơn 1×2.5mm²",
+                    "measurement_method": "Chiều dài dây thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "17.1.3",
+                    "name": "Dây điện 4.0mm²",
+                    "unit": "md",
+                    "description": "Lắp đặt dây điện đơn 1×4.0mm²",
+                    "measurement_method": "Chiều dài dây thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "17.1.4",
+                    "name": "Dây điện 6.0mm²",
+                    "unit": "md",
+                    "description": "Lắp đặt dây điện đơn 1×6.0mm²",
+                    "measurement_method": "Chiều dài dây thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "17.1.5",
+                    "name": "Cáp điện 3x2.5mm²",
+                    "unit": "md",
+                    "description": "Lắp đặt cáp điện 3 lõi 3×2.5mm²",
+                    "measurement_method": "Chiều dài cáp thực tế",
+                    "formula": "L = L_thực × 1.05"
+                }
+            ]
+        },
+        {
+            "code": "17.2",
+            "name": "Ống luồn dây",
+            "work_items": [
+                {
+                    "code": "17.2.1",
+                    "name": "Ống PVC Ø16",
+                    "unit": "md",
+                    "description": "Lắp đặt ống luồn dây PVC Ø16mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực"
+                },
+                {
+                    "code": "17.2.2",
+                    "name": "Ống PVC Ø20",
+                    "unit": "md",
+                    "description": "Lắp đặt ống luồn dây PVC Ø20mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực"
+                },
+                {
+                    "code": "17.2.3",
+                    "name": "Ống PVC Ø25",
+                    "unit": "md",
+                    "description": "Lắp đặt ống luồn dây PVC Ø25mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực"
+                },
+                {
+                    "code": "17.2.4",
+                    "name": "Ống ruột gà D16",
+                    "unit": "md",
+                    "description": "Lắp đặt ống ruột gà D16mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực"
+                }
+            ]
+        },
+        {
+            "code": "17.3",
+            "name": "Đèn chiếu sáng",
+            "work_items": [
+                {
+                    "code": "17.3.1",
+                    "name": "Đèn LED âm trần",
+                    "unit": "bộ",
+                    "description": "Lắp đặt đèn LED âm trần",
+                    "measurement_method": "Số lượng đèn",
+                    "formula": "N = Số bộ đèn"
+                },
+                {
+                    "code": "17.3.2",
+                    "name": "Đèn LED panel",
+                    "unit": "bộ",
+                    "description": "Lắp đặt đèn LED panel 600×600",
+                    "measurement_method": "Số lượng đèn",
+                    "formula": "N = Số bộ đèn"
+                },
+                {
+                    "code": "17.3.3",
+                    "name": "Đèn tuýp LED",
+                    "unit": "bộ",
+                    "description": "Lắp đặt đèn tuýp LED 1.2m",
+                    "measurement_method": "Số lượng đèn",
+                    "formula": "N = Số bộ đèn"
+                },
+                {
+                    "code": "17.3.4",
+                    "name": "Đèn thả trang trí",
+                    "unit": "bộ",
+                    "description": "Lắp đặt đèn thả trang trí",
+                    "measurement_method": "Số lượng đèn",
+                    "formula": "N = Số bộ đèn"
+                },
+                {
+                    "code": "17.3.5",
+                    "name": "Đèn gắn tường",
+                    "unit": "bộ",
+                    "description": "Lắp đặt đèn gắn tường",
+                    "measurement_method": "Số lượng đèn",
+                    "formula": "N = Số bộ đèn"
+                }
+            ]
+        },
+        {
+            "code": "17.4",
+            "name": "Ổ cắm, công tắc",
+            "work_items": [
+                {
+                    "code": "17.4.1",
+                    "name": "Ổ cắm đơn",
+                    "unit": "cái",
+                    "description": "Lắp đặt ổ cắm điện đơn",
+                    "measurement_method": "Số lượng ổ cắm",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "17.4.2",
+                    "name": "Ổ cắm đôi",
+                    "unit": "cái",
+                    "description": "Lắp đặt ổ cắm điện đôi",
+                    "measurement_method": "Số lượng ổ cắm",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "17.4.3",
+                    "name": "Ổ cắm 3 chấu",
+                    "unit": "cái",
+                    "description": "Lắp đặt ổ cắm 3 chấu có tiếp địa",
+                    "measurement_method": "Số lượng ổ cắm",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "17.4.4",
+                    "name": "Công tắc đơn",
+                    "unit": "cái",
+                    "description": "Lắp đặt công tắc đơn",
+                    "measurement_method": "Số lượng công tắc",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "17.4.5",
+                    "name": "Công tắc đôi",
+                    "unit": "cái",
+                    "description": "Lắp đặt công tắc đôi",
+                    "measurement_method": "Số lượng công tắc",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "17.4.6",
+                    "name": "Công tắc ba",
+                    "unit": "cái",
+                    "description": "Lắp đặt công tắc ba",
+                    "measurement_method": "Số lượng công tắc",
+                    "formula": "N = Số cái"
+                }
+            ]
+        },
+        {
+            "code": "17.5",
+            "name": "Tủ điện",
+            "work_items": [
+                {
+                    "code": "17.5.1",
+                    "name": "Tủ điện tổng",
+                    "unit": "bộ",
+                    "description": "Lắp đặt tủ điện tổng",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = 1"
+                },
+                {
+                    "code": "17.5.2",
+                    "name": "Tủ điện tầng",
+                    "unit": "bộ",
+                    "description": "Lắp đặt tủ điện tầng/phòng",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = Số tầng"
+                },
+                {
+                    "code": "17.5.3",
+                    "name": "CB các loại",
+                    "unit": "cái",
+                    "description": "Lắp đặt CB (cầu dao tự động)",
+                    "measurement_method": "Số lượng CB",
+                    "formula": "N = Số cái"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "code": "20",
+    "name": "Nội thất gỗ",
+    "description": "Sản xuất, lắp đặt nội thất gỗ",
+    "work_types": [
+        {
+            "code": "20.1",
+            "name": "Tủ bếp",
+            "work_items": [
+                {
+                    "code": "20.1.1",
+                    "name": "Tủ bếp trên",
+                    "unit": "md",
+                    "description": "Sản xuất, lắp đặt tủ bếp trên",
+                    "measurement_method": "Chiều dài tủ bếp trên (theo md)",
+                    "formula": "L = ΣL_tủ_trên"
+                },
+                {
+                    "code": "20.1.2",
+                    "name": "Tủ bếp dưới",
+                    "unit": "md",
+                    "description": "Sản xuất, lắp đặt tủ bếp dưới",
+                    "measurement_method": "Chiều dài tủ bếp dưới",
+                    "formula": "L = ΣL_tủ_dưới"
+                },
+                {
+                    "code": "20.1.3",
+                    "name": "Tủ bếp đảo",
+                    "unit": "md",
+                    "description": "Sản xuất, lắp đặt tủ bếp đảo",
+                    "measurement_method": "Chiều dài tủ đảo",
+                    "formula": "L = P_đảo"
+                },
+                {
+                    "code": "20.1.4",
+                    "name": "Mặt bàn bếp đá",
+                    "unit": "md",
+                    "description": "Lắp đặt mặt bàn bếp đá granite/thạch anh",
+                    "measurement_method": "Chiều dài mặt bàn",
+                    "formula": "L = L_tổng"
+                },
+                {
+                    "code": "20.1.5",
+                    "name": "Mặt bàn bếp gỗ",
+                    "unit": "md",
+                    "description": "Lắp đặt mặt bàn bếp gỗ",
+                    "measurement_method": "Chiều dài mặt bàn",
+                    "formula": "L = L_tổng"
+                }
+            ]
+        },
+        {
+            "code": "20.2",
+            "name": "Tủ quần áo",
+            "work_items": [
+                {
+                    "code": "20.2.1",
+                    "name": "Tủ quần áo 2 cánh",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt tủ quần áo 2 cánh",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.2.2",
+                    "name": "Tủ quần áo 3 cánh",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt tủ quần áo 3 cánh",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.2.3",
+                    "name": "Tủ quần áo 4 cánh",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt tủ quần áo 4 cánh",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.2.4",
+                    "name": "Tủ quần áo âm tường",
+                    "unit": "m2",
+                    "description": "Sản xuất, lắp đặt tủ âm tường",
+                    "measurement_method": "Diện tích mặt tủ = Rộng × Cao",
+                    "formula": "S = W × H"
+                }
+            ]
+        },
+        {
+            "code": "20.3",
+            "name": "Giường ngủ",
+            "work_items": [
+                {
+                    "code": "20.3.1",
+                    "name": "Giường 1m2",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt giường ngủ 1m2",
+                    "measurement_method": "Số lượng giường",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.3.2",
+                    "name": "Giường 1m4",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt giường ngủ 1m4",
+                    "measurement_method": "Số lượng giường",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.3.3",
+                    "name": "Giường 1m6",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt giường ngủ 1m6",
+                    "measurement_method": "Số lượng giường",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.3.4",
+                    "name": "Giường 1m8",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt giường ngủ 1m8",
+                    "measurement_method": "Số lượng giường",
+                    "formula": "N = Số bộ"
+                }
+            ]
+        },
+        {
+            "code": "20.4",
+            "name": "Bàn làm việc",
+            "work_items": [
+                {
+                    "code": "20.4.1",
+                    "name": "Bàn làm việc đơn giản",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt bàn làm việc đơn giản",
+                    "measurement_method": "Số lượng bàn",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.4.2",
+                    "name": "Bàn làm việc có hộc tủ",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt bàn làm việc có hộc tủ",
+                    "measurement_method": "Số lượng bàn",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.4.3",
+                    "name": "Bàn học sinh",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt bàn học sinh",
+                    "measurement_method": "Số lượng bàn",
+                    "formula": "N = Số bộ"
+                }
+            ]
+        },
+        {
+            "code": "20.5",
+            "name": "Kệ tivi",
+            "work_items": [
+                {
+                    "code": "20.5.1",
+                    "name": "Kệ tivi treo tường",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt kệ tivi treo tường",
+                    "measurement_method": "Số lượng kệ",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.5.2",
+                    "name": "Kệ tivi đứng",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt kệ tivi đặt sàn",
+                    "measurement_method": "Số lượng kệ",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.5.3",
+                    "name": "Vách tivi trang trí",
+                    "unit": "m2",
+                    "description": "Lắp đặt vách tivi trang trí",
+                    "measurement_method": "Diện tích vách = Rộng × Cao",
+                    "formula": "S = W × H"
+                }
+            ]
+        },
+        {
+            "code": "20.6",
+            "name": "Tủ giày",
+            "work_items": [
+                {
+                    "code": "20.6.1",
+                    "name": "Tủ giày đứng",
+                    "unit": "bộ",
+                    "description": "Sản xuất, lắp đặt tủ giày đứng",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "20.6.2",
+                    "name": "Tủ giày treo tường",
+                    "unit": "bộ",
+                    "description": "Lắp đặt tủ giày treo tường",
+                    "measurement_method": "Số lượng tủ",
+                    "formula": "N = Số bộ"
+                }
+            ]
+        }
+    ]
+}

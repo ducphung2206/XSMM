@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSMM Data Viewer - Xhome SG</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-tertiary: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+            --success: #22c55e;
+            --border: #475569;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+        }
+        
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+        
+        header p {
+            color: var(--text-secondary);
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+        
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        .stat-card .label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+        
+        .search-box {
+            margin-bottom: 24px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 14px 20px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 24px;
+        }
+        
+        .sidebar {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 16px;
+            border: 1px solid var(--border);
+            height: fit-content;
+            max-height: calc(100vh - 240px);
+            overflow-y: auto;
+        }
+        
+        .sidebar h3 {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .category-item {
+            padding: 10px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 4px;
+            transition: all 0.2s;
+        }
+        
+        .category-item:hover {
+            background: var(--bg-tertiary);
+        }
+        
+        .category-item.active {
+            background: var(--accent);
+            color: white;
+        }
+        
+        .category-item .code {
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        
+        .content-area {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            overflow: hidden;
+        }
+        
+        .content-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .content-header h2 {
+            font-size: 1.2rem;
+        }
+        
+        .work-items-list {
+            max-height: calc(100vh - 360px);
+            overflow-y: auto;
+        }
+        
+        .work-type {
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .work-type-header {
+            padding: 16px 20px;
+            background: var(--bg-tertiary);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .work-type-header:hover {
+            background: #3d4f6a;
+        }
+        
+        .work-type-header .code {
+            color: var(--accent);
+            font-weight: 600;
+            margin-right: 12px;
+        }
+        
+        .work-type-items {
+            display: none;
+        }
+        
+        .work-type-items.expanded {
+            display: block;
+        }
+        
+        .work-item {
+            padding: 16px 20px;
+            border-bottom: 1px solid rgba(71, 85, 105, 0.5);
+        }
+        
+        .work-item:hover {
+            background: rgba(59, 130, 246, 0.1);
+        }
+        
+        .work-item-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .work-item-code {
+            background: var(--accent);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 12px;
+        }
+        
+        .work-item-name {
+            font-weight: 500;
+        }
+        
+        .work-item-unit {
+            margin-left: auto;
+            background: var(--success);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+        
+        .work-item-details {
+            margin-top: 12px;
+            padding: 12px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+        
+        .detail-row {
+            margin-bottom: 8px;
+        }
+        
+        .detail-label {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+        
+        .detail-value {
+            color: var(--text-primary);
+        }
+        
+        .arrow {
+            transition: transform 0.2s;
+        }
+        
+        .arrow.expanded {
+            transform: rotate(90deg);
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                max-height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📐 XSMM Data Viewer</h1>
+            <p>Chuẩn hóa phương pháp bóc khối lượng - Xhome Sài Gòn</p>
+        </header>
+        
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="number" id="totalCategories">--</div>
+                <div class="label">Categories</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="totalWorkTypes">--</div>
+                <div class="label">Work Types</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="totalWorkItems">--</div>
+                <div class="label">Work Items</div>
+            </div>
+        </div>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm công việc...">
+        </div>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <h3>Categories</h3>
+                <div id="categoryList"></div>
+            </div>
+            
+            <div class="content-area">
+                <div class="content-header">
+                    <h2 id="contentTitle">Chọn category để xem</h2>
+                </div>
+                <div class="work-items-list" id="workItemsList"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let xsmmData = null;
+        let currentCategory = null;
+        
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('./xsmm-complete.json');
+                xsmmData = await response.json();
+                
+                // Update stats
+                document.getElementById('totalCategories').textContent = xsmmData.stats.total_categories;
+                document.getElementById('totalWorkTypes').textContent = xsmmData.stats.total_work_types;
+                document.getElementById('totalWorkItems').textContent = xsmmData.stats.total_work_items;
+                
+                // Render categories
+                renderCategories();
+                
+                // Select first category
+                if (xsmmData.categories.length > 0) {
+                    selectCategory(xsmmData.categories[0]);
+                }
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('contentTitle').textContent = 'Lỗi: Không thể tải dữ liệu';
+            }
+        }
+        
+        function renderCategories() {
+            const container = document.getElementById('categoryList');
+            container.innerHTML = xsmmData.categories.map(cat => `
+                <div class="category-item" data-code="${cat.code}" onclick="selectCategory(getCategoryByCode('${cat.code}'))">
+                    <span class="code">${cat.code}.</span>
+                    <span class="name">${cat.name}</span>
+                </div>
+            `).join('');
+        }
+        
+        function getCategoryByCode(code) {
+            return xsmmData.categories.find(c => c.code === code);
+        }
+        
+        function selectCategory(category) {
+            currentCategory = category;
+            
+            // Update active state
+            document.querySelectorAll('.category-item').forEach(el => {
+                el.classList.remove('active');
+                if (el.dataset.code === category.code) {
+                    el.classList.add('active');
+                }
+            });
+            
+            // Update title
+            document.getElementById('contentTitle').textContent = `${category.code}. ${category.name}`;
+            
+            // Render work types
+            renderWorkTypes(category);
+        }
+        
+        function renderWorkTypes(category) {
+            const container = document.getElementById('workItemsList');
+            
+            if (!category.work_types || category.work_types.length === 0) {
+                container.innerHTML = '<p style="padding: 20px; color: var(--text-secondary);">Không có dữ liệu</p>';
+                return;
+            }
+            
+            container.innerHTML = category.work_types.map(wt => `
+                <div class="work-type">
+                    <div class="work-type-header" onclick="toggleWorkType(this)">
+                        <span>
+                            <span class="code">${wt.code}</span>
+                            ${wt.name}
+                        </span>
+                        <span class="arrow">▶</span>
+                    </div>
+                    <div class="work-type-items">
+                        ${(wt.work_items || []).map(wi => `
+                            <div class="work-item">
+                                <div class="work-item-header">
+                                    <span class="work-item-code">${wi.code}</span>
+                                    <span class="work-item-name">${wi.name}</span>
+                                    <span class="work-item-unit">${wi.unit || 'N/A'}</span>
+                                </div>
+                                <div class="work-item-details">
+                                    ${wi.description ? `<div class="detail-row"><div class="detail-label">Mô tả:</div><div class="detail-value">${wi.description}</div></div>` : ''}
+                                    ${wi.measurement_method ? `<div class="detail-row"><div class="detail-label">Cách đo:</div><div class="detail-value">${wi.measurement_method}</div></div>` : ''}
+                                    ${wi.formula ? `<div class="detail-row"><div class="detail-label">Công thức:</div><div class="detail-value">${wi.formula}</div></div>` : ''}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function toggleWorkType(header) {
+            const items = header.nextElementSibling;
+            const arrow = header.querySelector('.arrow');
+            
+            items.classList.toggle('expanded');
+            arrow.classList.toggle('expanded');
+        }
+        
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase();
+            
+            if (!query) {
+                if (currentCategory) {
+                    renderWorkTypes(currentCategory);
+                }
+                return;
+            }
+            
+            // Search across all categories
+            const results = [];
+            xsmmData.categories.forEach(cat => {
+                (cat.work_types || []).forEach(wt => {
+                    (wt.work_items || []).forEach(wi => {
+                        if (wi.name.toLowerCase().includes(query) ||
+                            wi.code.toLowerCase().includes(query) ||
+                            (wi.description && wi.description.toLowerCase().includes(query))) {
+                            results.push({...wi, categoryName: cat.name, workTypeName: wt.name});
+                        }
+                    });
+                });
+            });
+            
+            // Render search results
+            const container = document.getElementById('workItemsList');
+            document.getElementById('contentTitle').textContent = `Kết quả tìm kiếm: ${results.length} công việc`;
+            
+            container.innerHTML = results.map(wi => `
+                <div class="work-item">
+                    <div class="work-item-header">
+                        <span class="work-item-code">${wi.code}</span>
+                        <span class="work-item-name">${wi.name}</span>
+                        <span class="work-item-unit">${wi.unit || 'N/A'}</span>
+                    </div>
+                    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">
+                        ${wi.categoryName} → ${wi.workTypeName}
+                    </div>
+                    <div class="work-item-details">
+                        ${wi.description ? `<div class="detail-row"><div class="detail-label">Mô tả:</div><div class="detail-value">${wi.description}</div></div>` : ''}
+                        ${wi.measurement_method ? `<div class="detail-row"><div class="detail-label">Cách đo:</div><div class="detail-value">${wi.measurement_method}</div></div>` : ''}
+                        ${wi.formula ? `<div class="detail-row"><div class="detail-label">Công thức:</div><div class="detail-value">${wi.formula}</div></div>` : ''}
+                    </div>
+                </div>
+            `).join('') || '<p style="padding: 20px; color: var(--text-secondary);">Không tìm thấy kết quả</p>';
+        });
+        
+        // Initialize
+        loadData();
+    </script>
+</body>
+</html>

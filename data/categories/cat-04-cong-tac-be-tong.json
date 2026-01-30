@@ -1,0 +1,271 @@
+{
+    "code": "4",
+    "name": "Công tác bê tông",
+    "description": "Đổ bê tông các kết cấu móng, cột, dầm, sàn, cầu thang",
+    "work_types": [
+        {
+            "code": "4.1",
+            "name": "Bê tông lót",
+            "work_items": [
+                {
+                    "code": "4.1.1",
+                    "name": "BT lót móng đá 4x6, M100",
+                    "unit": "m3",
+                    "description": "Đổ bê tông lót móng đá 4x6, mác 100",
+                    "measurement_method": "Thể tích = Diện tích đáy móng × Chiều dày lớp lót (thường 10cm)",
+                    "formula": "V = S × 0.1"
+                },
+                {
+                    "code": "4.1.2",
+                    "name": "BT lót nền đá 4x6, M100",
+                    "unit": "m3",
+                    "description": "Đổ bê tông lót nền đá 4x6, mác 100",
+                    "measurement_method": "Thể tích = Diện tích nền × Chiều dày (thường 5-10cm)",
+                    "formula": "V = S × t"
+                }
+            ]
+        },
+        {
+            "code": "4.2",
+            "name": "Bê tông móng",
+            "work_items": [
+                {
+                    "code": "4.2.1",
+                    "name": "BT móng đơn M200",
+                    "unit": "m3",
+                    "description": "Đổ bê tông móng đơn mác 200",
+                    "measurement_method": "Thể tích hình học móng đơn",
+                    "formula": "V = L × W × H"
+                },
+                {
+                    "code": "4.2.2",
+                    "name": "BT móng đơn M250",
+                    "unit": "m3",
+                    "description": "Đổ bê tông móng đơn mác 250",
+                    "measurement_method": "Thể tích hình học môdng đơn",
+                    "formula": "V = L × W × H"
+                },
+                {
+                    "code": "4.2.3",
+                    "name": "BT móng băng M200",
+                    "unit": "m3",
+                    "description": "Đổ bê tông móng băng mác 200",
+                    "measurement_method": "Thể tích = Chiều dài × Chiều rộng × Chiều cao móng băng",
+                    "formula": "V = L × W × H"
+                },
+                {
+                    "code": "4.2.4",
+                    "name": "BT móng băng M250",
+                    "unit": "m3",
+                    "description": "Đổ bê tông móng băng mác 250",
+                    "measurement_method": "Thể tích hình học móng băng",
+                    "formula": "V = L × W × H"
+                },
+                {
+                    "code": "4.2.5",
+                    "name": "BT móng bè M250",
+                    "unit": "m3",
+                    "description": "Đổ bê tông móng bè mác 250",
+                    "measurement_method": "Thể tích = Diện tích × Chiều dày bè",
+                    "formula": "V = S × t"
+                },
+                {
+                    "code": "4.2.6",
+                    "name": "BT móng bè M300",
+                    "unit": "m3",
+                    "description": "Đổ bê tông móng bè mác 300",
+                    "measurement_method": "Thể tích = Diện tích × Chiều dày",
+                    "formula": "V = S × t"
+                }
+            ]
+        },
+        {
+            "code": "4.3",
+            "name": "Bê tông cột",
+            "work_items": [
+                {
+                    "code": "4.3.1",
+                    "name": "BT cột tiết diện ≤0.1m²",
+                    "unit": "m3",
+                    "description": "Đổ bê tông cột có tiết diện ≤0.1m² (cột nhỏ)",
+                    "measurement_method": "Thể tích = Tiết diện × Chiều cao cột (từ đỉnh móng/sàn đến đáy dầm)",
+                    "formula": "V = A × H"
+                },
+                {
+                    "code": "4.3.2",
+                    "name": "BT cột tiết diện >0.1m²",
+                    "unit": "m3",
+                    "description": "Đổ bê tông cột có tiết diện >0.1m² (cột lớn)",
+                    "measurement_method": "Thể tích = Tiết diện × Chiều cao cột",
+                    "formula": "V = A × H"
+                },
+                {
+                    "code": "4.3.3",
+                    "name": "BT cột tròn",
+                    "unit": "m3",
+                    "description": "Đổ bê tông cột tròn",
+                    "measurement_method": "Thể tích = π × R² × H",
+                    "formula": "V = π × R² × H"
+                }
+            ]
+        },
+        {
+            "code": "4.4",
+            "name": "Bê tông dầm",
+            "work_items": [
+                {
+                    "code": "4.4.1",
+                    "name": "BT dầm chính",
+                    "unit": "m3",
+                    "description": "Đổ bê tông dầm chính (dầm khung)",
+                    "measurement_method": "Thể tích = Chiều rộng × (Chiều cao dầm - Dày sàn) × Chiều dài",
+                    "formula": "V = b × (h-t_sàn) × L"
+                },
+                {
+                    "code": "4.4.2",
+                    "name": "BT dầm phụ",
+                    "unit": "m3",
+                    "description": "Đổ bê tông dầm phụ",
+                    "measurement_method": "Thể tích = b × (h-t_sàn) × L",
+                    "formula": "V = b × h' × L"
+                },
+                {
+                    "code": "4.4.3",
+                    "name": "BT lanh tô, ô văng",
+                    "unit": "m3",
+                    "description": "Đổ bê tông lanh tô cửa, ô văng",
+                    "measurement_method": "Thể tích = Chiều rộng × Chiều cao × Chiều dài",
+                    "formula": "V = b × h × L"
+                }
+            ]
+        },
+        {
+            "code": "4.5",
+            "name": "Bê tông sàn",
+            "work_items": [
+                {
+                    "code": "4.5.1",
+                    "name": "BT sàn dày 8cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông sàn dày 8cm",
+                    "measurement_method": "Thể tích = Diện tích sàn × 0.08m",
+                    "formula": "V = S × 0.08"
+                },
+                {
+                    "code": "4.5.2",
+                    "name": "BT sàn dày 10cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông sàn dày 10cm",
+                    "measurement_method": "Thể tích = Diện tích sàn × 0.10m",
+                    "formula": "V = S × 0.10"
+                },
+                {
+                    "code": "4.5.3",
+                    "name": "BT sàn dày 12cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông sàn dày 12cm",
+                    "measurement_method": "Thể tích = Diện tích sàn × 0.12m",
+                    "formula": "V = S × 0.12"
+                },
+                {
+                    "code": "4.5.4",
+                    "name": "BT sàn dày 15cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông sàn dày 15cm",
+                    "measurement_method": "Thể tích = Diện tích sàn × 0.15m",
+                    "formula": "V = S × 0.15"
+                },
+                {
+                    "code": "4.5.5",
+                    "name": "BT sàn mái",
+                    "unit": "m3",
+                    "description": "Đổ bê tông sàn mái (có tạo dốc)",
+                    "measurement_method": "Thể tích = Diện tích × Chiều dày trung bình",
+                    "formula": "V = S × t_tb"
+                }
+            ]
+        },
+        {
+            "code": "4.6",
+            "name": "Bê tông cầu thang",
+            "work_items": [
+                {
+                    "code": "4.6.1",
+                    "name": "BT cầu thang 2 vế",
+                    "unit": "m3",
+                    "description": "Đổ bê tông cầu thang 2 vế thông thường",
+                    "measurement_method": "Thể tích = Diện tích nghiêng × Chiều dày bản thang + Thể tích bậc",
+                    "formula": "V = S_nghiêng × t + V_bậc"
+                },
+                {
+                    "code": "4.6.2",
+                    "name": "BT cầu thang xoắn",
+                    "unit": "m3",
+                    "description": "Đổ bê tông cầu thang xoắn ốc",
+                    "measurement_method": "Thể tích theo công thức cầu thang xoắn",
+                    "formula": "V = π × (R² - r²) × t × n/360"
+                }
+            ]
+        },
+        {
+            "code": "4.7",
+            "name": "Bê tông tường",
+            "work_items": [
+                {
+                    "code": "4.7.1",
+                    "name": "BT tường dày 10cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông tường dày 10cm",
+                    "measurement_method": "Thể tích = Diện tích tường × 0.10m",
+                    "formula": "V = S × 0.10"
+                },
+                {
+                    "code": "4.7.2",
+                    "name": "BT tường dày 15cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông tường dày 15cm",
+                    "measurement_method": "Thể tích = Diện tích tường × 0.15m",
+                    "formula": "V = S × 0.15"
+                },
+                {
+                    "code": "4.7.3",
+                    "name": "BT tường dày 20cm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông tường dày 20cm",
+                    "measurement_method": "Thể tích = Diện tích tường × 0.20m",
+                    "formula": "V = S × 0.20"
+                }
+            ]
+        },
+        {
+            "code": "4.8",
+            "name": "Bê tông bể",
+            "work_items": [
+                {
+                    "code": "4.8.1",
+                    "name": "BT bể nước ngầm",
+                    "unit": "m3",
+                    "description": "Đổ bê tông bể nước ngầm (đáy + thành)",
+                    "measurement_method": "Thể tích = V_đáy + V_thành",
+                    "formula": "V = S_đáy × t_đáy + Chu_vi × H × t_thành"
+                },
+                {
+                    "code": "4.8.2",
+                    "name": "BT bể phốt",
+                    "unit": "m3",
+                    "description": "Đổ bê tông bể phốt 3 ngăn",
+                    "measurement_method": "Thể tích = V_đáy + V_thành + V_vách ngăn",
+                    "formula": "V = ΣV_thành_phần"
+                },
+                {
+                    "code": "4.8.3",
+                    "name": "BT hồ bơi",
+                    "unit": "m3",
+                    "description": "Đổ bê tông hồ bơi",
+                    "measurement_method": "Thể tích = V_đáy + V_thành",
+                    "formula": "V = S × t_đáy + P × H × t_thành"
+                }
+            ]
+        }
+    ]
+}

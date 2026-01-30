@@ -1,0 +1,143 @@
+{
+    "code": "23",
+    "name": "Sân vườn, cảnh quan",
+    "description": "Thi công sân vườn, hàng rào, cây xanh, tiểu cảnh",
+    "work_types": [
+        {
+            "code": "23.1",
+            "name": "Lát sân vườn",
+            "work_items": [
+                {
+                    "code": "23.1.1",
+                    "name": "Lát gạch terrazzo sân",
+                    "unit": "m2",
+                    "description": "Lát gạch terrazzo sân vườn",
+                    "measurement_method": "Diện tích sân cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "23.1.2",
+                    "name": "Lát gạch con sâu",
+                    "unit": "m2",
+                    "description": "Lát gạch con sâu lối đi",
+                    "measurement_method": "Diện tích lối đi",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "23.1.3",
+                    "name": "Lát đá tự nhiên sân",
+                    "unit": "m2",
+                    "description": "Lát đá tự nhiên sân vườn",
+                    "measurement_method": "Diện tích sân cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "23.1.4",
+                    "name": "Bê tông mặt sân",
+                    "unit": "m2",
+                    "description": "Đổ bê tông mặt sân vườn",
+                    "measurement_method": "Diện tích sân",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "23.2",
+            "name": "Hàng rào",
+            "work_items": [
+                {
+                    "code": "23.2.1",
+                    "name": "Hàng rào sắt",
+                    "unit": "md",
+                    "description": "Lắp đặt hàng rào sắt hộp",
+                    "measurement_method": "Chiều dài hàng rào",
+                    "formula": "L = Chu vi khu vực"
+                },
+                {
+                    "code": "23.2.2",
+                    "name": "Hàng rào gỗ",
+                    "unit": "md",
+                    "description": "Lắp đặt hàng rào gỗ trang trí",
+                    "measurement_method": "Chiều dài hàng rào",
+                    "formula": "L = ΣL"
+                },
+                {
+                    "code": "23.2.3",
+                    "name": "Hàng rào xây gạch",
+                    "unit": "m2",
+                    "description": "Xây hàng rào gạch + trát",
+                    "measurement_method": "Diện tích hàng rào",
+                    "formula": "S = L × H"
+                }
+            ]
+        },
+        {
+            "code": "23.3",
+            "name": "Cây xanh",
+            "work_items": [
+                {
+                    "code": "23.3.1",
+                    "name": "Trồng cây bóng mát",
+                    "unit": "cây",
+                    "description": "Trồng cây bóng mát (sấu, phượng, bàng...)",
+                    "measurement_method": "Số lượng cây",
+                    "formula": "N = Số cây"
+                },
+                {
+                    "code": "23.3.2",
+                    "name": "Trồng cây bụi",
+                    "unit": "cây",
+                    "description": "Trồng cây bụi trang trí",
+                    "measurement_method": "Số lượng cây",
+                    "formula": "N = Số cây"
+                },
+                {
+                    "code": "23.3.3",
+                    "name": "Trồng thảm cỏ",
+                    "unit": "m2",
+                    "description": "Trồng thảm cỏ nhung/Nhật",
+                    "measurement_method": "Diện tích thảm cỏ",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "23.3.4",
+                    "name": "Hệ thống tưới tự động",
+                    "unit": "m2",
+                    "description": "Lắp đặt hệ thống tưới tự động",
+                    "measurement_method": "Diện tích vườn được phủ tưới",
+                    "formula": "S = S_vườn"
+                }
+            ]
+        },
+        {
+            "code": "23.4",
+            "name": "Hồ cá, tiểu cảnh",
+            "work_items": [
+                {
+                    "code": "23.4.1",
+                    "name": "Thi công hồ cá koi",
+                    "unit": "m3",
+                    "description": "Thi công hồ cá koi (đào, lót, bơm, lọc)",
+                    "measurement_method": "Thể tích hồ = Dài × Rộng × Sâu",
+                    "formula": "V = L × W × H"
+                },
+                {
+                    "code": "23.4.2",
+                    "name": "Tiểu cảnh sân vườn",
+                    "unit": "m2",
+                    "description": "Thi công tiểu cảnh trang trí",
+                    "measurement_method": "Diện tích tiểu cảnh",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "23.4.3",
+                    "name": "Thác nước mini",
+                    "unit": "bộ",
+                    "description": "Thi công thác nước mini trang trí",
+                    "measurement_method": "Số lượng bộ thác",
+                    "formula": "N = Số bộ"
+                }
+            ]
+        }
+    ]
+}

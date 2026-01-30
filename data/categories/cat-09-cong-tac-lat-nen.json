@@ -1,0 +1,179 @@
+{
+    "code": "9",
+    "name": "Công tác lát nền",
+    "description": "Lát gạch, đá, sàn gỗ các loại cho sàn nhà",
+    "work_types": [
+        {
+            "code": "9.1",
+            "name": "Lát gạch ceramic",
+            "work_items": [
+                {
+                    "code": "9.1.1",
+                    "name": "Lát gạch 300x300mm",
+                    "unit": "m2",
+                    "description": "Lát gạch ceramic 300×300mm",
+                    "measurement_method": "Diện tích sàn cần lát (đã trừ diện tích không lát)",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.1.2",
+                    "name": "Lát gạch 400x400mm",
+                    "unit": "m2",
+                    "description": "Lát gạch ceramic 400×400mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.1.3",
+                    "name": "Lát gạch 600x600mm",
+                    "unit": "m2",
+                    "description": "Lát gạch ceramic 600×600mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.1.4",
+                    "name": "Lát gạch 800x800mm",
+                    "unit": "m2",
+                    "description": "Lát gạch ceramic 800×800mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "9.2",
+            "name": "Lát gạch porcelain",
+            "work_items": [
+                {
+                    "code": "9.2.1",
+                    "name": "Lát gạch 600x600mm bóng kính",
+                    "unit": "m2",
+                    "description": "Lát gạch porcelain bóng kính 600×600mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.2.2",
+                    "name": "Lát gạch 600x1200mm",
+                    "unit": "m2",
+                    "description": "Lát gạch porcelain 600×1200mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.2.3",
+                    "name": "Lát gạch 800x800mm bóng kính",
+                    "unit": "m2",
+                    "description": "Lát gạch porcelain bóng kính 800×800mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "9.3",
+            "name": "Lát gạch granite",
+            "work_items": [
+                {
+                    "code": "9.3.1",
+                    "name": "Lát granite tự nhiên",
+                    "unit": "m2",
+                    "description": "Lát đá granite tự nhiên",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.3.2",
+                    "name": "Lát granite nhân tạo",
+                    "unit": "m2",
+                    "description": "Lát đá granite nhân tạo",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "9.4",
+            "name": "Lát sàn gỗ",
+            "work_items": [
+                {
+                    "code": "9.4.1",
+                    "name": "Lát sàn gỗ công nghiệp 8mm",
+                    "unit": "m2",
+                    "description": "Lát sàn gỗ công nghiệp dày 8mm",
+                    "measurement_method": "Diện tích sàn cần lát (+ hao hụt 5-8%)",
+                    "formula": "S = L × W × 1.05"
+                },
+                {
+                    "code": "9.4.2",
+                    "name": "Lát sàn gỗ công nghiệp 12mm",
+                    "unit": "m2",
+                    "description": "Lát sàn gỗ công nghiệp dày 12mm",
+                    "measurement_method": "Diện tích sàn cần lát (+ hao hụt)",
+                    "formula": "S = L × W × 1.05"
+                },
+                {
+                    "code": "9.4.3",
+                    "name": "Lát sàn gỗ tự nhiên",
+                    "unit": "m2",
+                    "description": "Lát sàn gỗ tự nhiên",
+                    "measurement_method": "Diện tích sàn cần lát (+ hao hụt 8-10%)",
+                    "formula": "S = L × W × 1.08"
+                }
+            ]
+        },
+        {
+            "code": "9.5",
+            "name": "Lát gạch terrazzo",
+            "work_items": [
+                {
+                    "code": "9.5.1",
+                    "name": "Lát gạch terrazzo 300x300",
+                    "unit": "m2",
+                    "description": "Lát gạch terrazzo 300×300mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.5.2",
+                    "name": "Lát gạch terrazzo 400x400",
+                    "unit": "m2",
+                    "description": "Lát gạch terrazzo 400×400mm",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "9.6",
+            "name": "Lát đá tự nhiên",
+            "work_items": [
+                {
+                    "code": "9.6.1",
+                    "name": "Lát đá hoa cương",
+                    "unit": "m2",
+                    "description": "Lát đá hoa cương tự nhiên",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.6.2",
+                    "name": "Lát đá cẩm thạch",
+                    "unit": "m2",
+                    "description": "Lát đá cẩm thạch",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "9.6.3",
+                    "name": "Lát đá marble",
+                    "unit": "m2",
+                    "description": "Lát đá marble nhập khẩu",
+                    "measurement_method": "Diện tích sàn cần lát",
+                    "formula": "S = L × W"
+                }
+            ]
+        }
+    ]
+}

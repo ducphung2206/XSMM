@@ -1,0 +1,143 @@
+{
+    "code": "13",
+    "name": "Công tác mái",
+    "description": "Lợp mái tôn, ngói, kính và khung xà gồ",
+    "work_types": [
+        {
+            "code": "13.1",
+            "name": "Mái tôn",
+            "work_items": [
+                {
+                    "code": "13.1.1",
+                    "name": "Lợp tôn sóng vuông",
+                    "unit": "m2",
+                    "description": "Lợp mái tôn sóng vuông",
+                    "measurement_method": "Diện tích mái theo độ dốc (+ hao hùt chồng mí 10%)",
+                    "formula": "S = L × W / cos(α) × 1.1"
+                },
+                {
+                    "code": "13.1.2",
+                    "name": "Lợp tôn sóng tròn",
+                    "unit": "m2",
+                    "description": "Lợp mái tôn sóng tròn",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α) × 1.1"
+                },
+                {
+                    "code": "13.1.3",
+                    "name": "Lợp tôn cách nhiệt",
+                    "unit": "m2",
+                    "description": "Lợp mái tôn cách nhiệt (tôn + xốp + tôn)",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                },
+                {
+                    "code": "13.1.4",
+                    "name": "Lợp tôn giả ngói",
+                    "unit": "m2",
+                    "description": "Lợp mái tôn giả ngói",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                }
+            ]
+        },
+        {
+            "code": "13.2",
+            "name": "Mái ngói",
+            "work_items": [
+                {
+                    "code": "13.2.1",
+                    "name": "Lợp ngói 22v/m²",
+                    "unit": "m2",
+                    "description": "Lợp ngói đất nung 22 viên/m²",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                },
+                {
+                    "code": "13.2.2",
+                    "name": "Lợp ngói 13v/m²",
+                    "unit": "m2",
+                    "description": "Lợp ngói sóng lớn 13 viên/m²",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                },
+                {
+                    "code": "13.2.3",
+                    "name": "Lợp ngói phẳng",
+                    "unit": "m2",
+                    "description": "Lợp ngói phẳng (ngói âm dương)",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                },
+                {
+                    "code": "13.2.4",
+                    "name": "Lợp ngói bê tông",
+                    "unit": "m2",
+                    "description": "Lợp ngói bê tông màu",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                }
+            ]
+        },
+        {
+            "code": "13.3",
+            "name": "Mái kính",
+            "work_items": [
+                {
+                    "code": "13.3.1",
+                    "name": "Mái kính cường lực",
+                    "unit": "m2",
+                    "description": "Lợp mái kính cường lực dày 12mm",
+                    "measurement_method": "Diện tích mái theo độ dốc",
+                    "formula": "S = L × W / cos(α)"
+                },
+                {
+                    "code": "13.3.2",
+                    "name": "Mái kính dán an toàn",
+                    "unit": "m2",
+                    "description": "Lợp mái kính dán an toàn (laminated)",
+                    "measurement_method": "Diện tích mái",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "13.3.3",
+                    "name": "Mái poly đặc ruột",
+                    "unit": "m2",
+                    "description": "Lợp mái poly đặc ruột trong suốt",
+                    "measurement_method": "Diện tích mái",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "13.4",
+            "name": "Xà gồ, khung mái",
+            "work_items": [
+                {
+                    "code": "13.4.1",
+                    "name": "Xà gồ thép hộp",
+                    "unit": "kg",
+                    "description": "Lắp đặt xà gồ thép hộp",
+                    "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+                    "formula": "M = L × γ"
+                },
+                {
+                    "code": "13.4.2",
+                    "name": "Xà gồ thép C",
+                    "unit": "kg",
+                    "description": "Lắp đặt xà gồ thép hình C",
+                    "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+                    "formula": "M = L × γ"
+                },
+                {
+                    "code": "13.4.3",
+                    "name": "Xà gồ gỗ",
+                    "unit": "m3",
+                    "description": "Lắp đặt xà gồ gỗ tự nhiên",
+                    "measurement_method": "Thể tích = Tiết diện × Chiều dài",
+                    "formula": "V = A × L"
+                }
+            ]
+        }
+    ]
+}

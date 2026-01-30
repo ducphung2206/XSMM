@@ -1,0 +1,3991 @@
+{
+  "version": "1.0",
+  "created_at": "2026-01-30",
+  "author": "Alex (AI Assistant) - Xhome Sài Gòn",
+  "description": "XSMM - Chuẩn hóa phương pháp bóc khối lượng",
+  "stats": {
+    "total_categories": 23,
+    "total_work_types": 106,
+    "total_work_items": 351
+  },
+  "categories": [
+    {
+      "code": "1",
+      "name": "Công tác chuẩn bị",
+      "description": "Các công việc chuẩn bị mặt bằng, phá dỡ công trình cũ trước khi thi công",
+      "work_types": [
+        {
+          "code": "1.1",
+          "name": "Phá dỡ công trình cũ",
+          "description": "Tháo dỡ, phá bỏ các kết cấu cũ để chuẩn bị mặt bằng thi công",
+          "work_items": [
+            {
+              "code": "1.1.1",
+              "name": "Phá dỡ tường gạch",
+              "unit": "m3",
+              "description": "Phá dỡ tường gạch các loại (đặc, ống, block), bao gồm thu dọn tại chỗ",
+              "measurement_method": "Tính theo thể tích thực tế: Dài x Rộng x Cao tường. Không trừ lỗ cửa ≤1m²",
+              "formula": "V = L × W × H",
+              "rules": {
+                "inclusion": [
+                  "Tường gạch đặc",
+                  "Tường gạch ống",
+                  "Tường gạch block",
+                  "Vữa trát"
+                ],
+                "exclusion": [
+                  "Phần bê tông cốt thép",
+                  "Khung cửa kim loại"
+                ]
+              }
+            },
+            {
+              "code": "1.1.2",
+              "name": "Phá dỡ sàn bê tông",
+              "unit": "m3",
+              "description": "Đục phá sàn bê tông cốt thép, bao gồm cắt thép và thu dọn",
+              "measurement_method": "Tính theo thể tích thực tế: Diện tích sàn x Chiều dày",
+              "formula": "V = S × t",
+              "rules": {
+                "inclusion": [
+                  "Bê tông",
+                  "Cốt thép trong sàn"
+                ],
+                "exclusion": [
+                  "Lớp hoàn thiện trên sàn"
+                ]
+              }
+            },
+            {
+              "code": "1.1.3",
+              "name": "Phá dỡ mái tôn/ngói",
+              "unit": "m2",
+              "description": "Tháo dỡ mái tôn hoặc ngói, bao gồm xà gồ gỗ/thép",
+              "measurement_method": "Tính theo diện tích mái thực tế (theo độ dốc)",
+              "formula": "S = L × W / cos(α)",
+              "rules": {
+                "inclusion": [
+                  "Tôn/ngói lợp",
+                  "Xà gồ",
+                  "Phụ kiện mái"
+                ],
+                "exclusion": [
+                  "Kết cấu đỡ chính bằng BTCT"
+                ]
+              }
+            },
+            {
+              "code": "1.1.4",
+              "name": "Phá dỡ cửa đi, cửa sổ",
+              "unit": "m2",
+              "description": "Tháo dỡ cửa đi, cửa sổ các loại (gỗ, nhôm, sắt, kính)",
+              "measurement_method": "Tính theo diện tích khuôn cửa: Rộng x Cao",
+              "formula": "S = W × H",
+              "rules": {
+                "inclusion": [
+                  "Cánh cửa",
+                  "Khuôn cửa",
+                  "Phụ kiện"
+                ],
+                "exclusion": [
+                  "Phần tường xung quanh"
+                ]
+              }
+            },
+            {
+              "code": "1.1.5",
+              "name": "Phá dỡ trần thạch cao",
+              "unit": "m2",
+              "description": "Tháo dỡ trần thạch cao bao gồm khung xương",
+              "measurement_method": "Tính theo diện tích trần thực tế",
+              "formula": "S = L × W",
+              "rules": {
+                "inclusion": [
+                  "Tấm thạch cao",
+                  "Khung xương kim loại",
+                  "Phụ kiện treo"
+                ],
+                "exclusion": [
+                  "Hệ thống điện, đèn trên trần"
+                ]
+              }
+            },
+            {
+              "code": "1.1.6",
+              "name": "Phá dỡ hệ thống điện cũ",
+              "unit": "md",
+              "description": "Tháo dỡ dây điện, ống luồn, thiết bị điện cũ",
+              "measurement_method": "Tính theo chiều dài dây/ống thực tế",
+              "formula": "L = Σ(chiều dài từng đoạn)",
+              "rules": {
+                "inclusion": [
+                  "Dây điện",
+                  "Ống luồn",
+                  "Ổ cắm",
+                  "Công tắc",
+                  "Đèn"
+                ],
+                "exclusion": [
+                  "Tủ điện tổng (tính riêng)"
+                ]
+              }
+            },
+            {
+              "code": "1.1.7",
+              "name": "Phá dỡ hệ thống nước cũ",
+              "unit": "md",
+              "description": "Tháo dỡ đường ống cấp thoát nước cũ",
+              "measurement_method": "Tính theo chiều dài ống thực tế",
+              "formula": "L = Σ(chiều dài từng đoạn)",
+              "rules": {
+                "inclusion": [
+                  "Ống cấp nước",
+                  "Ống thoát nước",
+                  "Phụ kiện (co, tê, van)"
+                ],
+                "exclusion": [
+                  "Thiết bị vệ sinh (tính riêng)"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "code": "1.2",
+          "name": "Dọn dẹp mặt bằng",
+          "description": "Thu dọn, san lấp, vận chuyển phế thải",
+          "work_items": [
+            {
+              "code": "1.2.1",
+              "name": "Thu dọn phế thải xây dựng",
+              "unit": "m3",
+              "description": "Gom, thu dọn phế thải từ phá dỡ tại công trình",
+              "measurement_method": "Tính theo thể tích phế thải rời (hệ số nở 1.3-1.5)",
+              "formula": "V = V_đặc × K_nở",
+              "rules": {
+                "inclusion": [
+                  "Gạch vỡ",
+                  "Bê tông vụn",
+                  "Gỗ vụn"
+                ],
+                "exclusion": [
+                  "Phế thải nguy hại"
+                ]
+              }
+            },
+            {
+              "code": "1.2.2",
+              "name": "San lấp mặt bằng",
+              "unit": "m2",
+              "description": "San phẳng mặt bằng bằng thủ công hoặc máy",
+              "measurement_method": "Tính theo diện tích mặt bằng cần san",
+              "formula": "S = L × W",
+              "rules": {
+                "inclusion": [
+                  "Đào bớt chỗ cao",
+                  "Đắp bù chỗ thấp",
+                  "Đầm phẳng"
+                ],
+                "exclusion": [
+                  "Vận chuyển đất thừa đi (tính riêng)"
+                ]
+              }
+            },
+            {
+              "code": "1.2.3",
+              "name": "Vận chuyển phế thải ra bãi",
+              "unit": "m3",
+              "description": "Vận chuyển phế thải từ công trình đến bãi đổ",
+              "measurement_method": "Tính theo thể tích phế thải thực tế vận chuyển",
+              "formula": "V = Số chuyến × Thể tích/chuyến",
+              "rules": {
+                "inclusion": [
+                  "Bốc xếp",
+                  "Vận chuyển",
+                  "Phí bãi đổ"
+                ],
+                "exclusion": []
+              }
+            }
+          ]
+        },
+        {
+          "code": "1.3",
+          "name": "Công tác tạm",
+          "description": "Lắp đặt các công trình tạm phục vụ thi công",
+          "work_items": [
+            {
+              "code": "1.3.1",
+              "name": "Lắp dựng rào chắn công trình",
+              "unit": "md",
+              "description": "Lắp đặt hàng rào tạm bao quanh công trình",
+              "measurement_method": "Tính theo chiều dài hàng rào",
+              "formula": "L = Chu vi công trình",
+              "rules": {
+                "inclusion": [
+                  "Cọc đỡ",
+                  "Tôn/lưới B40",
+                  "Cổng ra vào"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "1.3.2",
+              "name": "Lắp dựng giàn giáo",
+              "unit": "m2",
+              "description": "Lắp đặt giàn giáo phục vụ thi công trên cao",
+              "measurement_method": "Tính theo diện tích mặt đứng cần giàn giáo",
+              "formula": "S = L × H",
+              "rules": {
+                "inclusion": [
+                  "Khung giàn giáo",
+                  "Sàn thao tác",
+                  "Lan can an toàn"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "1.3.3",
+              "name": "Làm lán trại tạm",
+              "unit": "m2",
+              "description": "Xây dựng lán trại tạm cho công nhân, kho vật tư",
+              "measurement_method": "Tính theo diện tích sàn lán trại",
+              "formula": "S = L × W",
+              "rules": {
+                "inclusion": [
+                  "Khung",
+                  "Mái che",
+                  "Vách ngăn"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "1.3.4",
+              "name": "Lắp điện tạm thi công",
+              "unit": "điểm",
+              "description": "Đấu nối điện tạm phục vụ thi công",
+              "measurement_method": "Tính theo số điểm đấu nối",
+              "formula": "N = Số điểm",
+              "rules": {
+                "inclusion": [
+                  "Dây điện",
+                  "CB",
+                  "Ổ cắm công nghiệp"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "1.3.5",
+              "name": "Lắp nước tạm thi công",
+              "unit": "điểm",
+              "description": "Đấu nối nước tạm phục vụ thi công",
+              "measurement_method": "Tính theo số điểm đấu nối",
+              "formula": "N = Số điểm",
+              "rules": {
+                "inclusion": [
+                  "Ống dẫn tạm",
+                  "Van",
+                  "Vòi nước"
+                ],
+                "exclusion": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "name": "Công tác đất",
+      "description": "Đào, đắp, vận chuyển đất phục vụ thi công móng và nền",
+      "work_types": [
+        {
+          "code": "2.1",
+          "name": "Đào đất",
+          "work_items": [
+            {
+              "code": "2.1.1",
+              "name": "Đào đất hố móng bằng máy",
+              "unit": "m3",
+              "description": "Đào đất hố móng bằng máy đào, đất cấp I-II",
+              "measurement_method": "Tính theo thể tích hình học hố móng (có tính taluy)",
+              "formula": "V = (a+2m×h) × (b+2m×h) × h",
+              "rules": {
+                "inclusion": [
+                  "Đào đất",
+                  "Sửa hố móng sau đào máy"
+                ],
+                "exclusion": [
+                  "Đào gặp đá (tính riêng)",
+                  "Hút nước hố móng"
+                ]
+              }
+            },
+            {
+              "code": "2.1.2",
+              "name": "Đào đất hố móng bằng thủ công",
+              "unit": "m3",
+              "description": "Đào đất hố móng bằng thủ công, đất cấp I-II",
+              "measurement_method": "Tính theo thể tích hình học hố móng",
+              "formula": "V = L × W × H",
+              "rules": {
+                "inclusion": [
+                  "Đào đất",
+                  "Xúc đổ đống trong phạm vi 10m"
+                ],
+                "exclusion": [
+                  "Đất cấp III-IV (hệ số khác)"
+                ]
+              }
+            },
+            {
+              "code": "2.1.3",
+              "name": "Đào đất rãnh móng",
+              "unit": "m3",
+              "description": "Đào rãnh móng băng, chiều rộng ≤3m",
+              "measurement_method": "Tính theo thể tích rãnh: Dài × Rộng × Sâu",
+              "formula": "V = L × W × H",
+              "rules": {
+                "inclusion": [
+                  "Đào rãnh",
+                  "Sửa thành rãnh"
+                ],
+                "exclusion": [
+                  "Chống vách đất (nếu có)"
+                ]
+              }
+            },
+            {
+              "code": "2.1.4",
+              "name": "Đào đất hầm, tầng hầm",
+              "unit": "m3",
+              "description": "Đào đất tầng hầm, chiều sâu >2m",
+              "measurement_method": "Tính theo khối hình học gồm cả taluy và đường dốc lên xuống",
+              "formula": "V = S_đáy × H + V_taluy + V_dốc",
+              "rules": {
+                "inclusion": [
+                  "Đào đất",
+                  "Làm đường dốc tạm"
+                ],
+                "exclusion": [
+                  "Gia cố vách hầm",
+                  "Hút nước ngầm"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "code": "2.2",
+          "name": "Đắp đất",
+          "work_items": [
+            {
+              "code": "2.2.1",
+              "name": "Đắp đất nền công trình",
+              "unit": "m3",
+              "description": "Đắp đất tôn nền, đầm chặt từng lớp ≤20cm",
+              "measurement_method": "Tính theo thể tích đất đầm chặt (không phải đất rời)",
+              "formula": "V = S × H_đắp",
+              "rules": {
+                "inclusion": [
+                  "Đất đắp",
+                  "Đầm chặt",
+                  "San phẳng"
+                ],
+                "exclusion": [
+                  "Vận chuyển đất đến (tính riêng)"
+                ]
+              }
+            },
+            {
+              "code": "2.2.2",
+              "name": "Đắp cát nền",
+              "unit": "m3",
+              "description": "Đắp cát tôn nền, tưới nước đầm chặt",
+              "measurement_method": "Tính theo thể tích cát sau đầm chặt",
+              "formula": "V = S × H_đắp",
+              "rules": {
+                "inclusion": [
+                  "Cát san lấp",
+                  "Tưới nước",
+                  "Đầm chặt"
+                ],
+                "exclusion": [
+                  "Vận chuyển cát đến"
+                ]
+              }
+            },
+            {
+              "code": "2.2.3",
+              "name": "Đầm chặt đất nền",
+              "unit": "m2",
+              "description": "Đầm chặt nền đất bằng đầm cóc hoặc lu rung",
+              "measurement_method": "Tính theo diện tích nền được đầm",
+              "formula": "S = L × W",
+              "rules": {
+                "inclusion": [
+                  "Đầm chặt",
+                  "Kiểm tra độ chặt K≥0.9"
+                ],
+                "exclusion": [
+                  "Đất đắp (tính riêng)"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "code": "2.3",
+          "name": "Vận chuyển đất",
+          "work_items": [
+            {
+              "code": "2.3.1",
+              "name": "Vận chuyển đất thừa đi đổ",
+              "unit": "m3",
+              "description": "Vận chuyển đất dư từ đào móng đi đổ bãi",
+              "measurement_method": "Tính theo thể tích đất rời (hệ số nở 1.2-1.3)",
+              "formula": "V = V_đào × K_nở",
+              "rules": {
+                "inclusion": [
+                  "Bốc xếp",
+                  "Vận chuyển",
+                  "Chi phí bãi đổ"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "2.3.2",
+              "name": "Vận chuyển đất/cát đến công trình",
+              "unit": "m3",
+              "description": "Mua và vận chuyển đất/cát đắp nền đến công trình",
+              "measurement_method": "Tính theo thể tích đất/cát cần dùng (đã đầm)",
+              "formula": "V = V_cần × K_hao hụt",
+              "rules": {
+                "inclusion": [
+                  "Giá vật liệu",
+                  "Vận chuyển",
+                  "Bốc dỡ"
+                ],
+                "exclusion": [
+                  "San đắp (tính riêng)"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "name": "Thi công cọc",
+      "description": "Đóng, ép các loại cọc gia cố nền móng",
+      "work_types": [
+        {
+          "code": "3.1",
+          "name": "Cọc tre",
+          "work_items": [
+            {
+              "code": "3.1.1",
+              "name": "Cọc tre Ø6-8cm, L≤2.5m",
+              "unit": "md",
+              "description": "Thi công đóng cọc tre đường kính 6-8cm, chiều dài ≤2.5m",
+              "measurement_method": "Tổng chiều dài cọc tre đã đóng (theo md)",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tre",
+                  "Đóng cọc",
+                  "Cắt đầu cọc"
+                ],
+                "exclusion": [
+                  "Phần cọc gãy phải thay"
+                ]
+              }
+            },
+            {
+              "code": "3.1.2",
+              "name": "Cọc tre Ø6-8cm, L>2.5m",
+              "unit": "md",
+              "description": "Thi công đóng cọc tre đường kính 6-8cm, chiều dài >2.5m",
+              "measurement_method": "Tổng chiều dài cọc tre đã đóng",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tre",
+                  "Đóng cọc",
+                  "Cắt đầu cọc"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.1.3",
+              "name": "Cọc tre Ø8-10cm, L≤2.5m",
+              "unit": "md",
+              "description": "Thi công đóng cọc tre đường kính 8-10cm, chiều dài ≤2.5m",
+              "measurement_method": "Tổng chiều dài cọc tre đã đóng",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tre",
+                  "Đóng cọc"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.1.4",
+              "name": "Cọc tre Ø8-10cm, L>2.5m",
+              "unit": "md",
+              "description": "Thi công đóng cọc tre đường kính 8-10cm, chiều dài >2.5m",
+              "measurement_method": "Tổng chiều dài cọc tre đã đóng",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tre",
+                  "Đóng cọc"
+                ],
+                "exclusion": []
+              }
+            }
+          ]
+        },
+        {
+          "code": "3.2",
+          "name": "Cọc cừ tràm",
+          "work_items": [
+            {
+              "code": "3.2.1",
+              "name": "Cọc cừ tràm Ø6-8cm",
+              "unit": "md",
+              "description": "Thi công đóng cọc cừ tràm đường kính 6-8cm",
+              "measurement_method": "Tổng chiều dài cọc cừ tràm đã đóng",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tràm",
+                  "Đóng cọc",
+                  "Cắt đầu"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.2.2",
+              "name": "Cọc cừ tràm Ø8-10cm",
+              "unit": "md",
+              "description": "Thi công đóng cọc cừ tràm đường kính 8-10cm",
+              "measurement_method": "Tổng chiều dài cọc cừ tràm đã đóng",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tràm",
+                  "Đóng cọc"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.2.3",
+              "name": "Cọc cừ tràm Ø10-12cm",
+              "unit": "md",
+              "description": "Thi công đóng cọc cừ tràm đường kính 10-12cm",
+              "measurement_method": "Tổng chiều dài cọc cừ tràm đã đóng",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc tràm",
+                  "Đóng cọc"
+                ],
+                "exclusion": []
+              }
+            }
+          ]
+        },
+        {
+          "code": "3.3",
+          "name": "Cọc bê tông cốt thép",
+          "work_items": [
+            {
+              "code": "3.3.1",
+              "name": "Cọc BTCT 200x200mm",
+              "unit": "md",
+              "description": "Thi công ép cọc BTCT tiết diện 200x200mm",
+              "measurement_method": "Tổng chiều dài cọc BTCT đã ép (từ đầu đến mũi)",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Vận chuyển cọc",
+                  "Ép cọc",
+                  "Hàn nối (nếu có)"
+                ],
+                "exclusion": [
+                  "Đập đầu cọc (tính riêng)"
+                ]
+              }
+            },
+            {
+              "code": "3.3.2",
+              "name": "Cọc BTCT 250x250mm",
+              "unit": "md",
+              "description": "Thi công ép cọc BTCT tiết diện 250x250mm",
+              "measurement_method": "Tổng chiều dài cọc BTCT đã ép",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Vận chuyển cọc",
+                  "Ép cọc",
+                  "Hàn nối"
+                ],
+                "exclusion": [
+                  "Đập đầu cọc"
+                ]
+              }
+            },
+            {
+              "code": "3.3.3",
+              "name": "Cọc BTCT 300x300mm",
+              "unit": "md",
+              "description": "Thi công ép cọc BTCT tiết diện 300x300mm",
+              "measurement_method": "Tổng chiều dài cọc BTCT đã ép",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Vận chuyển cọc",
+                  "Ép cọc",
+                  "Hàn nối"
+                ],
+                "exclusion": [
+                  "Đập đầu cọc"
+                ]
+              }
+            },
+            {
+              "code": "3.3.4",
+              "name": "Cọc BTCT 350x350mm",
+              "unit": "md",
+              "description": "Thi công ép cọc BTCT tiết diện 350x350mm",
+              "measurement_method": "Tổng chiều dài cọc BTCT đã ép",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Vận chuyển cọc",
+                  "Ép cọc",
+                  "Hàn nối"
+                ],
+                "exclusion": [
+                  "Đập đầu cọc"
+                ]
+              }
+            },
+            {
+              "code": "3.3.5",
+              "name": "Cọc ly tâm D300",
+              "unit": "md",
+              "description": "Thi công ép cọc ly tâm ƯST đường kính 300mm",
+              "measurement_method": "Tổng chiều dài cọc đã ép",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc",
+                  "Ép",
+                  "Hàn nối"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.3.6",
+              "name": "Cọc ly tâm D400",
+              "unit": "md",
+              "description": "Thi công ép cọc ly tâm ƯST đường kính 400mm",
+              "measurement_method": "Tổng chiều dài cọc đã ép",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc",
+                  "Ép",
+                  "Hàn nối"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.3.7",
+              "name": "Cọc ly tâm D500",
+              "unit": "md",
+              "description": "Thi công ép cọc ly tâm ƯST đường kính 500mm",
+              "measurement_method": "Tổng chiều dài cọc đã ép",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Cọc",
+                  "Ép",
+                  "Hàn nối"
+                ],
+                "exclusion": []
+              }
+            }
+          ]
+        },
+        {
+          "code": "3.4",
+          "name": "Cọc khoan nhồi",
+          "work_items": [
+            {
+              "code": "3.4.1",
+              "name": "Cọc khoan nhồi D600",
+              "unit": "md",
+              "description": "Thi công cọc khoan nhồi đường kính 600mm",
+              "measurement_method": "Tổng chiều dài cọc đã thi công (từ đáy đến cos cắt)",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Khoan tạo lỗ",
+                  "Đổ bê tông",
+                  "Cốt thép lồng"
+                ],
+                "exclusion": [
+                  "Đập đầu cọc"
+                ]
+              }
+            },
+            {
+              "code": "3.4.2",
+              "name": "Cọc khoan nhồi D800",
+              "unit": "md",
+              "description": "Thi công cọc khoan nhồi đường kính 800mm",
+              "measurement_method": "Tổng chiều dài cọc đã thi công",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Khoan",
+                  "Bê tông",
+                  "Thép lồng"
+                ],
+                "exclusion": []
+              }
+            },
+            {
+              "code": "3.4.3",
+              "name": "Cọc khoan nhồi D1000",
+              "unit": "md",
+              "description": "Thi công cọc khoan nhồi đường kính 1000mm",
+              "measurement_method": "Tổng chiều dài cọc đã thi công",
+              "formula": "L = Số cọc × Chiều dài/cọc",
+              "rules": {
+                "inclusion": [
+                  "Khoan",
+                  "Bê tông",
+                  "Thép lồng"
+                ],
+                "exclusion": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "name": "Công tác bê tông",
+      "description": "Đổ bê tông các kết cấu móng, cột, dầm, sàn, cầu thang",
+      "work_types": [
+        {
+          "code": "4.1",
+          "name": "Bê tông lót",
+          "work_items": [
+            {
+              "code": "4.1.1",
+              "name": "BT lót móng đá 4x6, M100",
+              "unit": "m3",
+              "description": "Đổ bê tông lót móng đá 4x6, mác 100",
+              "measurement_method": "Thể tích = Diện tích đáy móng × Chiều dày lớp lót (thường 10cm)",
+              "formula": "V = S × 0.1"
+            },
+            {
+              "code": "4.1.2",
+              "name": "BT lót nền đá 4x6, M100",
+              "unit": "m3",
+              "description": "Đổ bê tông lót nền đá 4x6, mác 100",
+              "measurement_method": "Thể tích = Diện tích nền × Chiều dày (thường 5-10cm)",
+              "formula": "V = S × t"
+            }
+          ]
+        },
+        {
+          "code": "4.2",
+          "name": "Bê tông móng",
+          "work_items": [
+            {
+              "code": "4.2.1",
+              "name": "BT móng đơn M200",
+              "unit": "m3",
+              "description": "Đổ bê tông móng đơn mác 200",
+              "measurement_method": "Thể tích hình học móng đơn",
+              "formula": "V = L × W × H"
+            },
+            {
+              "code": "4.2.2",
+              "name": "BT móng đơn M250",
+              "unit": "m3",
+              "description": "Đổ bê tông móng đơn mác 250",
+              "measurement_method": "Thể tích hình học môdng đơn",
+              "formula": "V = L × W × H"
+            },
+            {
+              "code": "4.2.3",
+              "name": "BT móng băng M200",
+              "unit": "m3",
+              "description": "Đổ bê tông móng băng mác 200",
+              "measurement_method": "Thể tích = Chiều dài × Chiều rộng × Chiều cao móng băng",
+              "formula": "V = L × W × H"
+            },
+            {
+              "code": "4.2.4",
+              "name": "BT móng băng M250",
+              "unit": "m3",
+              "description": "Đổ bê tông móng băng mác 250",
+              "measurement_method": "Thể tích hình học móng băng",
+              "formula": "V = L × W × H"
+            },
+            {
+              "code": "4.2.5",
+              "name": "BT móng bè M250",
+              "unit": "m3",
+              "description": "Đổ bê tông móng bè mác 250",
+              "measurement_method": "Thể tích = Diện tích × Chiều dày bè",
+              "formula": "V = S × t"
+            },
+            {
+              "code": "4.2.6",
+              "name": "BT móng bè M300",
+              "unit": "m3",
+              "description": "Đổ bê tông móng bè mác 300",
+              "measurement_method": "Thể tích = Diện tích × Chiều dày",
+              "formula": "V = S × t"
+            }
+          ]
+        },
+        {
+          "code": "4.3",
+          "name": "Bê tông cột",
+          "work_items": [
+            {
+              "code": "4.3.1",
+              "name": "BT cột tiết diện ≤0.1m²",
+              "unit": "m3",
+              "description": "Đổ bê tông cột có tiết diện ≤0.1m² (cột nhỏ)",
+              "measurement_method": "Thể tích = Tiết diện × Chiều cao cột (từ đỉnh móng/sàn đến đáy dầm)",
+              "formula": "V = A × H"
+            },
+            {
+              "code": "4.3.2",
+              "name": "BT cột tiết diện >0.1m²",
+              "unit": "m3",
+              "description": "Đổ bê tông cột có tiết diện >0.1m² (cột lớn)",
+              "measurement_method": "Thể tích = Tiết diện × Chiều cao cột",
+              "formula": "V = A × H"
+            },
+            {
+              "code": "4.3.3",
+              "name": "BT cột tròn",
+              "unit": "m3",
+              "description": "Đổ bê tông cột tròn",
+              "measurement_method": "Thể tích = π × R² × H",
+              "formula": "V = π × R² × H"
+            }
+          ]
+        },
+        {
+          "code": "4.4",
+          "name": "Bê tông dầm",
+          "work_items": [
+            {
+              "code": "4.4.1",
+              "name": "BT dầm chính",
+              "unit": "m3",
+              "description": "Đổ bê tông dầm chính (dầm khung)",
+              "measurement_method": "Thể tích = Chiều rộng × (Chiều cao dầm - Dày sàn) × Chiều dài",
+              "formula": "V = b × (h-t_sàn) × L"
+            },
+            {
+              "code": "4.4.2",
+              "name": "BT dầm phụ",
+              "unit": "m3",
+              "description": "Đổ bê tông dầm phụ",
+              "measurement_method": "Thể tích = b × (h-t_sàn) × L",
+              "formula": "V = b × h' × L"
+            },
+            {
+              "code": "4.4.3",
+              "name": "BT lanh tô, ô văng",
+              "unit": "m3",
+              "description": "Đổ bê tông lanh tô cửa, ô văng",
+              "measurement_method": "Thể tích = Chiều rộng × Chiều cao × Chiều dài",
+              "formula": "V = b × h × L"
+            }
+          ]
+        },
+        {
+          "code": "4.5",
+          "name": "Bê tông sàn",
+          "work_items": [
+            {
+              "code": "4.5.1",
+              "name": "BT sàn dày 8cm",
+              "unit": "m3",
+              "description": "Đổ bê tông sàn dày 8cm",
+              "measurement_method": "Thể tích = Diện tích sàn × 0.08m",
+              "formula": "V = S × 0.08"
+            },
+            {
+              "code": "4.5.2",
+              "name": "BT sàn dày 10cm",
+              "unit": "m3",
+              "description": "Đổ bê tông sàn dày 10cm",
+              "measurement_method": "Thể tích = Diện tích sàn × 0.10m",
+              "formula": "V = S × 0.10"
+            },
+            {
+              "code": "4.5.3",
+              "name": "BT sàn dày 12cm",
+              "unit": "m3",
+              "description": "Đổ bê tông sàn dày 12cm",
+              "measurement_method": "Thể tích = Diện tích sàn × 0.12m",
+              "formula": "V = S × 0.12"
+            },
+            {
+              "code": "4.5.4",
+              "name": "BT sàn dày 15cm",
+              "unit": "m3",
+              "description": "Đổ bê tông sàn dày 15cm",
+              "measurement_method": "Thể tích = Diện tích sàn × 0.15m",
+              "formula": "V = S × 0.15"
+            },
+            {
+              "code": "4.5.5",
+              "name": "BT sàn mái",
+              "unit": "m3",
+              "description": "Đổ bê tông sàn mái (có tạo dốc)",
+              "measurement_method": "Thể tích = Diện tích × Chiều dày trung bình",
+              "formula": "V = S × t_tb"
+            }
+          ]
+        },
+        {
+          "code": "4.6",
+          "name": "Bê tông cầu thang",
+          "work_items": [
+            {
+              "code": "4.6.1",
+              "name": "BT cầu thang 2 vế",
+              "unit": "m3",
+              "description": "Đổ bê tông cầu thang 2 vế thông thường",
+              "measurement_method": "Thể tích = Diện tích nghiêng × Chiều dày bản thang + Thể tích bậc",
+              "formula": "V = S_nghiêng × t + V_bậc"
+            },
+            {
+              "code": "4.6.2",
+              "name": "BT cầu thang xoắn",
+              "unit": "m3",
+              "description": "Đổ bê tông cầu thang xoắn ốc",
+              "measurement_method": "Thể tích theo công thức cầu thang xoắn",
+              "formula": "V = π × (R² - r²) × t × n/360"
+            }
+          ]
+        },
+        {
+          "code": "4.7",
+          "name": "Bê tông tường",
+          "work_items": [
+            {
+              "code": "4.7.1",
+              "name": "BT tường dày 10cm",
+              "unit": "m3",
+              "description": "Đổ bê tông tường dày 10cm",
+              "measurement_method": "Thể tích = Diện tích tường × 0.10m",
+              "formula": "V = S × 0.10"
+            },
+            {
+              "code": "4.7.2",
+              "name": "BT tường dày 15cm",
+              "unit": "m3",
+              "description": "Đổ bê tông tường dày 15cm",
+              "measurement_method": "Thể tích = Diện tích tường × 0.15m",
+              "formula": "V = S × 0.15"
+            },
+            {
+              "code": "4.7.3",
+              "name": "BT tường dày 20cm",
+              "unit": "m3",
+              "description": "Đổ bê tông tường dày 20cm",
+              "measurement_method": "Thể tích = Diện tích tường × 0.20m",
+              "formula": "V = S × 0.20"
+            }
+          ]
+        },
+        {
+          "code": "4.8",
+          "name": "Bê tông bể",
+          "work_items": [
+            {
+              "code": "4.8.1",
+              "name": "BT bể nước ngầm",
+              "unit": "m3",
+              "description": "Đổ bê tông bể nước ngầm (đáy + thành)",
+              "measurement_method": "Thể tích = V_đáy + V_thành",
+              "formula": "V = S_đáy × t_đáy + Chu_vi × H × t_thành"
+            },
+            {
+              "code": "4.8.2",
+              "name": "BT bể phốt",
+              "unit": "m3",
+              "description": "Đổ bê tông bể phốt 3 ngăn",
+              "measurement_method": "Thể tích = V_đáy + V_thành + V_vách ngăn",
+              "formula": "V = ΣV_thành_phần"
+            },
+            {
+              "code": "4.8.3",
+              "name": "BT hồ bơi",
+              "unit": "m3",
+              "description": "Đổ bê tông hồ bơi",
+              "measurement_method": "Thể tích = V_đáy + V_thành",
+              "formula": "V = S × t_đáy + P × H × t_thành"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "name": "Công tác cốt thép",
+      "description": "Gia công, lắp đặt cốt thép cho các kết cấu bê tông",
+      "work_types": [
+        {
+          "code": "5.1",
+          "name": "Thép móng",
+          "work_items": [
+            {
+              "code": "5.1.1",
+              "name": "Thép móng Ø≤10mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép móng đường kính ≤10mm",
+              "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md theo bảng tra",
+              "formula": "M = L × γ (γ_Ø8=0.395, Ø10=0.617 kg/m)"
+            },
+            {
+              "code": "5.1.2",
+              "name": "Thép móng Ø12-16mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép móng đường kính 12-16mm",
+              "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+              "formula": "M = L × γ (γ_Ø12=0.888, Ø14=1.21, Ø16=1.58 kg/m)"
+            },
+            {
+              "code": "5.1.3",
+              "name": "Thép móng Ø18-22mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép móng đường kính 18-22mm",
+              "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+              "formula": "M = L × γ (γ_Ø18=2.00, Ø20=2.47, Ø22=2.98 kg/m)"
+            },
+            {
+              "code": "5.1.4",
+              "name": "Thép móng Ø≥25mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép móng đường kính ≥25mm",
+              "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+              "formula": "M = L × γ (γ_Ø25=3.85, Ø28=4.83, Ø32=6.31 kg/m)"
+            }
+          ]
+        },
+        {
+          "code": "5.2",
+          "name": "Thép cột",
+          "work_items": [
+            {
+              "code": "5.2.1",
+              "name": "Thép cột Ø≤10mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép đai cột Ø≤10mm",
+              "measurement_method": "Khối lượng = Chu vi đai × Số đai × γ",
+              "formula": "M = (2a+2b+20d) × n × γ"
+            },
+            {
+              "code": "5.2.2",
+              "name": "Thép cột Ø12-16mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép dọc cột Ø12-16mm",
+              "measurement_method": "Khối lượng = Chiều dài thép × Số thanh × γ",
+              "formula": "M = L × n × γ"
+            },
+            {
+              "code": "5.2.3",
+              "name": "Thép cột Ø18-22mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép dọc cột Ø18-22mm",
+              "measurement_method": "Khối lượng = Chiều dài thép × Số thanh × γ",
+              "formula": "M = L × n × γ"
+            },
+            {
+              "code": "5.2.4",
+              "name": "Thép cột Ø≥25mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép dọc cột Ø≥25mm",
+              "measurement_method": "Khối lượng = Chiều dài thép × Số thanh × γ",
+              "formula": "M = L × n × γ"
+            }
+          ]
+        },
+        {
+          "code": "5.3",
+          "name": "Thép dầm, sàn",
+          "work_items": [
+            {
+              "code": "5.3.1",
+              "name": "Thép dầm, sàn Ø≤10mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép dầm, sàn Ø≤10mm",
+              "measurement_method": "Tính theo bản vẽ kết cấu, nhân hệ số hao hụt 1.02-1.05",
+              "formula": "M = ΣL × γ × K_hao"
+            },
+            {
+              "code": "5.3.2",
+              "name": "Thép dầm, sàn Ø12-16mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép dầm, sàn Ø12-16mm",
+              "measurement_method": "Tính theo bản vẽ kết cấu",
+              "formula": "M = ΣL × γ × K_hao"
+            },
+            {
+              "code": "5.3.3",
+              "name": "Thép dầm, sàn Ø18-22mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép dầm, sàn Ø18-22mm",
+              "measurement_method": "Tính theo bản vẽ kết cấu",
+              "formula": "M = ΣL × γ × K_hao"
+            }
+          ]
+        },
+        {
+          "code": "5.4",
+          "name": "Thép cầu thang",
+          "work_items": [
+            {
+              "code": "5.4.1",
+              "name": "Thép cầu thang Ø≤10mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép cầu thang Ø≤10mm",
+              "measurement_method": "Tính theo bản vẽ kết cấu",
+              "formula": "M = ΣL × γ"
+            },
+            {
+              "code": "5.4.2",
+              "name": "Thép cầu thang Ø12-16mm",
+              "unit": "kg",
+              "description": "Gia công, lắp đặt thép cầu thang Ø12-16mm",
+              "measurement_method": "Tính theo bản vẽ kết cấu",
+              "formula": "M = ΣL × γ"
+            }
+          ]
+        },
+        {
+          "code": "5.5",
+          "name": "Lưới thép hàn",
+          "work_items": [
+            {
+              "code": "5.5.1",
+              "name": "Lưới thép Ø4 a100",
+              "unit": "m2",
+              "description": "Lắp đặt lưới thép hàn Ø4mm, ô 100×100mm",
+              "measurement_method": "Diện tích lưới = Diện tích sàn/tường cần đặt lưới",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "5.5.2",
+              "name": "Lưới thép Ø6 a150",
+              "unit": "m2",
+              "description": "Lắp đặt lưới thép hàn Ø6mm, ô 150×150mm",
+              "measurement_method": "Diện tích lưới = Diện tích cần lắp",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "5.5.3",
+              "name": "Lưới thép Ø6 a200",
+              "unit": "m2",
+              "description": "Lắp đặt lưới thép hàn Ø6mm, ô 200×200mm",
+              "measurement_method": "Diện tích lưới = Diện tích cần lắp",
+              "formula": "S = L × W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": "Công tác ván khuôn",
+      "description": "Lắp dựng, tháo dỡ ván khuôn để đổ bê tông",
+      "work_types": [
+        {
+          "code": "6.1",
+          "name": "Ván khuôn móng",
+          "work_items": [
+            {
+              "code": "6.1.1",
+              "name": "VK móng đơn",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn móng đơn",
+              "measurement_method": "Diện tích = Chu vi móng × Chiều cao móng",
+              "formula": "S = P × H"
+            },
+            {
+              "code": "6.1.2",
+              "name": "VK móng băng",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn móng băng",
+              "measurement_method": "Diện tích = 2 × Chiều cao × Chiều dài móng băng",
+              "formula": "S = 2 × H × L"
+            },
+            {
+              "code": "6.1.3",
+              "name": "VK móng bè",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn móng bè (thành ngoài)",
+              "measurement_method": "Diện tích = Chu vi bè × Chiều cao bè",
+              "formula": "S = P × H"
+            }
+          ]
+        },
+        {
+          "code": "6.2",
+          "name": "Ván khuôn cột",
+          "work_items": [
+            {
+              "code": "6.2.1",
+              "name": "VK cột vuông",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn cột vuông/chữ nhật",
+              "measurement_method": "Diện tích = Chu vi cột × Chiều cao cột",
+              "formula": "S = 2(a+b) × H"
+            },
+            {
+              "code": "6.2.2",
+              "name": "VK cột tròn",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn cột tròn (ống thép)",
+              "measurement_method": "Diện tích = π × D × H",
+              "formula": "S = π × D × H"
+            }
+          ]
+        },
+        {
+          "code": "6.3",
+          "name": "Ván khuôn dầm, sàn",
+          "work_items": [
+            {
+              "code": "6.3.1",
+              "name": "VK dầm",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn dầm (đáy + 2 thành)",
+              "measurement_method": "Diện tích = (Chiều rộng + 2×Chiều cao) × Chiều dài",
+              "formula": "S = (b + 2h) × L"
+            },
+            {
+              "code": "6.3.2",
+              "name": "VK sàn phẳng",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn sàn phẳng",
+              "measurement_method": "Diện tích = Diện tích sàn (bằng diện tích BT sàn)",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "6.3.3",
+              "name": "VK lanh tô, ô văng",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn lanh tô, ô văng",
+              "measurement_method": "Diện tích = Chu vi tiết diện × Chiều dài",
+              "formula": "S = P × L"
+            }
+          ]
+        },
+        {
+          "code": "6.4",
+          "name": "Ván khuôn cầu thang",
+          "work_items": [
+            {
+              "code": "6.4.1",
+              "name": "VK cầu thang thường",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn cầu thang 2 vế",
+              "measurement_method": "Diện tích = Diện tích đáy nghiêng + Diện tích thành bậc",
+              "formula": "S = S_đáy + n × (h × L_bậc)"
+            },
+            {
+              "code": "6.4.2",
+              "name": "VK cầu thang xoắn",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn cầu thang xoắn",
+              "measurement_method": "Tính theo công thức cầu thang xoắn (phức tạp hơn)",
+              "formula": "S = S_bản + S_bậc"
+            }
+          ]
+        },
+        {
+          "code": "6.5",
+          "name": "Ván khuôn tường",
+          "work_items": [
+            {
+              "code": "6.5.1",
+              "name": "VK tường BTCT",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn tường BTCT (2 mặt)",
+              "measurement_method": "Diện tích = 2 × Chiều dài × Chiều cao tường",
+              "formula": "S = 2 × L × H"
+            },
+            {
+              "code": "6.5.2",
+              "name": "VK bể nước, bể phốt",
+              "unit": "m2",
+              "description": "Lắp dựng, tháo dỡ ván khuôn bể (trong + ngoài)",
+              "measurement_method": "Diện tích = S_trong + S_ngoài",
+              "formula": "S = 2 × (P_trong + P_ngoài) × H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "name": "Công tác xây",
+      "description": "Xây tường, trụ, bồn hoa bằng các loại gạch",
+      "work_types": [
+        {
+          "code": "7.1",
+          "name": "Xây móng",
+          "work_items": [
+            {
+              "code": "7.1.1",
+              "name": "Xây móng gạch đặc",
+              "unit": "m3",
+              "description": "Xây móng bằng gạch đặc, vữa XM M75",
+              "measurement_method": "Thể tích = Chiều dài × Chiều rộng × Chiều cao móng gạch",
+              "formula": "V = L × W × H"
+            },
+            {
+              "code": "7.1.2",
+              "name": "Xây móng đá hộc",
+              "unit": "m3",
+              "description": "Xây móng bằng đá hộc, vữa XM M75",
+              "measurement_method": "Thể tích móng đá hộc",
+              "formula": "V = L × W × H"
+            }
+          ]
+        },
+        {
+          "code": "7.2",
+          "name": "Xây tường",
+          "work_items": [
+            {
+              "code": "7.2.1",
+              "name": "Xây tường gạch đặc 100mm",
+              "unit": "m2",
+              "description": "Xây tường gạch đặc dày 100mm (10cm)",
+              "measurement_method": "Diện tích tường = Dài × Cao, trừ lỗ cửa >1m²",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.2",
+              "name": "Xây tường gạch đặc 200mm",
+              "unit": "m2",
+              "description": "Xây tường gạch đặc dày 200mm (20cm)",
+              "measurement_method": "Diện tích tường = Dài × Cao, trừ lỗ cửa >1m²",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.3",
+              "name": "Xây tường gạch ống 100mm",
+              "unit": "m2",
+              "description": "Xây tường gạch ống 2 lỗ dày 100mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa >1m²",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.4",
+              "name": "Xây tường gạch ống 200mm",
+              "unit": "m2",
+              "description": "Xây tường gạch ống dày 200mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa >1m²",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.5",
+              "name": "Xây tường gạch block 100mm",
+              "unit": "m2",
+              "description": "Xây tường gạch block xi măng dày 100mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.6",
+              "name": "Xây tường gạch block 150mm",
+              "unit": "m2",
+              "description": "Xây tường gạch block xi măng dày 150mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.7",
+              "name": "Xây tường gạch block 200mm",
+              "unit": "m2",
+              "description": "Xây tường gạch block xi măng dày 200mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.8",
+              "name": "Xây tường gạch AAC 100mm",
+              "unit": "m2",
+              "description": "Xây tường gạch bê tông khí chưng áp (AAC) dày 100mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.9",
+              "name": "Xây tường gạch AAC 150mm",
+              "unit": "m2",
+              "description": "Xây tường gạch AAC dày 150mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "7.2.10",
+              "name": "Xây tường gạch AAC 200mm",
+              "unit": "m2",
+              "description": "Xây tường gạch AAC dày 200mm",
+              "measurement_method": "Diện tích tường, trừ lỗ cửa",
+              "formula": "S = L × H - S_cửa"
+            }
+          ]
+        },
+        {
+          "code": "7.3",
+          "name": "Xây trụ, bồn hoa",
+          "work_items": [
+            {
+              "code": "7.3.1",
+              "name": "Xây trụ cổng",
+              "unit": "m3",
+              "description": "Xây trụ cổng bằng gạch đặc hoặc block",
+              "measurement_method": "Thể tích = Tiết diện trụ × Chiều cao",
+              "formula": "V = A × H"
+            },
+            {
+              "code": "7.3.2",
+              "name": "Xây bồn hoa, chậu cảnh",
+              "unit": "m3",
+              "description": "Xây bồn hoa, chậu cảnh bằng gạch",
+              "measurement_method": "Thể tích gạch xây = Chu vi × Chiều cao × Chiều dày",
+              "formula": "V = P × H × t"
+            },
+            {
+              "code": "7.3.3",
+              "name": "Xây tường rào",
+              "unit": "m2",
+              "description": "Xây tường rào bằng gạch",
+              "measurement_method": "Diện tích tường rào",
+              "formula": "S = L × H"
+            }
+          ]
+        },
+        {
+          "code": "7.4",
+          "name": "Xây bậc thang",
+          "work_items": [
+            {
+              "code": "7.4.1",
+              "name": "Xây bậc thang gạch",
+              "unit": "m3",
+              "description": "Xây bậc thang bằng gạch đặc",
+              "measurement_method": "Thể tích = Số bậc × Thể tích 1 bậc",
+              "formula": "V = n × (l × b × h)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "name": "Công tác trát",
+      "description": "Trát tường, trần, cột, dầm bằng vữa xi măng",
+      "work_types": [
+        {
+          "code": "8.1",
+          "name": "Trát tường",
+          "work_items": [
+            {
+              "code": "8.1.1",
+              "name": "Trát tường trong dày 15mm",
+              "unit": "m2",
+              "description": "Trát tường trong nhà dày 15mm, vữa XM M75",
+              "measurement_method": "Diện tích trát = Diện tích tường - Diện tích cửa - Diện tích ốp gạch",
+              "formula": "S = L × H - S_trừ"
+            },
+            {
+              "code": "8.1.2",
+              "name": "Trát tường ngoài dày 15mm",
+              "unit": "m2",
+              "description": "Trát tường ngoài nhà dày 15mm, vữa XM M75",
+              "measurement_method": "Diện tích mặt ngoài tường",
+              "formula": "S = L × H - S_cửa"
+            },
+            {
+              "code": "8.1.3",
+              "name": "Trát tường ngoài dày 20mm",
+              "unit": "m2",
+              "description": "Trát tường ngoài nhà dày 20mm, vữa XM M75",
+              "measurement_method": "Diện tích mặt ngoài tường",
+              "formula": "S = L × H - S_cửa"
+            }
+          ]
+        },
+        {
+          "code": "8.2",
+          "name": "Trát trần",
+          "work_items": [
+            {
+              "code": "8.2.1",
+              "name": "Trát trần phẳng",
+              "unit": "m2",
+              "description": "Trát trần bê tông phẳng",
+              "measurement_method": "Diện tích trần = Diện tích sàn tầng trên",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "8.2.2",
+              "name": "Trát trần có đường chỉ",
+              "unit": "m2",
+              "description": "Trát trần có kẻ đường chỉ trang trí",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "8.3",
+          "name": "Trát cột, dầm",
+          "work_items": [
+            {
+              "code": "8.3.1",
+              "name": "Trát cột",
+              "unit": "m2",
+              "description": "Trát xung quanh cột bê tông",
+              "measurement_method": "Diện tích = Chu vi cột × Chiều cao cột",
+              "formula": "S = P × H"
+            },
+            {
+              "code": "8.3.2",
+              "name": "Trát dầm",
+              "unit": "m2",
+              "description": "Trát dầm bê tông (đáy + 2 thành)",
+              "measurement_method": "Diện tích = (Chiều rộng + 2×Chiều cao lộ) × Chiều dài",
+              "formula": "S = (b + 2h) × L"
+            }
+          ]
+        },
+        {
+          "code": "8.4",
+          "name": "Trát gờ, phào",
+          "work_items": [
+            {
+              "code": "8.4.1",
+              "name": "Trát gờ chỉ tường",
+              "unit": "md",
+              "description": "Trát gờ chỉ trang trí trên tường",
+              "measurement_method": "Chiều dài đường gờ chỉ",
+              "formula": "L = ΣL_gờ"
+            },
+            {
+              "code": "8.4.2",
+              "name": "Trát phào trần",
+              "unit": "md",
+              "description": "Trát phào chỉ góc trần-tường",
+              "measurement_method": "Chiều dài phào = Chu vi phòng",
+              "formula": "L = 2(a + b)"
+            },
+            {
+              "code": "8.4.3",
+              "name": "Trát ô văng, mái hắt",
+              "unit": "m2",
+              "description": "Trát ô văng, mái hắt che mưa",
+              "measurement_method": "Diện tích = Chu vi tiết diện × Chiều dài",
+              "formula": "S = P × L"
+            }
+          ]
+        },
+        {
+          "code": "8.5",
+          "name": "Trát granitô",
+          "work_items": [
+            {
+              "code": "8.5.1",
+              "name": "Trát granitô chân tường",
+              "unit": "m2",
+              "description": "Trát granitô chân tường cao 100-150mm",
+              "measurement_method": "Diện tích = Chu vi phòng × Chiều cao chân tường",
+              "formula": "S = P × h"
+            },
+            {
+              "code": "8.5.2",
+              "name": "Trát granitô bậc thang",
+              "unit": "m2",
+              "description": "Trát granitô mặt và cổ bậc thang",
+              "measurement_method": "Diện tích = Số bậc × (Diện tích mặt + Diện tích cổ)",
+              "formula": "S = n × (l×b + l×h)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "name": "Công tác lát nền",
+      "description": "Lát gạch, đá, sàn gỗ các loại cho sàn nhà",
+      "work_types": [
+        {
+          "code": "9.1",
+          "name": "Lát gạch ceramic",
+          "work_items": [
+            {
+              "code": "9.1.1",
+              "name": "Lát gạch 300x300mm",
+              "unit": "m2",
+              "description": "Lát gạch ceramic 300×300mm",
+              "measurement_method": "Diện tích sàn cần lát (đã trừ diện tích không lát)",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.1.2",
+              "name": "Lát gạch 400x400mm",
+              "unit": "m2",
+              "description": "Lát gạch ceramic 400×400mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.1.3",
+              "name": "Lát gạch 600x600mm",
+              "unit": "m2",
+              "description": "Lát gạch ceramic 600×600mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.1.4",
+              "name": "Lát gạch 800x800mm",
+              "unit": "m2",
+              "description": "Lát gạch ceramic 800×800mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "9.2",
+          "name": "Lát gạch porcelain",
+          "work_items": [
+            {
+              "code": "9.2.1",
+              "name": "Lát gạch 600x600mm bóng kính",
+              "unit": "m2",
+              "description": "Lát gạch porcelain bóng kính 600×600mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.2.2",
+              "name": "Lát gạch 600x1200mm",
+              "unit": "m2",
+              "description": "Lát gạch porcelain 600×1200mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.2.3",
+              "name": "Lát gạch 800x800mm bóng kính",
+              "unit": "m2",
+              "description": "Lát gạch porcelain bóng kính 800×800mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "9.3",
+          "name": "Lát gạch granite",
+          "work_items": [
+            {
+              "code": "9.3.1",
+              "name": "Lát granite tự nhiên",
+              "unit": "m2",
+              "description": "Lát đá granite tự nhiên",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.3.2",
+              "name": "Lát granite nhân tạo",
+              "unit": "m2",
+              "description": "Lát đá granite nhân tạo",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "9.4",
+          "name": "Lát sàn gỗ",
+          "work_items": [
+            {
+              "code": "9.4.1",
+              "name": "Lát sàn gỗ công nghiệp 8mm",
+              "unit": "m2",
+              "description": "Lát sàn gỗ công nghiệp dày 8mm",
+              "measurement_method": "Diện tích sàn cần lát (+ hao hụt 5-8%)",
+              "formula": "S = L × W × 1.05"
+            },
+            {
+              "code": "9.4.2",
+              "name": "Lát sàn gỗ công nghiệp 12mm",
+              "unit": "m2",
+              "description": "Lát sàn gỗ công nghiệp dày 12mm",
+              "measurement_method": "Diện tích sàn cần lát (+ hao hụt)",
+              "formula": "S = L × W × 1.05"
+            },
+            {
+              "code": "9.4.3",
+              "name": "Lát sàn gỗ tự nhiên",
+              "unit": "m2",
+              "description": "Lát sàn gỗ tự nhiên",
+              "measurement_method": "Diện tích sàn cần lát (+ hao hụt 8-10%)",
+              "formula": "S = L × W × 1.08"
+            }
+          ]
+        },
+        {
+          "code": "9.5",
+          "name": "Lát gạch terrazzo",
+          "work_items": [
+            {
+              "code": "9.5.1",
+              "name": "Lát gạch terrazzo 300x300",
+              "unit": "m2",
+              "description": "Lát gạch terrazzo 300×300mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.5.2",
+              "name": "Lát gạch terrazzo 400x400",
+              "unit": "m2",
+              "description": "Lát gạch terrazzo 400×400mm",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "9.6",
+          "name": "Lát đá tự nhiên",
+          "work_items": [
+            {
+              "code": "9.6.1",
+              "name": "Lát đá hoa cương",
+              "unit": "m2",
+              "description": "Lát đá hoa cương tự nhiên",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.6.2",
+              "name": "Lát đá cẩm thạch",
+              "unit": "m2",
+              "description": "Lát đá cẩm thạch",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "9.6.3",
+              "name": "Lát đá marble",
+              "unit": "m2",
+              "description": "Lát đá marble nhập khẩu",
+              "measurement_method": "Diện tích sàn cần lát",
+              "formula": "S = L × W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": "Công tác ốp tường",
+      "description": "Ốp gạch, đá, gỗ các loại cho tường",
+      "work_types": [
+        {
+          "code": "10.1",
+          "name": "Ốp gạch men",
+          "work_items": [
+            {
+              "code": "10.1.1",
+              "name": "Ốp gạch 200x250mm",
+              "unit": "m2",
+              "description": "Ốp gạch men tường 200×250mm",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.1.2",
+              "name": "Ốp gạch 250x400mm",
+              "unit": "m2",
+              "description": "Ốp gạch men tường 250×400mm",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.1.3",
+              "name": "Ốp gạch 300x600mm",
+              "unit": "m2",
+              "description": "Ốp gạch men tường 300×600mm",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.1.4",
+              "name": "Ốp gạch 400x800mm",
+              "unit": "m2",
+              "description": "Ốp gạch men tường 400×800mm",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            }
+          ]
+        },
+        {
+          "code": "10.2",
+          "name": "Ốp đá tự nhiên",
+          "work_items": [
+            {
+              "code": "10.2.1",
+              "name": "Ốp đá granite",
+              "unit": "m2",
+              "description": "Ốp đá granite tự nhiên",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.2.2",
+              "name": "Ốp đá marble",
+              "unit": "m2",
+              "description": "Ốp đá marble tự nhiên",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.2.3",
+              "name": "Ốp đá ong",
+              "unit": "m2",
+              "description": "Ốp đá ong trang trí",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            }
+          ]
+        },
+        {
+          "code": "10.3",
+          "name": "Ốp gỗ",
+          "work_items": [
+            {
+              "code": "10.3.1",
+              "name": "Ốp gỗ tự nhiên",
+              "unit": "m2",
+              "description": "Ốp gỗ tự nhiên trang trí tường",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.3.2",
+              "name": "Ốp gỗ công nghiệp MDF",
+              "unit": "m2",
+              "description": "Ốp gỗ MDF phủ melamine/veneer",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.3.3",
+              "name": "Ốp gỗ nhựa composite",
+              "unit": "m2",
+              "description": "Ốp gỗ nhựa composite (WPC)",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            }
+          ]
+        },
+        {
+          "code": "10.4",
+          "name": "Ốp tấm nhựa",
+          "work_items": [
+            {
+              "code": "10.4.1",
+              "name": "Ốp tấm PVC",
+              "unit": "m2",
+              "description": "Ốp tấm nhựa PVC tường",
+              "measurement_method": "Diện tích tường cần ốp",
+              "formula": "S = L × H"
+            },
+            {
+              "code": "10.4.2",
+              "name": "Ốp tấm alu",
+              "unit": "m2",
+              "description": "Ốp tấm aluminium composite",
+              "measurement_method": "Diện tích tường/mặt tiền cần ốp",
+              "formula": "S = L × H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name": "Công tác sơn",
+      "description": "Sơn tường, sơn gỗ, sơn sắt các loại",
+      "work_types": [
+        {
+          "code": "11.1",
+          "name": "Sơn tường trong",
+          "work_items": [
+            {
+              "code": "11.1.1",
+              "name": "Sơn lót chống kiềm",
+              "unit": "m2",
+              "description": "Sơn lót chống kiềm tường trong nhà",
+              "measurement_method": "Diện tích tường + trần cần sơn lót",
+              "formula": "S = S_tường + S_trần"
+            },
+            {
+              "code": "11.1.2",
+              "name": "Sơn phủ nội thất 2 lớp",
+              "unit": "m2",
+              "description": "Sơn phủ nội thất 2 lớp",
+              "measurement_method": "Diện tích tường + trần cần sơn phủ",
+              "formula": "S = S_tường + S_trần"
+            },
+            {
+              "code": "11.1.3",
+              "name": "Sơn phủ nội thất 3 lớp",
+              "unit": "m2",
+              "description": "Sơn phủ nội thất 3 lớp (cao cấp)",
+              "measurement_method": "Diện tích tường + trần cần sơn",
+              "formula": "S = S_tường + S_trần"
+            }
+          ]
+        },
+        {
+          "code": "11.2",
+          "name": "Sơn tường ngoài",
+          "work_items": [
+            {
+              "code": "11.2.1",
+              "name": "Sơn lót ngoại thất",
+              "unit": "m2",
+              "description": "Sơn lót ngoại thất chống kiềm, chống nấm mốc",
+              "measurement_method": "Diện tích mặt ngoài cần sơn",
+              "formula": "S = ΣS_mặt_ngoài"
+            },
+            {
+              "code": "11.2.2",
+              "name": "Sơn phủ ngoại thất 2 lớp",
+              "unit": "m2",
+              "description": "Sơn phủ ngoại thất 2 lớp",
+              "measurement_method": "Diện tích mặt ngoài cần sơn",
+              "formula": "S = ΣS_mặt_ngoài"
+            },
+            {
+              "code": "11.2.3",
+              "name": "Sơn phủ ngoại thất 3 lớp",
+              "unit": "m2",
+              "description": "Sơn phủ ngoại thất 3 lớp (bền màu)",
+              "measurement_method": "Diện tích mặt ngoài cần sơn",
+              "formula": "S = ΣS_mặt_ngoài"
+            }
+          ]
+        },
+        {
+          "code": "11.3",
+          "name": "Sơn dầu, sơn PU",
+          "work_items": [
+            {
+              "code": "11.3.1",
+              "name": "Sơn dầu cửa gỗ",
+              "unit": "m2",
+              "description": "Sơn dầu cửa gỗ (2 mặt)",
+              "measurement_method": "Diện tích = 2 × Diện tích cửa",
+              "formula": "S = 2 × S_cửa"
+            },
+            {
+              "code": "11.3.2",
+              "name": "Sơn PU cửa gỗ",
+              "unit": "m2",
+              "description": "Sơn PU cửa gỗ cao cấp (2 mặt)",
+              "measurement_method": "Diện tích = 2 × Diện tích cửa",
+              "formula": "S = 2 × S_cửa"
+            },
+            {
+              "code": "11.3.3",
+              "name": "Sơn dầu lan can sắt",
+              "unit": "m2",
+              "description": "Sơn dầu lan can, cửa sắt",
+              "measurement_method": "Diện tích bề mặt sắt (quy đổi)",
+              "formula": "S = S_quy_đổi"
+            }
+          ]
+        },
+        {
+          "code": "11.4",
+          "name": "Sơn chống thấm",
+          "work_items": [
+            {
+              "code": "11.4.1",
+              "name": "Sơn chống thấm sàn mái",
+              "unit": "m2",
+              "description": "Sơn chống thấm sàn mái (2-3 lớp)",
+              "measurement_method": "Diện tích sàn mái cần chống thấm",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "11.4.2",
+              "name": "Sơn chống thấm WC",
+              "unit": "m2",
+              "description": "Sơn chống thấm sàn WC",
+              "measurement_method": "Diện tích sàn + Diện tích chân tường (30cm)",
+              "formula": "S = S_sàn + P × 0.3"
+            },
+            {
+              "code": "11.4.3",
+              "name": "Sơn chống thấm tường ngoài",
+              "unit": "m2",
+              "description": "Sơn chống thấm tường ngoài",
+              "measurement_method": "Diện tích tường ngoài cần chống thấm",
+              "formula": "S = L × H"
+            }
+          ]
+        },
+        {
+          "code": "11.5",
+          "name": "Sơn epoxy",
+          "work_items": [
+            {
+              "code": "11.5.1",
+              "name": "Sơn epoxy sàn",
+              "unit": "m2",
+              "description": "Sơn epoxy sàn nhà xưởng, garage",
+              "measurement_method": "Diện tích sàn cần sơn",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "11.5.2",
+              "name": "Sơn epoxy bể nước",
+              "unit": "m2",
+              "description": "Sơn epoxy chống thấm bể nước ăn",
+              "measurement_method": "Diện tích đáy + thành bể",
+              "formula": "S = S_đáy + P × H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "name": "Công tác chống thấm",
+      "description": "Chống thấm sàn mái, WC, tầng hầm, bể nước",
+      "work_types": [
+        {
+          "code": "12.1",
+          "name": "Chống thấm sàn mái",
+          "work_items": [
+            {
+              "code": "12.1.1",
+              "name": "Chống thấm màng khò",
+              "unit": "m2",
+              "description": "Chống thấm sàn mái bằng màng khò bitum",
+              "measurement_method": "Diện tích sàn mái + Diện tích chân tường bo lên 30cm",
+              "formula": "S = S_sàn + P × 0.3"
+            },
+            {
+              "code": "12.1.2",
+              "name": "Chống thấm sika 2 thành phần",
+              "unit": "m2",
+              "description": "Chống thấm sàn mái bằng Sika 2 thành phần",
+              "measurement_method": "Diện tích sàn mái + bo chân",
+              "formula": "S = S_sàn + P × 0.3"
+            },
+            {
+              "code": "12.1.3",
+              "name": "Chống thấm polyurethane",
+              "unit": "m2",
+              "description": "Chống thấm sàn mái bằng polyurethane",
+              "measurement_method": "Diện tích sàn mái + bo chân",
+              "formula": "S = S_sàn + P × 0.3"
+            }
+          ]
+        },
+        {
+          "code": "12.2",
+          "name": "Chống thấm WC",
+          "work_items": [
+            {
+              "code": "12.2.1",
+              "name": "Chống thấm màng khò WC",
+              "unit": "m2",
+              "description": "Chống thấm sàn WC bằng màng khò",
+              "measurement_method": "Diện tích sàn + chân tường 30cm",
+              "formula": "S = S_sàn + P × 0.3"
+            },
+            {
+              "code": "12.2.2",
+              "name": "Chống thấm sika WC",
+              "unit": "m2",
+              "description": "Chống thấm sàn WC bằng Sika",
+              "measurement_method": "Diện tích sàn + chân tường",
+              "formula": "S = S_sàn + P × 0.3"
+            },
+            {
+              "code": "12.2.3",
+              "name": "Chống thấm kova WC",
+              "unit": "m2",
+              "description": "Chống thấm sàn WC bằng Kova CT11A",
+              "measurement_method": "Diện tích sàn + chân tường",
+              "formula": "S = S_sàn + P × 0.3"
+            }
+          ]
+        },
+        {
+          "code": "12.3",
+          "name": "Chống thấm tầng hầm",
+          "work_items": [
+            {
+              "code": "12.3.1",
+              "name": "Chống thấm màng HDPE",
+              "unit": "m2",
+              "description": "Chống thấm tầng hầm bằng màng HDPE",
+              "measurement_method": "Diện tích đáy + diện tích thành hầm",
+              "formula": "S = S_đáy + P × H"
+            },
+            {
+              "code": "12.3.2",
+              "name": "Chống thấm bentonite",
+              "unit": "m2",
+              "description": "Chống thấm tầng hầm bằng bentonite",
+              "measurement_method": "Diện tích đáy + thành hầm",
+              "formula": "S = S_đáy + P × H"
+            },
+            {
+              "code": "12.3.3",
+              "name": "Chống thấm crystalline",
+              "unit": "m2",
+              "description": "Chống thấm tầng hầm bằng crystalline (kết tinh)",
+              "measurement_method": "Diện tích bề mặt bê tông cần xử lý",
+              "formula": "S = S_tổng"
+            }
+          ]
+        },
+        {
+          "code": "12.4",
+          "name": "Chống thấm bể nước",
+          "work_items": [
+            {
+              "code": "12.4.1",
+              "name": "Chống thấm epoxy bể",
+              "unit": "m2",
+              "description": "Chống thấm bể nước bằng epoxy",
+              "measurement_method": "Diện tích đáy + thành bể (bên trong)",
+              "formula": "S = S_đáy + P × H"
+            },
+            {
+              "code": "12.4.2",
+              "name": "Chống thấm sika bể",
+              "unit": "m2",
+              "description": "Chống thấm bể nước bằng Sika",
+              "measurement_method": "Diện tích đáy + thành bể",
+              "formula": "S = S_đáy + P × H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name": "Công tác mái",
+      "description": "Lợp mái tôn, ngói, kính và khung xà gồ",
+      "work_types": [
+        {
+          "code": "13.1",
+          "name": "Mái tôn",
+          "work_items": [
+            {
+              "code": "13.1.1",
+              "name": "Lợp tôn sóng vuông",
+              "unit": "m2",
+              "description": "Lợp mái tôn sóng vuông",
+              "measurement_method": "Diện tích mái theo độ dốc (+ hao hùt chồng mí 10%)",
+              "formula": "S = L × W / cos(α) × 1.1"
+            },
+            {
+              "code": "13.1.2",
+              "name": "Lợp tôn sóng tròn",
+              "unit": "m2",
+              "description": "Lợp mái tôn sóng tròn",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α) × 1.1"
+            },
+            {
+              "code": "13.1.3",
+              "name": "Lợp tôn cách nhiệt",
+              "unit": "m2",
+              "description": "Lợp mái tôn cách nhiệt (tôn + xốp + tôn)",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            },
+            {
+              "code": "13.1.4",
+              "name": "Lợp tôn giả ngói",
+              "unit": "m2",
+              "description": "Lợp mái tôn giả ngói",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            }
+          ]
+        },
+        {
+          "code": "13.2",
+          "name": "Mái ngói",
+          "work_items": [
+            {
+              "code": "13.2.1",
+              "name": "Lợp ngói 22v/m²",
+              "unit": "m2",
+              "description": "Lợp ngói đất nung 22 viên/m²",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            },
+            {
+              "code": "13.2.2",
+              "name": "Lợp ngói 13v/m²",
+              "unit": "m2",
+              "description": "Lợp ngói sóng lớn 13 viên/m²",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            },
+            {
+              "code": "13.2.3",
+              "name": "Lợp ngói phẳng",
+              "unit": "m2",
+              "description": "Lợp ngói phẳng (ngói âm dương)",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            },
+            {
+              "code": "13.2.4",
+              "name": "Lợp ngói bê tông",
+              "unit": "m2",
+              "description": "Lợp ngói bê tông màu",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            }
+          ]
+        },
+        {
+          "code": "13.3",
+          "name": "Mái kính",
+          "work_items": [
+            {
+              "code": "13.3.1",
+              "name": "Mái kính cường lực",
+              "unit": "m2",
+              "description": "Lợp mái kính cường lực dày 12mm",
+              "measurement_method": "Diện tích mái theo độ dốc",
+              "formula": "S = L × W / cos(α)"
+            },
+            {
+              "code": "13.3.2",
+              "name": "Mái kính dán an toàn",
+              "unit": "m2",
+              "description": "Lợp mái kính dán an toàn (laminated)",
+              "measurement_method": "Diện tích mái",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "13.3.3",
+              "name": "Mái poly đặc ruột",
+              "unit": "m2",
+              "description": "Lợp mái poly đặc ruột trong suốt",
+              "measurement_method": "Diện tích mái",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "13.4",
+          "name": "Xà gồ, khung mái",
+          "work_items": [
+            {
+              "code": "13.4.1",
+              "name": "Xà gồ thép hộp",
+              "unit": "kg",
+              "description": "Lắp đặt xà gồ thép hộp",
+              "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+              "formula": "M = L × γ"
+            },
+            {
+              "code": "13.4.2",
+              "name": "Xà gồ thép C",
+              "unit": "kg",
+              "description": "Lắp đặt xà gồ thép hình C",
+              "measurement_method": "Khối lượng = Chiều dài × Trọng lượng/md",
+              "formula": "M = L × γ"
+            },
+            {
+              "code": "13.4.3",
+              "name": "Xà gồ gỗ",
+              "unit": "m3",
+              "description": "Lắp đặt xà gồ gỗ tự nhiên",
+              "measurement_method": "Thể tích = Tiết diện × Chiều dài",
+              "formula": "V = A × L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": "Công tác cửa",
+      "description": "Lắp đặt cửa đi, cửa sổ các loại vật liệu",
+      "work_types": [
+        {
+          "code": "14.1",
+          "name": "Cửa gỗ",
+          "work_items": [
+            {
+              "code": "14.1.1",
+              "name": "Cửa gỗ công nghiệp HDF",
+              "unit": "m2",
+              "description": "Lắp đặt cửa gỗ công nghiệp HDF",
+              "measurement_method": "Diện tích cửa = Chiều rộng × Chiều cao khuôn",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.1.2",
+              "name": "Cửa gỗ công nghiệp MDF",
+              "unit": "m2",
+              "description": "Lắp đặt cửa gỗ công nghiệp MDF",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.1.3",
+              "name": "Cửa gỗ tự nhiên",
+              "unit": "m2",
+              "description": "Lắp đặt cửa gỗ tự nhiên",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.1.4",
+              "name": "Cửa gỗ Composite",
+              "unit": "m2",
+              "description": "Lắp đặt cửa gỗ nhựa Composite",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            }
+          ]
+        },
+        {
+          "code": "14.2",
+          "name": "Cửa nhôm",
+          "work_items": [
+            {
+              "code": "14.2.1",
+              "name": "Cửa nhôm Xingfa",
+              "unit": "m2",
+              "description": "Lắp đặt cửa nhôm Xingfa nhập khẩu",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.2.2",
+              "name": "Cửa nhôm Việt Pháp",
+              "unit": "m2",
+              "description": "Lắp đặt cửa nhôm Việt Pháp",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.2.3",
+              "name": "Cửa nhôm hệ 55",
+              "unit": "m2",
+              "description": "Lắp đặt cửa nhôm hệ 55mm",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.2.4",
+              "name": "Cửa nhôm hệ 93",
+              "unit": "m2",
+              "description": "Lắp đặt cửa nhôm hệ 93mm (cách âm, cách nhiệt)",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            }
+          ]
+        },
+        {
+          "code": "14.3",
+          "name": "Cửa nhựa lõi thép",
+          "work_items": [
+            {
+              "code": "14.3.1",
+              "name": "Cửa nhựa lõi thép 3 ray",
+              "unit": "m2",
+              "description": "Lắp đặt cửa nhựa lõi thép 3 ray",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.3.2",
+              "name": "Cửa nhựa lõi thép 5 ray",
+              "unit": "m2",
+              "description": "Lắp đặt cửa nhựa lõi thép 5 ray",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            }
+          ]
+        },
+        {
+          "code": "14.4",
+          "name": "Cửa sắt",
+          "work_items": [
+            {
+              "code": "14.4.1",
+              "name": "Cửa sắt hộp",
+              "unit": "m2",
+              "description": "Lắp đặt cửa sắt hộp sơn tĩnh điện",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.4.2",
+              "name": "Cổng sắt mỹ thuật",
+              "unit": "m2",
+              "description": "Lắp đặt cổng sắt mỹ thuật",
+              "measurement_method": "Diện tích cổng = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.4.3",
+              "name": "Cửa sắt cuốn",
+              "unit": "m2",
+              "description": "Lắp đặt cửa cuốn tay/điện",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            }
+          ]
+        },
+        {
+          "code": "14.5",
+          "name": "Cửa kính",
+          "work_items": [
+            {
+              "code": "14.5.1",
+              "name": "Cửa kính cường lực 10mm",
+              "unit": "m2",
+              "description": "Lắp đặt cửa kính cường lực 10mm",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.5.2",
+              "name": "Cửa kính cường lực 12mm",
+              "unit": "m2",
+              "description": "Lắp đặt cửa kính cường lực 12mm",
+              "measurement_method": "Diện tích cửa = W × H",
+              "formula": "S = W × H"
+            },
+            {
+              "code": "14.5.3",
+              "name": "Vách kính cường lực",
+              "unit": "m2",
+              "description": "Lắp đặt vách kính cường lực cố định",
+              "measurement_method": "Diện tích vách = W × H",
+              "formula": "S = W × H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": "Công tác lan can, cầu thang",
+      "description": "Lắp đặt lan can, tay vịn, ốp bậc cầu thang",
+      "work_types": [
+        {
+          "code": "15.1",
+          "name": "Lan can sắt",
+          "work_items": [
+            {
+              "code": "15.1.1",
+              "name": "Lan can sắt hộp",
+              "unit": "md",
+              "description": "Lắp đặt lan can sắt hộp sơn tĩnh điện",
+              "measurement_method": "Chiều dài lan can",
+              "formula": "L = ΣL_lan_can"
+            },
+            {
+              "code": "15.1.2",
+              "name": "Lan can sắt mỹ thuật",
+              "unit": "md",
+              "description": "Lắp đặt lan can sắt mỹ thuật uốn hoa văn",
+              "measurement_method": "Chiều dài lan can",
+              "formula": "L = ΣL_lan_can"
+            },
+            {
+              "code": "15.1.3",
+              "name": "Lan can inox",
+              "unit": "md",
+              "description": "Lắp đặt lan can inox 304",
+              "measurement_method": "Chiều dài lan can",
+              "formula": "L = ΣL_lan_can"
+            }
+          ]
+        },
+        {
+          "code": "15.2",
+          "name": "Lan can kính",
+          "work_items": [
+            {
+              "code": "15.2.1",
+              "name": "Lan can kính cường lực",
+              "unit": "md",
+              "description": "Lắp đặt lan can kính cường lực 12mm",
+              "measurement_method": "Chiều dài lan can",
+              "formula": "L = ΣL_lan_can"
+            },
+            {
+              "code": "15.2.2",
+              "name": "Lan can kính + inox",
+              "unit": "md",
+              "description": "Lắp đặt lan can kết hợp kính + inox",
+              "measurement_method": "Chiều dài lan can",
+              "formula": "L = ΣL_lan_can"
+            }
+          ]
+        },
+        {
+          "code": "15.3",
+          "name": "Tay vịn cầu thang",
+          "work_items": [
+            {
+              "code": "15.3.1",
+              "name": "Tay vịn gỗ",
+              "unit": "md",
+              "description": "Lắp đặt tay vịn cầu thang bằng gỗ tự nhiên",
+              "measurement_method": "Chiều dài tay vịn theo độ dốc thang",
+              "formula": "L = L_nghiêng + L_chiếu_nghỉ"
+            },
+            {
+              "code": "15.3.2",
+              "name": "Tay vịn inox",
+              "unit": "md",
+              "description": "Lắp đặt tay vịn cầu thang inox",
+              "measurement_method": "Chiều dài tay vịn",
+              "formula": "L = L_nghiêng + L_chiếu_nghỉ"
+            },
+            {
+              "code": "15.3.3",
+              "name": "Tay vịn nhôm đúc",
+              "unit": "md",
+              "description": "Lắp đặt tay vịn nhôm đúc",
+              "measurement_method": "Chiều dài tay vịn",
+              "formula": "L = L_nghiêng"
+            }
+          ]
+        },
+        {
+          "code": "15.4",
+          "name": "Bậc cầu thang",
+          "work_items": [
+            {
+              "code": "15.4.1",
+              "name": "Ốp bậc đá granite",
+              "unit": "m2",
+              "description": "Ốp bậc thang bằng đá granite",
+              "measurement_method": "Diện tích = Số bậc × (S_mặt + S_cổ)",
+              "formula": "S = n × (l×b + l×h)"
+            },
+            {
+              "code": "15.4.2",
+              "name": "Ốp bậc gỗ",
+              "unit": "m2",
+              "description": "Ốp bậc thang bằng gỗ tự nhiên/công nghiệp",
+              "measurement_method": "Diện tích = Số bậc × (S_mặt + S_cổ)",
+              "formula": "S = n × (l×b + l×h)"
+            },
+            {
+              "code": "15.4.3",
+              "name": "Ốp bậc gạch",
+              "unit": "m2",
+              "description": "Ốp bậc thang bằng gạch ceramic",
+              "measurement_method": "Diện tích = Số bậc × (S_mặt + S_cổ)",
+              "formula": "S = n × (l×b + l×h)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": "Công tác trần",
+      "description": "Lắp đặt trần thạch cao, trần nhựa, trần gỗ",
+      "work_types": [
+        {
+          "code": "16.1",
+          "name": "Trần thạch cao",
+          "work_items": [
+            {
+              "code": "16.1.1",
+              "name": "Trần thạch cao phẳng",
+              "unit": "m2",
+              "description": "Lắp đặt trần thạch cao phẳng 1 lớp",
+              "measurement_method": "Diện tích trần = Diện tích phòng",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "16.1.2",
+              "name": "Trần thạch cao giật cấp 1",
+              "unit": "md",
+              "description": "Lắp đặt trần thạch cao giật cấp 1 tầng",
+              "measurement_method": "Chiều dài viền giật cấp",
+              "formula": "L = P_phòng"
+            },
+            {
+              "code": "16.1.3",
+              "name": "Trần thạch cao giật cấp 2",
+              "unit": "md",
+              "description": "Lắp đặt trần thạch cao giật cấp 2 tầng",
+              "measurement_method": "Chiều dài viền giật cấp",
+              "formula": "L = P_phòng"
+            },
+            {
+              "code": "16.1.4",
+              "name": "Trần thạch cao chịu nước",
+              "unit": "m2",
+              "description": "Lắp đặt trần thạch cao chịu nước (WC, bếp)",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "16.2",
+          "name": "Trần nhựa",
+          "work_items": [
+            {
+              "code": "16.2.1",
+              "name": "Trần nhựa PVC",
+              "unit": "m2",
+              "description": "Lắp đặt trần nhựa PVC",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "16.2.2",
+              "name": "Trần nhựa giả gỗ",
+              "unit": "m2",
+              "description": "Lắp đặt trần nhựa giả gỗ",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "16.3",
+          "name": "Trần gỗ",
+          "work_items": [
+            {
+              "code": "16.3.1",
+              "name": "Trần gỗ tự nhiên",
+              "unit": "m2",
+              "description": "Lắp đặt trần gỗ tự nhiên",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "16.3.2",
+              "name": "Trần gỗ công nghiệp",
+              "unit": "m2",
+              "description": "Lắp đặt trần gỗ công nghiệp MDF/HDF",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "16.3.3",
+              "name": "Trần nan gỗ nhựa",
+              "unit": "m2",
+              "description": "Lắp đặt trần nan gỗ nhựa composite",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "16.4",
+          "name": "Trần thả",
+          "work_items": [
+            {
+              "code": "16.4.1",
+              "name": "Trần thả mineral 600x600",
+              "unit": "m2",
+              "description": "Lắp đặt trần thả tấm khoáng 600×600mm",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "16.4.2",
+              "name": "Trần thả kim loại",
+              "unit": "m2",
+              "description": "Lắp đặt trần thả kim loại",
+              "measurement_method": "Diện tích trần",
+              "formula": "S = L × W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": "Điện dân dụng",
+      "description": "Lắp đặt hệ thống điện cho nhà ở",
+      "work_types": [
+        {
+          "code": "17.1",
+          "name": "Đường dây điện",
+          "work_items": [
+            {
+              "code": "17.1.1",
+              "name": "Dây điện 1.5mm²",
+              "unit": "md",
+              "description": "Lắp đặt dây điện đơn 1×1.5mm²",
+              "measurement_method": "Chiều dài dây thực tế + hao hụt 5%",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "17.1.2",
+              "name": "Dây điện 2.5mm²",
+              "unit": "md",
+              "description": "Lắp đặt dây điện đơn 1×2.5mm²",
+              "measurement_method": "Chiều dài dây thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "17.1.3",
+              "name": "Dây điện 4.0mm²",
+              "unit": "md",
+              "description": "Lắp đặt dây điện đơn 1×4.0mm²",
+              "measurement_method": "Chiều dài dây thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "17.1.4",
+              "name": "Dây điện 6.0mm²",
+              "unit": "md",
+              "description": "Lắp đặt dây điện đơn 1×6.0mm²",
+              "measurement_method": "Chiều dài dây thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "17.1.5",
+              "name": "Cáp điện 3x2.5mm²",
+              "unit": "md",
+              "description": "Lắp đặt cáp điện 3 lõi 3×2.5mm²",
+              "measurement_method": "Chiều dài cáp thực tế",
+              "formula": "L = L_thực × 1.05"
+            }
+          ]
+        },
+        {
+          "code": "17.2",
+          "name": "Ống luồn dây",
+          "work_items": [
+            {
+              "code": "17.2.1",
+              "name": "Ống PVC Ø16",
+              "unit": "md",
+              "description": "Lắp đặt ống luồn dây PVC Ø16mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực"
+            },
+            {
+              "code": "17.2.2",
+              "name": "Ống PVC Ø20",
+              "unit": "md",
+              "description": "Lắp đặt ống luồn dây PVC Ø20mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực"
+            },
+            {
+              "code": "17.2.3",
+              "name": "Ống PVC Ø25",
+              "unit": "md",
+              "description": "Lắp đặt ống luồn dây PVC Ø25mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực"
+            },
+            {
+              "code": "17.2.4",
+              "name": "Ống ruột gà D16",
+              "unit": "md",
+              "description": "Lắp đặt ống ruột gà D16mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực"
+            }
+          ]
+        },
+        {
+          "code": "17.3",
+          "name": "Đèn chiếu sáng",
+          "work_items": [
+            {
+              "code": "17.3.1",
+              "name": "Đèn LED âm trần",
+              "unit": "bộ",
+              "description": "Lắp đặt đèn LED âm trần",
+              "measurement_method": "Số lượng đèn",
+              "formula": "N = Số bộ đèn"
+            },
+            {
+              "code": "17.3.2",
+              "name": "Đèn LED panel",
+              "unit": "bộ",
+              "description": "Lắp đặt đèn LED panel 600×600",
+              "measurement_method": "Số lượng đèn",
+              "formula": "N = Số bộ đèn"
+            },
+            {
+              "code": "17.3.3",
+              "name": "Đèn tuýp LED",
+              "unit": "bộ",
+              "description": "Lắp đặt đèn tuýp LED 1.2m",
+              "measurement_method": "Số lượng đèn",
+              "formula": "N = Số bộ đèn"
+            },
+            {
+              "code": "17.3.4",
+              "name": "Đèn thả trang trí",
+              "unit": "bộ",
+              "description": "Lắp đặt đèn thả trang trí",
+              "measurement_method": "Số lượng đèn",
+              "formula": "N = Số bộ đèn"
+            },
+            {
+              "code": "17.3.5",
+              "name": "Đèn gắn tường",
+              "unit": "bộ",
+              "description": "Lắp đặt đèn gắn tường",
+              "measurement_method": "Số lượng đèn",
+              "formula": "N = Số bộ đèn"
+            }
+          ]
+        },
+        {
+          "code": "17.4",
+          "name": "Ổ cắm, công tắc",
+          "work_items": [
+            {
+              "code": "17.4.1",
+              "name": "Ổ cắm đơn",
+              "unit": "cái",
+              "description": "Lắp đặt ổ cắm điện đơn",
+              "measurement_method": "Số lượng ổ cắm",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "17.4.2",
+              "name": "Ổ cắm đôi",
+              "unit": "cái",
+              "description": "Lắp đặt ổ cắm điện đôi",
+              "measurement_method": "Số lượng ổ cắm",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "17.4.3",
+              "name": "Ổ cắm 3 chấu",
+              "unit": "cái",
+              "description": "Lắp đặt ổ cắm 3 chấu có tiếp địa",
+              "measurement_method": "Số lượng ổ cắm",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "17.4.4",
+              "name": "Công tắc đơn",
+              "unit": "cái",
+              "description": "Lắp đặt công tắc đơn",
+              "measurement_method": "Số lượng công tắc",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "17.4.5",
+              "name": "Công tắc đôi",
+              "unit": "cái",
+              "description": "Lắp đặt công tắc đôi",
+              "measurement_method": "Số lượng công tắc",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "17.4.6",
+              "name": "Công tắc ba",
+              "unit": "cái",
+              "description": "Lắp đặt công tắc ba",
+              "measurement_method": "Số lượng công tắc",
+              "formula": "N = Số cái"
+            }
+          ]
+        },
+        {
+          "code": "17.5",
+          "name": "Tủ điện",
+          "work_items": [
+            {
+              "code": "17.5.1",
+              "name": "Tủ điện tổng",
+              "unit": "bộ",
+              "description": "Lắp đặt tủ điện tổng",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = 1"
+            },
+            {
+              "code": "17.5.2",
+              "name": "Tủ điện tầng",
+              "unit": "bộ",
+              "description": "Lắp đặt tủ điện tầng/phòng",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số tầng"
+            },
+            {
+              "code": "17.5.3",
+              "name": "CB các loại",
+              "unit": "cái",
+              "description": "Lắp đặt CB (cầu dao tự động)",
+              "measurement_method": "Số lượng CB",
+              "formula": "N = Số cái"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "Cấp thoát nước",
+      "description": "Lắp đặt hệ thống ống cấp, thoát nước",
+      "work_types": [
+        {
+          "code": "18.1",
+          "name": "Ống cấp nước",
+          "work_items": [
+            {
+              "code": "18.1.1",
+              "name": "Ống PPR Ø20",
+              "unit": "md",
+              "description": "Lắp đặt ống cấp nước PPR Ø20mm",
+              "measurement_method": "Chiều dài ống thực tế + hao hụt",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.1.2",
+              "name": "Ống PPR Ø25",
+              "unit": "md",
+              "description": "Lắp đặt ống cấp nước PPR Ø25mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.1.3",
+              "name": "Ống PPR Ø32",
+              "unit": "md",
+              "description": "Lắp đặt ống cấp nước PPR Ø32mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.1.4",
+              "name": "Ống inox cấp nước",
+              "unit": "md",
+              "description": "Lắp đặt ống inox cấp nước",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực"
+            }
+          ]
+        },
+        {
+          "code": "18.2",
+          "name": "Ống thoát nước",
+          "work_items": [
+            {
+              "code": "18.2.1",
+              "name": "Ống PVC Ø60",
+              "unit": "md",
+              "description": "Lắp đặt ống thoát nước PVC Ø60mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.2.2",
+              "name": "Ống PVC Ø90",
+              "unit": "md",
+              "description": "Lắp đặt ống thoát nước PVC Ø90mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.2.3",
+              "name": "Ống PVC Ø114",
+              "unit": "md",
+              "description": "Lắp đặt ống thoát nước PVC Ø114mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.2.4",
+              "name": "Ống PVC Ø160",
+              "unit": "md",
+              "description": "Lắp đặt ống thoát nước PVC Ø160mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            },
+            {
+              "code": "18.2.5",
+              "name": "Ống PVC Ø200",
+              "unit": "md",
+              "description": "Lắp đặt ống thoát nước PVC Ø200mm",
+              "measurement_method": "Chiều dài ống thực tế",
+              "formula": "L = L_thực × 1.05"
+            }
+          ]
+        },
+        {
+          "code": "18.3",
+          "name": "Phụ kiện đường ống",
+          "work_items": [
+            {
+              "code": "18.3.1",
+              "name": "Co, tê các loại",
+              "unit": "cái",
+              "description": "Lắp đặt phụ kiện co, tê, nối",
+              "measurement_method": "Số lượng phụ kiện",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "18.3.2",
+              "name": "Van nước",
+              "unit": "cái",
+              "description": "Lắp đặt van khóa nước",
+              "measurement_method": "Số lượng van",
+              "formula": "N = Số cái"
+            },
+            {
+              "code": "18.3.3",
+              "name": "Phễu thu sàn",
+              "unit": "cái",
+              "description": "Lắp đặt phễu thu sàn WC",
+              "measurement_method": "Số lượng phễu",
+              "formula": "N = Số cái"
+            }
+          ]
+        },
+        {
+          "code": "18.4",
+          "name": "Bồn chứa nước",
+          "work_items": [
+            {
+              "code": "18.4.1",
+              "name": "Bồn inox 500L",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn nước inox 500 lít",
+              "measurement_method": "Số lượng bồn",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "18.4.2",
+              "name": "Bồn inox 1000L",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn nước inox 1000 lít",
+              "measurement_method": "Số lượng bồn",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "18.4.3",
+              "name": "Bồn inox 1500L",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn nước inox 1500 lít",
+              "measurement_method": "Số lượng bồn",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "18.4.4",
+              "name": "Bồn nhựa PE 500L",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn nước nhựa PE 500 lít",
+              "measurement_method": "Số lượng bồn",
+              "formula": "N = Số bộ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name": "Thiết bị vệ sinh",
+      "description": "Lắp đặt thiết bị vệ sinh phòng tắm, WC",
+      "work_types": [
+        {
+          "code": "19.1",
+          "name": "Bồn cầu",
+          "work_items": [
+            {
+              "code": "19.1.1",
+              "name": "Bồn cầu 1 khối",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn cầu 1 khối",
+              "measurement_method": "Số lượng bồn cầu",
+              "formula": "N = Số WC"
+            },
+            {
+              "code": "19.1.2",
+              "name": "Bồn cầu 2 khối",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn cầu 2 khối",
+              "measurement_method": "Số lượng bồn cầu",
+              "formula": "N = Số WC"
+            },
+            {
+              "code": "19.1.3",
+              "name": "Bồn cầu treo tường",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn cầu treo tường + két âm",
+              "measurement_method": "Số lượng bồn cầu",
+              "formula": "N = Số WC"
+            },
+            {
+              "code": "19.1.4",
+              "name": "Bồn cầu thông minh",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn cầu thông minh (rửa tự động)",
+              "measurement_method": "Số lượng bồn cầu",
+              "formula": "N = Số WC"
+            }
+          ]
+        },
+        {
+          "code": "19.2",
+          "name": "Lavabo",
+          "work_items": [
+            {
+              "code": "19.2.1",
+              "name": "Lavabo đặt bàn",
+              "unit": "bộ",
+              "description": "Lắp đặt lavabo đặt trên bàn",
+              "measurement_method": "Số lượng lavabo",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.2.2",
+              "name": "Lavabo âm bàn",
+              "unit": "bộ",
+              "description": "Lắp đặt lavabo âm dưới bàn đá",
+              "measurement_method": "Số lượng lavabo",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.2.3",
+              "name": "Lavabo treo tường",
+              "unit": "bộ",
+              "description": "Lắp đặt lavabo treo tường",
+              "measurement_method": "Số lượng lavabo",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.2.4",
+              "name": "Lavabo chân đứng",
+              "unit": "bộ",
+              "description": "Lắp đặt lavabo chân đứng",
+              "measurement_method": "Số lượng lavabo",
+              "formula": "N = Số bộ"
+            }
+          ]
+        },
+        {
+          "code": "19.3",
+          "name": "Sen, vòi",
+          "work_items": [
+            {
+              "code": "19.3.1",
+              "name": "Sen tắm đứng",
+              "unit": "bộ",
+              "description": "Lắp đặt sen tắm đứng nóng lạnh",
+              "measurement_method": "Số lượng bộ sen",
+              "formula": "N = Số WC có sen"
+            },
+            {
+              "code": "19.3.2",
+              "name": "Sen tắm cây",
+              "unit": "bộ",
+              "description": "Lắp đặt sen cây (có thanh trượt/cố định)",
+              "measurement_method": "Số lượng bộ sen",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.3.3",
+              "name": "Vòi lavabo nóng lạnh",
+              "unit": "cái",
+              "description": "Lắp đặt vòi lavabo nóng lạnh",
+              "measurement_method": "Số lượng vòi",
+              "formula": "N = Số lavabo"
+            },
+            {
+              "code": "19.3.4",
+              "name": "Vòi lavabo lạnh",
+              "unit": "cái",
+              "description": "Lắp đặt vòi lavabo lạnh",
+              "measurement_method": "Số lượng vòi",
+              "formula": "N = Số lavabo"
+            },
+            {
+              "code": "19.3.5",
+              "name": "Vòi bếp nóng lạnh",
+              "unit": "cái",
+              "description": "Lắp đặt vòi rửa bếp nóng lạnh",
+              "measurement_method": "Số lượng vòi",
+              "formula": "N = Số chậu rửa"
+            }
+          ]
+        },
+        {
+          "code": "19.4",
+          "name": "Phụ kiện WC",
+          "work_items": [
+            {
+              "code": "19.4.1",
+              "name": "Gương soi",
+              "unit": "cái",
+              "description": "Lắp đặt gương soi WC",
+              "measurement_method": "Số lượng gương",
+              "formula": "N = Số WC"
+            },
+            {
+              "code": "19.4.2",
+              "name": "Kệ kính",
+              "unit": "cái",
+              "description": "Lắp đặt kệ kính WC",
+              "measurement_method": "Số lượng kệ",
+              "formula": "N = Số WC"
+            },
+            {
+              "code": "19.4.3",
+              "name": "Hộp giấy vệ sinh",
+              "unit": "cái",
+              "description": "Lắp đặt hộp đựng giấy vệ sinh",
+              "measurement_method": "Số lượng hộp",
+              "formula": "N = Số WC"
+            },
+            {
+              "code": "19.4.4",
+              "name": "Vòi xịt vệ sinh",
+              "unit": "cái",
+              "description": "Lắp đặt vòi xịt vệ sinh",
+              "measurement_method": "Số lượng vòi xịt",
+              "formula": "N = Số WC"
+            }
+          ]
+        },
+        {
+          "code": "19.5",
+          "name": "Bồn tắm",
+          "work_items": [
+            {
+              "code": "19.5.1",
+              "name": "Bồn tắm nằm",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn tắm nằm",
+              "measurement_method": "Số lượng bồn tắm",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.5.2",
+              "name": "Bồn tắm đứng",
+              "unit": "bộ",
+              "description": "Lắp đặt phòng tắm đứng kính",
+              "measurement_method": "Số lượng phòng tắm đứng",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.5.3",
+              "name": "Bồn tắm massage",
+              "unit": "bộ",
+              "description": "Lắp đặt bồn tắm massage/jacuzzi",
+              "measurement_method": "Số lượng bồn",
+              "formula": "N = Số bộ"
+            }
+          ]
+        },
+        {
+          "code": "19.6",
+          "name": "Tủ lavabo",
+          "work_items": [
+            {
+              "code": "19.6.1",
+              "name": "Tủ lavabo gỗ công nghiệp",
+              "unit": "bộ",
+              "description": "Lắp đặt tủ lavabo gỗ công nghiệp",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "19.6.2",
+              "name": "Tủ lavabo nhựa PVC",
+              "unit": "bộ",
+              "description": "Lắp đặt tủ lavabo nhựa PVC chịu nước",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name": "Nội thất gỗ",
+      "description": "Sản xuất, lắp đặt nội thất gỗ",
+      "work_types": [
+        {
+          "code": "20.1",
+          "name": "Tủ bếp",
+          "work_items": [
+            {
+              "code": "20.1.1",
+              "name": "Tủ bếp trên",
+              "unit": "md",
+              "description": "Sản xuất, lắp đặt tủ bếp trên",
+              "measurement_method": "Chiều dài tủ bếp trên (theo md)",
+              "formula": "L = ΣL_tủ_trên"
+            },
+            {
+              "code": "20.1.2",
+              "name": "Tủ bếp dưới",
+              "unit": "md",
+              "description": "Sản xuất, lắp đặt tủ bếp dưới",
+              "measurement_method": "Chiều dài tủ bếp dưới",
+              "formula": "L = ΣL_tủ_dưới"
+            },
+            {
+              "code": "20.1.3",
+              "name": "Tủ bếp đảo",
+              "unit": "md",
+              "description": "Sản xuất, lắp đặt tủ bếp đảo",
+              "measurement_method": "Chiều dài tủ đảo",
+              "formula": "L = P_đảo"
+            },
+            {
+              "code": "20.1.4",
+              "name": "Mặt bàn bếp đá",
+              "unit": "md",
+              "description": "Lắp đặt mặt bàn bếp đá granite/thạch anh",
+              "measurement_method": "Chiều dài mặt bàn",
+              "formula": "L = L_tổng"
+            },
+            {
+              "code": "20.1.5",
+              "name": "Mặt bàn bếp gỗ",
+              "unit": "md",
+              "description": "Lắp đặt mặt bàn bếp gỗ",
+              "measurement_method": "Chiều dài mặt bàn",
+              "formula": "L = L_tổng"
+            }
+          ]
+        },
+        {
+          "code": "20.2",
+          "name": "Tủ quần áo",
+          "work_items": [
+            {
+              "code": "20.2.1",
+              "name": "Tủ quần áo 2 cánh",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt tủ quần áo 2 cánh",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.2.2",
+              "name": "Tủ quần áo 3 cánh",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt tủ quần áo 3 cánh",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.2.3",
+              "name": "Tủ quần áo 4 cánh",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt tủ quần áo 4 cánh",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.2.4",
+              "name": "Tủ quần áo âm tường",
+              "unit": "m2",
+              "description": "Sản xuất, lắp đặt tủ âm tường",
+              "measurement_method": "Diện tích mặt tủ = Rộng × Cao",
+              "formula": "S = W × H"
+            }
+          ]
+        },
+        {
+          "code": "20.3",
+          "name": "Giường ngủ",
+          "work_items": [
+            {
+              "code": "20.3.1",
+              "name": "Giường 1m2",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt giường ngủ 1m2",
+              "measurement_method": "Số lượng giường",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.3.2",
+              "name": "Giường 1m4",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt giường ngủ 1m4",
+              "measurement_method": "Số lượng giường",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.3.3",
+              "name": "Giường 1m6",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt giường ngủ 1m6",
+              "measurement_method": "Số lượng giường",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.3.4",
+              "name": "Giường 1m8",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt giường ngủ 1m8",
+              "measurement_method": "Số lượng giường",
+              "formula": "N = Số bộ"
+            }
+          ]
+        },
+        {
+          "code": "20.4",
+          "name": "Bàn làm việc",
+          "work_items": [
+            {
+              "code": "20.4.1",
+              "name": "Bàn làm việc đơn giản",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt bàn làm việc đơn giản",
+              "measurement_method": "Số lượng bàn",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.4.2",
+              "name": "Bàn làm việc có hộc tủ",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt bàn làm việc có hộc tủ",
+              "measurement_method": "Số lượng bàn",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.4.3",
+              "name": "Bàn học sinh",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt bàn học sinh",
+              "measurement_method": "Số lượng bàn",
+              "formula": "N = Số bộ"
+            }
+          ]
+        },
+        {
+          "code": "20.5",
+          "name": "Kệ tivi",
+          "work_items": [
+            {
+              "code": "20.5.1",
+              "name": "Kệ tivi treo tường",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt kệ tivi treo tường",
+              "measurement_method": "Số lượng kệ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.5.2",
+              "name": "Kệ tivi đứng",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt kệ tivi đặt sàn",
+              "measurement_method": "Số lượng kệ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.5.3",
+              "name": "Vách tivi trang trí",
+              "unit": "m2",
+              "description": "Lắp đặt vách tivi trang trí",
+              "measurement_method": "Diện tích vách = Rộng × Cao",
+              "formula": "S = W × H"
+            }
+          ]
+        },
+        {
+          "code": "20.6",
+          "name": "Tủ giày",
+          "work_items": [
+            {
+              "code": "20.6.1",
+              "name": "Tủ giày đứng",
+              "unit": "bộ",
+              "description": "Sản xuất, lắp đặt tủ giày đứng",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "20.6.2",
+              "name": "Tủ giày treo tường",
+              "unit": "bộ",
+              "description": "Lắp đặt tủ giày treo tường",
+              "measurement_method": "Số lượng tủ",
+              "formula": "N = Số bộ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name": "Điều hòa không khí",
+      "description": "Lắp đặt hệ thống điều hòa không khí",
+      "work_types": [
+        {
+          "code": "21.1",
+          "name": "Điều hòa treo tường",
+          "work_items": [
+            {
+              "code": "21.1.1",
+              "name": "Điều hòa 9000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa treo tường 9000BTU",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số phòng cần lắp"
+            },
+            {
+              "code": "21.1.2",
+              "name": "Điều hòa 12000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa treo tường 12000BTU",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số phòng"
+            },
+            {
+              "code": "21.1.3",
+              "name": "Điều hòa 18000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa treo tường 18000BTU",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số phòng"
+            },
+            {
+              "code": "21.1.4",
+              "name": "Điều hòa 24000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa treo tường 24000BTU",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số phòng"
+            }
+          ]
+        },
+        {
+          "code": "21.2",
+          "name": "Điều hòa âm trần",
+          "work_items": [
+            {
+              "code": "21.2.1",
+              "name": "Điều hòa cassette 24000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa cassette âm trần 24000BTU",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số vị trí lắp"
+            },
+            {
+              "code": "21.2.2",
+              "name": "Điều hòa cassette 36000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa cassette âm trần 36000BTU",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số vị trí"
+            },
+            {
+              "code": "21.2.3",
+              "name": "Điều hòa âm trần nối ống gió",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa âm trần nối ống gió",
+              "measurement_method": "Số lượng bộ điều hòa",
+              "formula": "N = Số vị trí"
+            }
+          ]
+        },
+        {
+          "code": "21.3",
+          "name": "Điều hòa tủ đứng",
+          "work_items": [
+            {
+              "code": "21.3.1",
+              "name": "Điều hòa tủ đứng 36000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa tủ đứng 36000BTU",
+              "measurement_method": "Số lượng bộ",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "21.3.2",
+              "name": "Điều hòa tủ đứng 48000BTU",
+              "unit": "bộ",
+              "description": "Lắp đặt điều hòa tủ đứng 48000BTU",
+              "measurement_method": "Số lượng bộ",
+              "formula": "N = Số bộ"
+            }
+          ]
+        },
+        {
+          "code": "21.4",
+          "name": "Hệ thống VRV/VRF",
+          "work_items": [
+            {
+              "code": "21.4.1",
+              "name": "Dàn nóng VRV",
+              "unit": "bộ",
+              "description": "Lắp đặt dàn nóng VRV trung tâm",
+              "measurement_method": "Số lượng dàn nóng",
+              "formula": "N = Số bộ"
+            },
+            {
+              "code": "21.4.2",
+              "name": "Dàn lạnh VRV",
+              "unit": "bộ",
+              "description": "Lắp đặt dàn lạnh VRV (các loại)",
+              "measurement_method": "Số lượng dàn lạnh",
+              "formula": "N = Số phòng"
+            },
+            {
+              "code": "21.4.3",
+              "name": "Hệ thống ống đồng",
+              "unit": "md",
+              "description": "Lắp đặt ống đồng kết nối dàn nóng-lạnh",
+              "measurement_method": "Chiều dài ống đồng",
+              "formula": "L = ΣL_ống"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name": "An ninh, thông minh",
+      "description": "Lắp đặt hệ thống camera, khóa thông minh, smart home",
+      "work_types": [
+        {
+          "code": "22.1",
+          "name": "Camera an ninh",
+          "work_items": [
+            {
+              "code": "22.1.1",
+              "name": "Camera ngoài trời",
+              "unit": "cái",
+              "description": "Lắp đặt camera quan sát ngoài trời IP66",
+              "measurement_method": "Số lượng camera",
+              "formula": "N = Số vị trí cần giám sát"
+            },
+            {
+              "code": "22.1.2",
+              "name": "Camera trong nhà",
+              "unit": "cái",
+              "description": "Lắp đặt camera quan sát trong nhà",
+              "measurement_method": "Số lượng camera",
+              "formula": "N = Số vị trí"
+            },
+            {
+              "code": "22.1.3",
+              "name": "Đầu ghi hình NVR",
+              "unit": "bộ",
+              "description": "Lắp đặt đầu ghi hình NVR/DVR",
+              "measurement_method": "Số lượng đầu ghi",
+              "formula": "N = 1"
+            },
+            {
+              "code": "22.1.4",
+              "name": "Ổ cứng lưu trữ",
+              "unit": "cái",
+              "description": "Lắp đặt ổ cứng lưu trữ camera",
+              "measurement_method": "Số lượng ổ cứng",
+              "formula": "N = Số ổ cần thiết"
+            }
+          ]
+        },
+        {
+          "code": "22.2",
+          "name": "Chuông cửa",
+          "work_items": [
+            {
+              "code": "22.2.1",
+              "name": "Chuông cửa có hình",
+              "unit": "bộ",
+              "description": "Lắp đặt chuông cửa màn hình video",
+              "measurement_method": "Số lượng bộ",
+              "formula": "N = Số cổng/cửa chính"
+            },
+            {
+              "code": "22.2.2",
+              "name": "Chuông cửa thông thường",
+              "unit": "bộ",
+              "description": "Lắp đặt chuông cửa thông thường",
+              "measurement_method": "Số lượng bộ",
+              "formula": "N = Số cửa"
+            }
+          ]
+        },
+        {
+          "code": "22.3",
+          "name": "Khóa thông minh",
+          "work_items": [
+            {
+              "code": "22.3.1",
+              "name": "Khóa vân tay",
+              "unit": "bộ",
+              "description": "Lắp đặt khóa vân tay thông minh",
+              "measurement_method": "Số lượng khóa",
+              "formula": "N = Số cửa cần lắp"
+            },
+            {
+              "code": "22.3.2",
+              "name": "Khóa thẻ từ",
+              "unit": "bộ",
+              "description": "Lắp đặt khóa thẻ từ",
+              "measurement_method": "Số lượng khóa",
+              "formula": "N = Số cửa"
+            },
+            {
+              "code": "22.3.3",
+              "name": "Khóa điện tử",
+              "unit": "bộ",
+              "description": "Lắp đặt khóa điện tử mã số",
+              "measurement_method": "Số lượng khóa",
+              "formula": "N = Số cửa"
+            }
+          ]
+        },
+        {
+          "code": "22.4",
+          "name": "Hệ thống smarthome",
+          "work_items": [
+            {
+              "code": "22.4.1",
+              "name": "Công tắc thông minh",
+              "unit": "cái",
+              "description": "Lắp đặt công tắc thông minh wifi/zigbee",
+              "measurement_method": "Số lượng công tắc",
+              "formula": "N = Số điểm cần điều khiển"
+            },
+            {
+              "code": "22.4.2",
+              "name": "Ổ cắm thông minh",
+              "unit": "cái",
+              "description": "Lắp đặt ổ cắm thông minh wifi",
+              "measurement_method": "Số lượng ổ cắm",
+              "formula": "N = Số điểm"
+            },
+            {
+              "code": "22.4.3",
+              "name": "Bộ điều khiển trung tâm",
+              "unit": "bộ",
+              "description": "Lắp đặt hub điều khiển smarthome",
+              "measurement_method": "Số lượng hub",
+              "formula": "N = 1"
+            },
+            {
+              "code": "22.4.4",
+              "name": "Cảm biến chuyển động",
+              "unit": "cái",
+              "description": "Lắp đặt cảm biến chuyển động PIR",
+              "measurement_method": "Số lượng cảm biến",
+              "formula": "N = Số vị trí cần gắn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "name": "Sân vườn, cảnh quan",
+      "description": "Thi công sân vườn, hàng rào, cây xanh, tiểu cảnh",
+      "work_types": [
+        {
+          "code": "23.1",
+          "name": "Lát sân vườn",
+          "work_items": [
+            {
+              "code": "23.1.1",
+              "name": "Lát gạch terrazzo sân",
+              "unit": "m2",
+              "description": "Lát gạch terrazzo sân vườn",
+              "measurement_method": "Diện tích sân cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "23.1.2",
+              "name": "Lát gạch con sâu",
+              "unit": "m2",
+              "description": "Lát gạch con sâu lối đi",
+              "measurement_method": "Diện tích lối đi",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "23.1.3",
+              "name": "Lát đá tự nhiên sân",
+              "unit": "m2",
+              "description": "Lát đá tự nhiên sân vườn",
+              "measurement_method": "Diện tích sân cần lát",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "23.1.4",
+              "name": "Bê tông mặt sân",
+              "unit": "m2",
+              "description": "Đổ bê tông mặt sân vườn",
+              "measurement_method": "Diện tích sân",
+              "formula": "S = L × W"
+            }
+          ]
+        },
+        {
+          "code": "23.2",
+          "name": "Hàng rào",
+          "work_items": [
+            {
+              "code": "23.2.1",
+              "name": "Hàng rào sắt",
+              "unit": "md",
+              "description": "Lắp đặt hàng rào sắt hộp",
+              "measurement_method": "Chiều dài hàng rào",
+              "formula": "L = Chu vi khu vực"
+            },
+            {
+              "code": "23.2.2",
+              "name": "Hàng rào gỗ",
+              "unit": "md",
+              "description": "Lắp đặt hàng rào gỗ trang trí",
+              "measurement_method": "Chiều dài hàng rào",
+              "formula": "L = ΣL"
+            },
+            {
+              "code": "23.2.3",
+              "name": "Hàng rào xây gạch",
+              "unit": "m2",
+              "description": "Xây hàng rào gạch + trát",
+              "measurement_method": "Diện tích hàng rào",
+              "formula": "S = L × H"
+            }
+          ]
+        },
+        {
+          "code": "23.3",
+          "name": "Cây xanh",
+          "work_items": [
+            {
+              "code": "23.3.1",
+              "name": "Trồng cây bóng mát",
+              "unit": "cây",
+              "description": "Trồng cây bóng mát (sấu, phượng, bàng...)",
+              "measurement_method": "Số lượng cây",
+              "formula": "N = Số cây"
+            },
+            {
+              "code": "23.3.2",
+              "name": "Trồng cây bụi",
+              "unit": "cây",
+              "description": "Trồng cây bụi trang trí",
+              "measurement_method": "Số lượng cây",
+              "formula": "N = Số cây"
+            },
+            {
+              "code": "23.3.3",
+              "name": "Trồng thảm cỏ",
+              "unit": "m2",
+              "description": "Trồng thảm cỏ nhung/Nhật",
+              "measurement_method": "Diện tích thảm cỏ",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "23.3.4",
+              "name": "Hệ thống tưới tự động",
+              "unit": "m2",
+              "description": "Lắp đặt hệ thống tưới tự động",
+              "measurement_method": "Diện tích vườn được phủ tưới",
+              "formula": "S = S_vườn"
+            }
+          ]
+        },
+        {
+          "code": "23.4",
+          "name": "Hồ cá, tiểu cảnh",
+          "work_items": [
+            {
+              "code": "23.4.1",
+              "name": "Thi công hồ cá koi",
+              "unit": "m3",
+              "description": "Thi công hồ cá koi (đào, lót, bơm, lọc)",
+              "measurement_method": "Thể tích hồ = Dài × Rộng × Sâu",
+              "formula": "V = L × W × H"
+            },
+            {
+              "code": "23.4.2",
+              "name": "Tiểu cảnh sân vườn",
+              "unit": "m2",
+              "description": "Thi công tiểu cảnh trang trí",
+              "measurement_method": "Diện tích tiểu cảnh",
+              "formula": "S = L × W"
+            },
+            {
+              "code": "23.4.3",
+              "name": "Thác nước mini",
+              "unit": "bộ",
+              "description": "Thi công thác nước mini trang trí",
+              "measurement_method": "Số lượng bộ thác",
+              "formula": "N = Số bộ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

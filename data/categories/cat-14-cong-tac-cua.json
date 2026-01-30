@@ -1,0 +1,165 @@
+{
+    "code": "14",
+    "name": "Công tác cửa",
+    "description": "Lắp đặt cửa đi, cửa sổ các loại vật liệu",
+    "work_types": [
+        {
+            "code": "14.1",
+            "name": "Cửa gỗ",
+            "work_items": [
+                {
+                    "code": "14.1.1",
+                    "name": "Cửa gỗ công nghiệp HDF",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa gỗ công nghiệp HDF",
+                    "measurement_method": "Diện tích cửa = Chiều rộng × Chiều cao khuôn",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.1.2",
+                    "name": "Cửa gỗ công nghiệp MDF",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa gỗ công nghiệp MDF",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.1.3",
+                    "name": "Cửa gỗ tự nhiên",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa gỗ tự nhiên",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.1.4",
+                    "name": "Cửa gỗ Composite",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa gỗ nhựa Composite",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                }
+            ]
+        },
+        {
+            "code": "14.2",
+            "name": "Cửa nhôm",
+            "work_items": [
+                {
+                    "code": "14.2.1",
+                    "name": "Cửa nhôm Xingfa",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa nhôm Xingfa nhập khẩu",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.2.2",
+                    "name": "Cửa nhôm Việt Pháp",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa nhôm Việt Pháp",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.2.3",
+                    "name": "Cửa nhôm hệ 55",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa nhôm hệ 55mm",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.2.4",
+                    "name": "Cửa nhôm hệ 93",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa nhôm hệ 93mm (cách âm, cách nhiệt)",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                }
+            ]
+        },
+        {
+            "code": "14.3",
+            "name": "Cửa nhựa lõi thép",
+            "work_items": [
+                {
+                    "code": "14.3.1",
+                    "name": "Cửa nhựa lõi thép 3 ray",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa nhựa lõi thép 3 ray",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.3.2",
+                    "name": "Cửa nhựa lõi thép 5 ray",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa nhựa lõi thép 5 ray",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                }
+            ]
+        },
+        {
+            "code": "14.4",
+            "name": "Cửa sắt",
+            "work_items": [
+                {
+                    "code": "14.4.1",
+                    "name": "Cửa sắt hộp",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa sắt hộp sơn tĩnh điện",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.4.2",
+                    "name": "Cổng sắt mỹ thuật",
+                    "unit": "m2",
+                    "description": "Lắp đặt cổng sắt mỹ thuật",
+                    "measurement_method": "Diện tích cổng = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.4.3",
+                    "name": "Cửa sắt cuốn",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa cuốn tay/điện",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                }
+            ]
+        },
+        {
+            "code": "14.5",
+            "name": "Cửa kính",
+            "work_items": [
+                {
+                    "code": "14.5.1",
+                    "name": "Cửa kính cường lực 10mm",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa kính cường lực 10mm",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.5.2",
+                    "name": "Cửa kính cường lực 12mm",
+                    "unit": "m2",
+                    "description": "Lắp đặt cửa kính cường lực 12mm",
+                    "measurement_method": "Diện tích cửa = W × H",
+                    "formula": "S = W × H"
+                },
+                {
+                    "code": "14.5.3",
+                    "name": "Vách kính cường lực",
+                    "unit": "m2",
+                    "description": "Lắp đặt vách kính cường lực cố định",
+                    "measurement_method": "Diện tích vách = W × H",
+                    "formula": "S = W × H"
+                }
+            ]
+        }
+    ]
+}

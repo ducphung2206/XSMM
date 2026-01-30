@@ -1,0 +1,119 @@
+{
+    "code": "16",
+    "name": "Công tác trần",
+    "description": "Lắp đặt trần thạch cao, trần nhựa, trần gỗ",
+    "work_types": [
+        {
+            "code": "16.1",
+            "name": "Trần thạch cao",
+            "work_items": [
+                {
+                    "code": "16.1.1",
+                    "name": "Trần thạch cao phẳng",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần thạch cao phẳng 1 lớp",
+                    "measurement_method": "Diện tích trần = Diện tích phòng",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "16.1.2",
+                    "name": "Trần thạch cao giật cấp 1",
+                    "unit": "md",
+                    "description": "Lắp đặt trần thạch cao giật cấp 1 tầng",
+                    "measurement_method": "Chiều dài viền giật cấp",
+                    "formula": "L = P_phòng"
+                },
+                {
+                    "code": "16.1.3",
+                    "name": "Trần thạch cao giật cấp 2",
+                    "unit": "md",
+                    "description": "Lắp đặt trần thạch cao giật cấp 2 tầng",
+                    "measurement_method": "Chiều dài viền giật cấp",
+                    "formula": "L = P_phòng"
+                },
+                {
+                    "code": "16.1.4",
+                    "name": "Trần thạch cao chịu nước",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần thạch cao chịu nước (WC, bếp)",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "16.2",
+            "name": "Trần nhựa",
+            "work_items": [
+                {
+                    "code": "16.2.1",
+                    "name": "Trần nhựa PVC",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần nhựa PVC",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "16.2.2",
+                    "name": "Trần nhựa giả gỗ",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần nhựa giả gỗ",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "16.3",
+            "name": "Trần gỗ",
+            "work_items": [
+                {
+                    "code": "16.3.1",
+                    "name": "Trần gỗ tự nhiên",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần gỗ tự nhiên",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "16.3.2",
+                    "name": "Trần gỗ công nghiệp",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần gỗ công nghiệp MDF/HDF",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "16.3.3",
+                    "name": "Trần nan gỗ nhựa",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần nan gỗ nhựa composite",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                }
+            ]
+        },
+        {
+            "code": "16.4",
+            "name": "Trần thả",
+            "work_items": [
+                {
+                    "code": "16.4.1",
+                    "name": "Trần thả mineral 600x600",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần thả tấm khoáng 600×600mm",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "16.4.2",
+                    "name": "Trần thả kim loại",
+                    "unit": "m2",
+                    "description": "Lắp đặt trần thả kim loại",
+                    "measurement_method": "Diện tích trần",
+                    "formula": "S = L × W"
+                }
+            ]
+        }
+    ]
+}

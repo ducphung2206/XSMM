@@ -1,0 +1,149 @@
+{
+    "code": "11",
+    "name": "Công tác sơn",
+    "description": "Sơn tường, sơn gỗ, sơn sắt các loại",
+    "work_types": [
+        {
+            "code": "11.1",
+            "name": "Sơn tường trong",
+            "work_items": [
+                {
+                    "code": "11.1.1",
+                    "name": "Sơn lót chống kiềm",
+                    "unit": "m2",
+                    "description": "Sơn lót chống kiềm tường trong nhà",
+                    "measurement_method": "Diện tích tường + trần cần sơn lót",
+                    "formula": "S = S_tường + S_trần"
+                },
+                {
+                    "code": "11.1.2",
+                    "name": "Sơn phủ nội thất 2 lớp",
+                    "unit": "m2",
+                    "description": "Sơn phủ nội thất 2 lớp",
+                    "measurement_method": "Diện tích tường + trần cần sơn phủ",
+                    "formula": "S = S_tường + S_trần"
+                },
+                {
+                    "code": "11.1.3",
+                    "name": "Sơn phủ nội thất 3 lớp",
+                    "unit": "m2",
+                    "description": "Sơn phủ nội thất 3 lớp (cao cấp)",
+                    "measurement_method": "Diện tích tường + trần cần sơn",
+                    "formula": "S = S_tường + S_trần"
+                }
+            ]
+        },
+        {
+            "code": "11.2",
+            "name": "Sơn tường ngoài",
+            "work_items": [
+                {
+                    "code": "11.2.1",
+                    "name": "Sơn lót ngoại thất",
+                    "unit": "m2",
+                    "description": "Sơn lót ngoại thất chống kiềm, chống nấm mốc",
+                    "measurement_method": "Diện tích mặt ngoài cần sơn",
+                    "formula": "S = ΣS_mặt_ngoài"
+                },
+                {
+                    "code": "11.2.2",
+                    "name": "Sơn phủ ngoại thất 2 lớp",
+                    "unit": "m2",
+                    "description": "Sơn phủ ngoại thất 2 lớp",
+                    "measurement_method": "Diện tích mặt ngoài cần sơn",
+                    "formula": "S = ΣS_mặt_ngoài"
+                },
+                {
+                    "code": "11.2.3",
+                    "name": "Sơn phủ ngoại thất 3 lớp",
+                    "unit": "m2",
+                    "description": "Sơn phủ ngoại thất 3 lớp (bền màu)",
+                    "measurement_method": "Diện tích mặt ngoài cần sơn",
+                    "formula": "S = ΣS_mặt_ngoài"
+                }
+            ]
+        },
+        {
+            "code": "11.3",
+            "name": "Sơn dầu, sơn PU",
+            "work_items": [
+                {
+                    "code": "11.3.1",
+                    "name": "Sơn dầu cửa gỗ",
+                    "unit": "m2",
+                    "description": "Sơn dầu cửa gỗ (2 mặt)",
+                    "measurement_method": "Diện tích = 2 × Diện tích cửa",
+                    "formula": "S = 2 × S_cửa"
+                },
+                {
+                    "code": "11.3.2",
+                    "name": "Sơn PU cửa gỗ",
+                    "unit": "m2",
+                    "description": "Sơn PU cửa gỗ cao cấp (2 mặt)",
+                    "measurement_method": "Diện tích = 2 × Diện tích cửa",
+                    "formula": "S = 2 × S_cửa"
+                },
+                {
+                    "code": "11.3.3",
+                    "name": "Sơn dầu lan can sắt",
+                    "unit": "m2",
+                    "description": "Sơn dầu lan can, cửa sắt",
+                    "measurement_method": "Diện tích bề mặt sắt (quy đổi)",
+                    "formula": "S = S_quy_đổi"
+                }
+            ]
+        },
+        {
+            "code": "11.4",
+            "name": "Sơn chống thấm",
+            "work_items": [
+                {
+                    "code": "11.4.1",
+                    "name": "Sơn chống thấm sàn mái",
+                    "unit": "m2",
+                    "description": "Sơn chống thấm sàn mái (2-3 lớp)",
+                    "measurement_method": "Diện tích sàn mái cần chống thấm",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "11.4.2",
+                    "name": "Sơn chống thấm WC",
+                    "unit": "m2",
+                    "description": "Sơn chống thấm sàn WC",
+                    "measurement_method": "Diện tích sàn + Diện tích chân tường (30cm)",
+                    "formula": "S = S_sàn + P × 0.3"
+                },
+                {
+                    "code": "11.4.3",
+                    "name": "Sơn chống thấm tường ngoài",
+                    "unit": "m2",
+                    "description": "Sơn chống thấm tường ngoài",
+                    "measurement_method": "Diện tích tường ngoài cần chống thấm",
+                    "formula": "S = L × H"
+                }
+            ]
+        },
+        {
+            "code": "11.5",
+            "name": "Sơn epoxy",
+            "work_items": [
+                {
+                    "code": "11.5.1",
+                    "name": "Sơn epoxy sàn",
+                    "unit": "m2",
+                    "description": "Sơn epoxy sàn nhà xưởng, garage",
+                    "measurement_method": "Diện tích sàn cần sơn",
+                    "formula": "S = L × W"
+                },
+                {
+                    "code": "11.5.2",
+                    "name": "Sơn epoxy bể nước",
+                    "unit": "m2",
+                    "description": "Sơn epoxy chống thấm bể nước ăn",
+                    "measurement_method": "Diện tích đáy + thành bể",
+                    "formula": "S = S_đáy + P × H"
+                }
+            ]
+        }
+    ]
+}

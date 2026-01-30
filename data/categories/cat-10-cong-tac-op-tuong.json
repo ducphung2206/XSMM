@@ -1,0 +1,127 @@
+{
+    "code": "10",
+    "name": "Công tác ốp tường",
+    "description": "Ốp gạch, đá, gỗ các loại cho tường",
+    "work_types": [
+        {
+            "code": "10.1",
+            "name": "Ốp gạch men",
+            "work_items": [
+                {
+                    "code": "10.1.1",
+                    "name": "Ốp gạch 200x250mm",
+                    "unit": "m2",
+                    "description": "Ốp gạch men tường 200×250mm",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.1.2",
+                    "name": "Ốp gạch 250x400mm",
+                    "unit": "m2",
+                    "description": "Ốp gạch men tường 250×400mm",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.1.3",
+                    "name": "Ốp gạch 300x600mm",
+                    "unit": "m2",
+                    "description": "Ốp gạch men tường 300×600mm",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.1.4",
+                    "name": "Ốp gạch 400x800mm",
+                    "unit": "m2",
+                    "description": "Ốp gạch men tường 400×800mm",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                }
+            ]
+        },
+        {
+            "code": "10.2",
+            "name": "Ốp đá tự nhiên",
+            "work_items": [
+                {
+                    "code": "10.2.1",
+                    "name": "Ốp đá granite",
+                    "unit": "m2",
+                    "description": "Ốp đá granite tự nhiên",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.2.2",
+                    "name": "Ốp đá marble",
+                    "unit": "m2",
+                    "description": "Ốp đá marble tự nhiên",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.2.3",
+                    "name": "Ốp đá ong",
+                    "unit": "m2",
+                    "description": "Ốp đá ong trang trí",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                }
+            ]
+        },
+        {
+            "code": "10.3",
+            "name": "Ốp gỗ",
+            "work_items": [
+                {
+                    "code": "10.3.1",
+                    "name": "Ốp gỗ tự nhiên",
+                    "unit": "m2",
+                    "description": "Ốp gỗ tự nhiên trang trí tường",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.3.2",
+                    "name": "Ốp gỗ công nghiệp MDF",
+                    "unit": "m2",
+                    "description": "Ốp gỗ MDF phủ melamine/veneer",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.3.3",
+                    "name": "Ốp gỗ nhựa composite",
+                    "unit": "m2",
+                    "description": "Ốp gỗ nhựa composite (WPC)",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                }
+            ]
+        },
+        {
+            "code": "10.4",
+            "name": "Ốp tấm nhựa",
+            "work_items": [
+                {
+                    "code": "10.4.1",
+                    "name": "Ốp tấm PVC",
+                    "unit": "m2",
+                    "description": "Ốp tấm nhựa PVC tường",
+                    "measurement_method": "Diện tích tường cần ốp",
+                    "formula": "S = L × H"
+                },
+                {
+                    "code": "10.4.2",
+                    "name": "Ốp tấm alu",
+                    "unit": "m2",
+                    "description": "Ốp tấm aluminium composite",
+                    "measurement_method": "Diện tích tường/mặt tiền cần ốp",
+                    "formula": "S = L × H"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "code": "15",
+    "name": "Công tác lan can, cầu thang",
+    "description": "Lắp đặt lan can, tay vịn, ốp bậc cầu thang",
+    "work_types": [
+        {
+            "code": "15.1",
+            "name": "Lan can sắt",
+            "work_items": [
+                {
+                    "code": "15.1.1",
+                    "name": "Lan can sắt hộp",
+                    "unit": "md",
+                    "description": "Lắp đặt lan can sắt hộp sơn tĩnh điện",
+                    "measurement_method": "Chiều dài lan can",
+                    "formula": "L = ΣL_lan_can"
+                },
+                {
+                    "code": "15.1.2",
+                    "name": "Lan can sắt mỹ thuật",
+                    "unit": "md",
+                    "description": "Lắp đặt lan can sắt mỹ thuật uốn hoa văn",
+                    "measurement_method": "Chiều dài lan can",
+                    "formula": "L = ΣL_lan_can"
+                },
+                {
+                    "code": "15.1.3",
+                    "name": "Lan can inox",
+                    "unit": "md",
+                    "description": "Lắp đặt lan can inox 304",
+                    "measurement_method": "Chiều dài lan can",
+                    "formula": "L = ΣL_lan_can"
+                }
+            ]
+        },
+        {
+            "code": "15.2",
+            "name": "Lan can kính",
+            "work_items": [
+                {
+                    "code": "15.2.1",
+                    "name": "Lan can kính cường lực",
+                    "unit": "md",
+                    "description": "Lắp đặt lan can kính cường lực 12mm",
+                    "measurement_method": "Chiều dài lan can",
+                    "formula": "L = ΣL_lan_can"
+                },
+                {
+                    "code": "15.2.2",
+                    "name": "Lan can kính + inox",
+                    "unit": "md",
+                    "description": "Lắp đặt lan can kết hợp kính + inox",
+                    "measurement_method": "Chiều dài lan can",
+                    "formula": "L = ΣL_lan_can"
+                }
+            ]
+        },
+        {
+            "code": "15.3",
+            "name": "Tay vịn cầu thang",
+            "work_items": [
+                {
+                    "code": "15.3.1",
+                    "name": "Tay vịn gỗ",
+                    "unit": "md",
+                    "description": "Lắp đặt tay vịn cầu thang bằng gỗ tự nhiên",
+                    "measurement_method": "Chiều dài tay vịn theo độ dốc thang",
+                    "formula": "L = L_nghiêng + L_chiếu_nghỉ"
+                },
+                {
+                    "code": "15.3.2",
+                    "name": "Tay vịn inox",
+                    "unit": "md",
+                    "description": "Lắp đặt tay vịn cầu thang inox",
+                    "measurement_method": "Chiều dài tay vịn",
+                    "formula": "L = L_nghiêng + L_chiếu_nghỉ"
+                },
+                {
+                    "code": "15.3.3",
+                    "name": "Tay vịn nhôm đúc",
+                    "unit": "md",
+                    "description": "Lắp đặt tay vịn nhôm đúc",
+                    "measurement_method": "Chiều dài tay vịn",
+                    "formula": "L = L_nghiêng"
+                }
+            ]
+        },
+        {
+            "code": "15.4",
+            "name": "Bậc cầu thang",
+            "work_items": [
+                {
+                    "code": "15.4.1",
+                    "name": "Ốp bậc đá granite",
+                    "unit": "m2",
+                    "description": "Ốp bậc thang bằng đá granite",
+                    "measurement_method": "Diện tích = Số bậc × (S_mặt + S_cổ)",
+                    "formula": "S = n × (l×b + l×h)"
+                },
+                {
+                    "code": "15.4.2",
+                    "name": "Ốp bậc gỗ",
+                    "unit": "m2",
+                    "description": "Ốp bậc thang bằng gỗ tự nhiên/công nghiệp",
+                    "measurement_method": "Diện tích = Số bậc × (S_mặt + S_cổ)",
+                    "formula": "S = n × (l×b + l×h)"
+                },
+                {
+                    "code": "15.4.3",
+                    "name": "Ốp bậc gạch",
+                    "unit": "m2",
+                    "description": "Ốp bậc thang bằng gạch ceramic",
+                    "measurement_method": "Diện tích = Số bậc × (S_mặt + S_cổ)",
+                    "formula": "S = n × (l×b + l×h)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "version": "1.0",
+    "created_at": "2026-01-30",
+    "author": "Alex (AI Assistant)",
+    "description": "XSMM - Chuẩn hóa phương pháp bóc khối lượng Xhome SG",
+    "categories": [
+        {
+            "code": "1",
+            "name": "Công tác chuẩn bị",
+            "description": "Các công việc chuẩn bị mặt bằng, phá dỡ công trình cũ trước khi thi công",
+            "work_types": [
+                {
+                    "code": "1.1",
+                    "name": "Phá dỡ công trình cũ",
+                    "description": "Tháo dỡ, phá bỏ các kết cấu cũ để chuẩn bị mặt bằng thi công",
+                    "work_items": [
+                        {
+                            "code": "1.1.1",
+                            "name": "Phá dỡ tường gạch",
+                            "unit": "m3",
+                            "description": "Phá dỡ tường gạch các loại (đặc, ống, block), bao gồm thu dọn tại chỗ",
+                            "measurement_method": "Tính theo thể tích thực tế: Dài x Rộng x Cao tường. Không trừ lỗ cửa ≤1m²",
+                            "formula": "V = L × W × H",
+                            "rules": {
+                                "inclusion": [
+                                    "Tường gạch đặc",
+                                    "Tường gạch ống",
+                                    "Tường gạch block",
+                                    "Vữa trát"
+                                ],
+                                "exclusion": [
+                                    "Phần bê tông cốt thép",
+                                    "Khung cửa kim loại"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.1.2",
+                            "name": "Phá dỡ sàn bê tông",
+                            "unit": "m3",
+                            "description": "Đục phá sàn bê tông cốt thép, bao gồm cắt thép và thu dọn",
+                            "measurement_method": "Tính theo thể tích thực tế: Diện tích sàn x Chiều dày",
+                            "formula": "V = S × t",
+                            "rules": {
+                                "inclusion": [
+                                    "Bê tông",
+                                    "Cốt thép trong sàn"
+                                ],
+                                "exclusion": [
+                                    "Lớp hoàn thiện trên sàn"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.1.3",
+                            "name": "Phá dỡ mái tôn/ngói",
+                            "unit": "m2",
+                            "description": "Tháo dỡ mái tôn hoặc ngói, bao gồm xà gồ gỗ/thép",
+                            "measurement_method": "Tính theo diện tích mái thực tế (theo độ dốc)",
+                            "formula": "S = L × W / cos(α)",
+                            "rules": {
+                                "inclusion": [
+                                    "Tôn/ngói lợp",
+                                    "Xà gồ",
+                                    "Phụ kiện mái"
+                                ],
+                                "exclusion": [
+                                    "Kết cấu đỡ chính bằng BTCT"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.1.4",
+                            "name": "Phá dỡ cửa đi, cửa sổ",
+                            "unit": "m2",
+                            "description": "Tháo dỡ cửa đi, cửa sổ các loại (gỗ, nhôm, sắt, kính)",
+                            "measurement_method": "Tính theo diện tích khuôn cửa: Rộng x Cao",
+                            "formula": "S = W × H",
+                            "rules": {
+                                "inclusion": [
+                                    "Cánh cửa",
+                                    "Khuôn cửa",
+                                    "Phụ kiện"
+                                ],
+                                "exclusion": [
+                                    "Phần tường xung quanh"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.1.5",
+                            "name": "Phá dỡ trần thạch cao",
+                            "unit": "m2",
+                            "description": "Tháo dỡ trần thạch cao bao gồm khung xương",
+                            "measurement_method": "Tính theo diện tích trần thực tế",
+                            "formula": "S = L × W",
+                            "rules": {
+                                "inclusion": [
+                                    "Tấm thạch cao",
+                                    "Khung xương kim loại",
+                                    "Phụ kiện treo"
+                                ],
+                                "exclusion": [
+                                    "Hệ thống điện, đèn trên trần"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.1.6",
+                            "name": "Phá dỡ hệ thống điện cũ",
+                            "unit": "md",
+                            "description": "Tháo dỡ dây điện, ống luồn, thiết bị điện cũ",
+                            "measurement_method": "Tính theo chiều dài dây/ống thực tế",
+                            "formula": "L = Σ(chiều dài từng đoạn)",
+                            "rules": {
+                                "inclusion": [
+                                    "Dây điện",
+                                    "Ống luồn",
+                                    "Ổ cắm",
+                                    "Công tắc",
+                                    "Đèn"
+                                ],
+                                "exclusion": [
+                                    "Tủ điện tổng (tính riêng)"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.1.7",
+                            "name": "Phá dỡ hệ thống nước cũ",
+                            "unit": "md",
+                            "description": "Tháo dỡ đường ống cấp thoát nước cũ",
+                            "measurement_method": "Tính theo chiều dài ống thực tế",
+                            "formula": "L = Σ(chiều dài từng đoạn)",
+                            "rules": {
+                                "inclusion": [
+                                    "Ống cấp nước",
+                                    "Ống thoát nước",
+                                    "Phụ kiện (co, tê, van)"
+                                ],
+                                "exclusion": [
+                                    "Thiết bị vệ sinh (tính riêng)"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "1.2",
+                    "name": "Dọn dẹp mặt bằng",
+                    "description": "Thu dọn, san lấp, vận chuyển phế thải",
+                    "work_items": [
+                        {
+                            "code": "1.2.1",
+                            "name": "Thu dọn phế thải xây dựng",
+                            "unit": "m3",
+                            "description": "Gom, thu dọn phế thải từ phá dỡ tại công trình",
+                            "measurement_method": "Tính theo thể tích phế thải rời (hệ số nở 1.3-1.5)",
+                            "formula": "V = V_đặc × K_nở",
+                            "rules": {
+                                "inclusion": [
+                                    "Gạch vỡ",
+                                    "Bê tông vụn",
+                                    "Gỗ vụn"
+                                ],
+                                "exclusion": [
+                                    "Phế thải nguy hại"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.2.2",
+                            "name": "San lấp mặt bằng",
+                            "unit": "m2",
+                            "description": "San phẳng mặt bằng bằng thủ công hoặc máy",
+                            "measurement_method": "Tính theo diện tích mặt bằng cần san",
+                            "formula": "S = L × W",
+                            "rules": {
+                                "inclusion": [
+                                    "Đào bớt chỗ cao",
+                                    "Đắp bù chỗ thấp",
+                                    "Đầm phẳng"
+                                ],
+                                "exclusion": [
+                                    "Vận chuyển đất thừa đi (tính riêng)"
+                                ]
+                            }
+                        },
+                        {
+                            "code": "1.2.3",
+                            "name": "Vận chuyển phế thải ra bãi",
+                            "unit": "m3",
+                            "description": "Vận chuyển phế thải từ công trình đến bãi đổ",
+                            "measurement_method": "Tính theo thể tích phế thải thực tế vận chuyển",
+                            "formula": "V = Số chuyến × Thể tích/chuyến",
+                            "rules": {
+                                "inclusion": [
+                                    "Bốc xếp",
+                                    "Vận chuyển",
+                                    "Phí bãi đổ"
+                                ],
+                                "exclusion": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "1.3",
+                    "name": "Công tác tạm",
+                    "description": "Lắp đặt các công trình tạm phục vụ thi công",
+                    "work_items": [
+                        {
+                            "code": "1.3.1",
+                            "name": "Lắp dựng rào chắn công trình",
+                            "unit": "md",
+                            "description": "Lắp đặt hàng rào tạm bao quanh công trình",
+                            "measurement_method": "Tính theo chiều dài hàng rào",
+                            "formula": "L = Chu vi công trình",
+                            "rules": {
+                                "inclusion": [
+                                    "Cọc đỡ",
+                                    "Tôn/lưới B40",
+                                    "Cổng ra vào"
+                                ],
+                                "exclusion": []
+                            }
+                        },
+                        {
+                            "code": "1.3.2",
+                            "name": "Lắp dựng giàn giáo",
+                            "unit": "m2",
+                            "description": "Lắp đặt giàn giáo phục vụ thi công trên cao",
+                            "measurement_method": "Tính theo diện tích mặt đứng cần giàn giáo",
+                            "formula": "S = L × H",
+                            "rules": {
+                                "inclusion": [
+                                    "Khung giàn giáo",
+                                    "Sàn thao tác",
+                                    "Lan can an toàn"
+                                ],
+                                "exclusion": []
+                            }
+                        },
+                        {
+                            "code": "1.3.3",
+                            "name": "Làm lán trại tạm",
+                            "unit": "m2",
+                            "description": "Xây dựng lán trại tạm cho công nhân, kho vật tư",
+                            "measurement_method": "Tính theo diện tích sàn lán trại",
+                            "formula": "S = L × W",
+                            "rules": {
+                                "inclusion": [
+                                    "Khung",
+                                    "Mái che",
+                                    "Vách ngăn"
+                                ],
+                                "exclusion": []
+                            }
+                        },
+                        {
+                            "code": "1.3.4",
+                            "name": "Lắp điện tạm thi công",
+                            "unit": "điểm",
+                            "description": "Đấu nối điện tạm phục vụ thi công",
+                            "measurement_method": "Tính theo số điểm đấu nối",
+                            "formula": "N = Số điểm",
+                            "rules": {
+                                "inclusion": [
+                                    "Dây điện",
+                                    "CB",
+                                    "Ổ cắm công nghiệp"
+                                ],
+                                "exclusion": []
+                            }
+                        },
+                        {
+                            "code": "1.3.5",
+                            "name": "Lắp nước tạm thi công",
+                            "unit": "điểm",
+                            "description": "Đấu nối nước tạm phục vụ thi công",
+                            "measurement_method": "Tính theo số điểm đấu nối",
+                            "formula": "N = Số điểm",
+                            "rules": {
+                                "inclusion": [
+                                    "Ống dẫn tạm",
+                                    "Van",
+                                    "Vòi nước"
+                                ],
+                                "exclusion": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

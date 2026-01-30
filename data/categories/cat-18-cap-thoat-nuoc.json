@@ -1,0 +1,159 @@
+{
+    "code": "18",
+    "name": "Cấp thoát nước",
+    "description": "Lắp đặt hệ thống ống cấp, thoát nước",
+    "work_types": [
+        {
+            "code": "18.1",
+            "name": "Ống cấp nước",
+            "work_items": [
+                {
+                    "code": "18.1.1",
+                    "name": "Ống PPR Ø20",
+                    "unit": "md",
+                    "description": "Lắp đặt ống cấp nước PPR Ø20mm",
+                    "measurement_method": "Chiều dài ống thực tế + hao hụt",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.1.2",
+                    "name": "Ống PPR Ø25",
+                    "unit": "md",
+                    "description": "Lắp đặt ống cấp nước PPR Ø25mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.1.3",
+                    "name": "Ống PPR Ø32",
+                    "unit": "md",
+                    "description": "Lắp đặt ống cấp nước PPR Ø32mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.1.4",
+                    "name": "Ống inox cấp nước",
+                    "unit": "md",
+                    "description": "Lắp đặt ống inox cấp nước",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực"
+                }
+            ]
+        },
+        {
+            "code": "18.2",
+            "name": "Ống thoát nước",
+            "work_items": [
+                {
+                    "code": "18.2.1",
+                    "name": "Ống PVC Ø60",
+                    "unit": "md",
+                    "description": "Lắp đặt ống thoát nước PVC Ø60mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.2.2",
+                    "name": "Ống PVC Ø90",
+                    "unit": "md",
+                    "description": "Lắp đặt ống thoát nước PVC Ø90mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.2.3",
+                    "name": "Ống PVC Ø114",
+                    "unit": "md",
+                    "description": "Lắp đặt ống thoát nước PVC Ø114mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.2.4",
+                    "name": "Ống PVC Ø160",
+                    "unit": "md",
+                    "description": "Lắp đặt ống thoát nước PVC Ø160mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                },
+                {
+                    "code": "18.2.5",
+                    "name": "Ống PVC Ø200",
+                    "unit": "md",
+                    "description": "Lắp đặt ống thoát nước PVC Ø200mm",
+                    "measurement_method": "Chiều dài ống thực tế",
+                    "formula": "L = L_thực × 1.05"
+                }
+            ]
+        },
+        {
+            "code": "18.3",
+            "name": "Phụ kiện đường ống",
+            "work_items": [
+                {
+                    "code": "18.3.1",
+                    "name": "Co, tê các loại",
+                    "unit": "cái",
+                    "description": "Lắp đặt phụ kiện co, tê, nối",
+                    "measurement_method": "Số lượng phụ kiện",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "18.3.2",
+                    "name": "Van nước",
+                    "unit": "cái",
+                    "description": "Lắp đặt van khóa nước",
+                    "measurement_method": "Số lượng van",
+                    "formula": "N = Số cái"
+                },
+                {
+                    "code": "18.3.3",
+                    "name": "Phễu thu sàn",
+                    "unit": "cái",
+                    "description": "Lắp đặt phễu thu sàn WC",
+                    "measurement_method": "Số lượng phễu",
+                    "formula": "N = Số cái"
+                }
+            ]
+        },
+        {
+            "code": "18.4",
+            "name": "Bồn chứa nước",
+            "work_items": [
+                {
+                    "code": "18.4.1",
+                    "name": "Bồn inox 500L",
+                    "unit": "bộ",
+                    "description": "Lắp đặt bồn nước inox 500 lít",
+                    "measurement_method": "Số lượng bồn",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "18.4.2",
+                    "name": "Bồn inox 1000L",
+                    "unit": "bộ",
+                    "description": "Lắp đặt bồn nước inox 1000 lít",
+                    "measurement_method": "Số lượng bồn",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "18.4.3",
+                    "name": "Bồn inox 1500L",
+                    "unit": "bộ",
+                    "description": "Lắp đặt bồn nước inox 1500 lít",
+                    "measurement_method": "Số lượng bồn",
+                    "formula": "N = Số bộ"
+                },
+                {
+                    "code": "18.4.4",
+                    "name": "Bồn nhựa PE 500L",
+                    "unit": "bộ",
+                    "description": "Lắp đặt bồn nước nhựa PE 500 lít",
+                    "measurement_method": "Số lượng bồn",
+                    "formula": "N = Số bộ"
+                }
+            ]
+        }
+    ]
+}

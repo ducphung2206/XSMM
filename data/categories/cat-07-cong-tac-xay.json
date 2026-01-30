@@ -1,0 +1,159 @@
+{
+    "code": "7",
+    "name": "Công tác xây",
+    "description": "Xây tường, trụ, bồn hoa bằng các loại gạch",
+    "work_types": [
+        {
+            "code": "7.1",
+            "name": "Xây móng",
+            "work_items": [
+                {
+                    "code": "7.1.1",
+                    "name": "Xây móng gạch đặc",
+                    "unit": "m3",
+                    "description": "Xây móng bằng gạch đặc, vữa XM M75",
+                    "measurement_method": "Thể tích = Chiều dài × Chiều rộng × Chiều cao móng gạch",
+                    "formula": "V = L × W × H"
+                },
+                {
+                    "code": "7.1.2",
+                    "name": "Xây móng đá hộc",
+                    "unit": "m3",
+                    "description": "Xây móng bằng đá hộc, vữa XM M75",
+                    "measurement_method": "Thể tích móng đá hộc",
+                    "formula": "V = L × W × H"
+                }
+            ]
+        },
+        {
+            "code": "7.2",
+            "name": "Xây tường",
+            "work_items": [
+                {
+                    "code": "7.2.1",
+                    "name": "Xây tường gạch đặc 100mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch đặc dày 100mm (10cm)",
+                    "measurement_method": "Diện tích tường = Dài × Cao, trừ lỗ cửa >1m²",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.2",
+                    "name": "Xây tường gạch đặc 200mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch đặc dày 200mm (20cm)",
+                    "measurement_method": "Diện tích tường = Dài × Cao, trừ lỗ cửa >1m²",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.3",
+                    "name": "Xây tường gạch ống 100mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch ống 2 lỗ dày 100mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa >1m²",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.4",
+                    "name": "Xây tường gạch ống 200mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch ống dày 200mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa >1m²",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.5",
+                    "name": "Xây tường gạch block 100mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch block xi măng dày 100mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.6",
+                    "name": "Xây tường gạch block 150mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch block xi măng dày 150mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.7",
+                    "name": "Xây tường gạch block 200mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch block xi măng dày 200mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.8",
+                    "name": "Xây tường gạch AAC 100mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch bê tông khí chưng áp (AAC) dày 100mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.9",
+                    "name": "Xây tường gạch AAC 150mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch AAC dày 150mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa",
+                    "formula": "S = L × H - S_cửa"
+                },
+                {
+                    "code": "7.2.10",
+                    "name": "Xây tường gạch AAC 200mm",
+                    "unit": "m2",
+                    "description": "Xây tường gạch AAC dày 200mm",
+                    "measurement_method": "Diện tích tường, trừ lỗ cửa",
+                    "formula": "S = L × H - S_cửa"
+                }
+            ]
+        },
+        {
+            "code": "7.3",
+            "name": "Xây trụ, bồn hoa",
+            "work_items": [
+                {
+                    "code": "7.3.1",
+                    "name": "Xây trụ cổng",
+                    "unit": "m3",
+                    "description": "Xây trụ cổng bằng gạch đặc hoặc block",
+                    "measurement_method": "Thể tích = Tiết diện trụ × Chiều cao",
+                    "formula": "V = A × H"
+                },
+                {
+                    "code": "7.3.2",
+                    "name": "Xây bồn hoa, chậu cảnh",
+                    "unit": "m3",
+                    "description": "Xây bồn hoa, chậu cảnh bằng gạch",
+                    "measurement_method": "Thể tích gạch xây = Chu vi × Chiều cao × Chiều dày",
+                    "formula": "V = P × H × t"
+                },
+                {
+                    "code": "7.3.3",
+                    "name": "Xây tường rào",
+                    "unit": "m2",
+                    "description": "Xây tường rào bằng gạch",
+                    "measurement_method": "Diện tích tường rào",
+                    "formula": "S = L × H"
+                }
+            ]
+        },
+        {
+            "code": "7.4",
+            "name": "Xây bậc thang",
+            "work_items": [
+                {
+                    "code": "7.4.1",
+                    "name": "Xây bậc thang gạch",
+                    "unit": "m3",
+                    "description": "Xây bậc thang bằng gạch đặc",
+                    "measurement_method": "Thể tích = Số bậc × Thể tích 1 bậc",
+                    "formula": "V = n × (l × b × h)"
+                }
+            ]
+        }
+    ]
+}

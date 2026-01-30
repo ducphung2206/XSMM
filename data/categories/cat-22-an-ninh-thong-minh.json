@@ -1,0 +1,135 @@
+{
+    "code": "22",
+    "name": "An ninh, thông minh",
+    "description": "Lắp đặt hệ thống camera, khóa thông minh, smart home",
+    "work_types": [
+        {
+            "code": "22.1",
+            "name": "Camera an ninh",
+            "work_items": [
+                {
+                    "code": "22.1.1",
+                    "name": "Camera ngoài trời",
+                    "unit": "cái",
+                    "description": "Lắp đặt camera quan sát ngoài trời IP66",
+                    "measurement_method": "Số lượng camera",
+                    "formula": "N = Số vị trí cần giám sát"
+                },
+                {
+                    "code": "22.1.2",
+                    "name": "Camera trong nhà",
+                    "unit": "cái",
+                    "description": "Lắp đặt camera quan sát trong nhà",
+                    "measurement_method": "Số lượng camera",
+                    "formula": "N = Số vị trí"
+                },
+                {
+                    "code": "22.1.3",
+                    "name": "Đầu ghi hình NVR",
+                    "unit": "bộ",
+                    "description": "Lắp đặt đầu ghi hình NVR/DVR",
+                    "measurement_method": "Số lượng đầu ghi",
+                    "formula": "N = 1"
+                },
+                {
+                    "code": "22.1.4",
+                    "name": "Ổ cứng lưu trữ",
+                    "unit": "cái",
+                    "description": "Lắp đặt ổ cứng lưu trữ camera",
+                    "measurement_method": "Số lượng ổ cứng",
+                    "formula": "N = Số ổ cần thiết"
+                }
+            ]
+        },
+        {
+            "code": "22.2",
+            "name": "Chuông cửa",
+            "work_items": [
+                {
+                    "code": "22.2.1",
+                    "name": "Chuông cửa có hình",
+                    "unit": "bộ",
+                    "description": "Lắp đặt chuông cửa màn hình video",
+                    "measurement_method": "Số lượng bộ",
+                    "formula": "N = Số cổng/cửa chính"
+                },
+                {
+                    "code": "22.2.2",
+                    "name": "Chuông cửa thông thường",
+                    "unit": "bộ",
+                    "description": "Lắp đặt chuông cửa thông thường",
+                    "measurement_method": "Số lượng bộ",
+                    "formula": "N = Số cửa"
+                }
+            ]
+        },
+        {
+            "code": "22.3",
+            "name": "Khóa thông minh",
+            "work_items": [
+                {
+                    "code": "22.3.1",
+                    "name": "Khóa vân tay",
+                    "unit": "bộ",
+                    "description": "Lắp đặt khóa vân tay thông minh",
+                    "measurement_method": "Số lượng khóa",
+                    "formula": "N = Số cửa cần lắp"
+                },
+                {
+                    "code": "22.3.2",
+                    "name": "Khóa thẻ từ",
+                    "unit": "bộ",
+                    "description": "Lắp đặt khóa thẻ từ",
+                    "measurement_method": "Số lượng khóa",
+                    "formula": "N = Số cửa"
+                },
+                {
+                    "code": "22.3.3",
+                    "name": "Khóa điện tử",
+                    "unit": "bộ",
+                    "description": "Lắp đặt khóa điện tử mã số",
+                    "measurement_method": "Số lượng khóa",
+                    "formula": "N = Số cửa"
+                }
+            ]
+        },
+        {
+            "code": "22.4",
+            "name": "Hệ thống smarthome",
+            "work_items": [
+                {
+                    "code": "22.4.1",
+                    "name": "Công tắc thông minh",
+                    "unit": "cái",
+                    "description": "Lắp đặt công tắc thông minh wifi/zigbee",
+                    "measurement_method": "Số lượng công tắc",
+                    "formula": "N = Số điểm cần điều khiển"
+                },
+                {
+                    "code": "22.4.2",
+                    "name": "Ổ cắm thông minh",
+                    "unit": "cái",
+                    "description": "Lắp đặt ổ cắm thông minh wifi",
+                    "measurement_method": "Số lượng ổ cắm",
+                    "formula": "N = Số điểm"
+                },
+                {
+                    "code": "22.4.3",
+                    "name": "Bộ điều khiển trung tâm",
+                    "unit": "bộ",
+                    "description": "Lắp đặt hub điều khiển smarthome",
+                    "measurement_method": "Số lượng hub",
+                    "formula": "N = 1"
+                },
+                {
+                    "code": "22.4.4",
+                    "name": "Cảm biến chuyển động",
+                    "unit": "cái",
+                    "description": "Lắp đặt cảm biến chuyển động PIR",
+                    "measurement_method": "Số lượng cảm biến",
+                    "formula": "N = Số vị trí cần gắn"
+                }
+            ]
+        }
+    ]
+}
